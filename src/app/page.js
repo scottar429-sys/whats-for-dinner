@@ -9,7 +9,7 @@ export default function Home() {
   const [meal, setMeal] = useState(null);
   const [darkMode, setDarkMode] = useState(false);
 
-  // Filter state
+  // Filters
   const [protein, setProtein] = useState("");
   const [dietary, setDietary] = useState("");
 
@@ -48,6 +48,12 @@ export default function Home() {
     setMeal(list[i]);
   }
 
+  const textColor = darkMode ? "#fff" : "#000";
+  const subTextColor = darkMode ? "#ddd" : "#555";
+  const cardBg = darkMode ? "#2b2b2b" : "#fff";
+  const borderColor = darkMode ? "#444" : "#ccc";
+  const pageBg = darkMode ? "#222" : "#fffaf4";
+
   return (
     <main
       style={{
@@ -59,11 +65,11 @@ export default function Home() {
         textAlign: "center",
         padding: "2rem",
         fontFamily: "sans-serif",
-        backgroundColor: darkMode ? "#222" : "#fffaf4",
-        color: darkMode ? "#fff" : "#000",
+        backgroundColor: pageBg,
+        color: textColor,
       }}
     >
-      {/* Top bar with quick links + dark mode */}
+      {/* Top row: quick links + dark mode toggle */}
       <div
         style={{
           width: "100%",
@@ -90,9 +96,8 @@ export default function Home() {
           onClick={() => setDarkMode(!darkMode)}
           style={{
             background: "none",
-            border: "1px solid",
-            borderColor: darkMode ? "#fff" : "#000",
-            color: darkMode ? "#fff" : "#000",
+            border: `1px solid ${textColor}`,
+            color: textColor,
             padding: "6px 12px",
             borderRadius: "6px",
             cursor: "pointer",
@@ -115,7 +120,7 @@ export default function Home() {
 
       {/* Title & tagline */}
       <h1 style={{ marginBottom: "0.25rem" }}>What&apos;s For Dinner?</h1>
-      <p style={{ color: darkMode ? "#ddd" : "#555", marginBottom: "1rem", maxWidth: 720 }}>
+      <p style={{ color: subTextColor, marginBottom: "1rem", maxWidth: 720 }}>
         Your dinner inspiration generator. Choose optional filters and click the
         button to get a quick, simple idea for tonight.
       </p>
@@ -125,7 +130,7 @@ export default function Home() {
         onClick={() => pickRandom()}
         style={{
           background: "#ff7a00",
-          color: "white",
+          color: "#fff",
           border: "none",
           padding: "12px 18px",
           borderRadius: "10px",
@@ -153,8 +158,10 @@ export default function Home() {
           style={{
             padding: "8px 10px",
             borderRadius: 8,
-            border: "1px solid #ccc",
+            border: `1px solid ${borderColor}`,
             minWidth: 180,
+            backgroundColor: cardBg,
+            color: textColor,
           }}
         >
           <option value="">All Proteins</option>
@@ -171,8 +178,10 @@ export default function Home() {
           style={{
             padding: "8px 10px",
             borderRadius: 8,
-            border: "1px solid #ccc",
+            border: `1px solid ${borderColor}`,
             minWidth: 180,
+            backgroundColor: cardBg,
+            color: textColor,
           }}
         >
           <option value="">All Diets</option>
@@ -191,8 +200,8 @@ export default function Home() {
           }}
           style={{
             background: "none",
-            color: darkMode ? "#fff" : "#000",
-            border: `1px solid ${darkMode ? "#fff" : "#000"}`,
+            color: textColor,
+            border: `1px solid ${textColor}`,
             padding: "10px 16px",
             borderRadius: "10px",
             cursor: "pointer",
@@ -211,11 +220,12 @@ export default function Home() {
             width: "100%",
             maxWidth: 720,
             textAlign: "left",
-            background: darkMode ? "#2b2b2b" : "#fff",
-            color: darkMode ? "#fff" : "#000",
+            background: cardBg,
+            color: textColor,
             borderRadius: 12,
             padding: "1.25rem",
             boxShadow: darkMode ? "none" : "0 4px 16px rgba(0,0,0,0.08)",
+            border: `1px solid ${borderColor}`,
           }}
         >
           <h2 style={{ marginBottom: "0.5rem", textAlign: "center" }}>
@@ -260,32 +270,38 @@ export default function Home() {
         </section>
       )}
 
-      {/* Footer links + Disclaimer */}
+      {/* Footer: nav links + disclaimer */}
       <footer
         style={{
-          marginTop: "2rem",
-          maxWidth: 720,
+          marginTop: "3rem",
+          paddingTop: "1rem",
+          borderTop: `1px solid ${borderColor}`,
           width: "100%",
+          maxWidth: 900,
           textAlign: "center",
         }}
       >
-        <div style={{ marginBottom: "0.5rem", display: "flex", gap: 16, justifyContent: "center" }}>
-          <Link href="/about" style={{ textDecoration: "underline" }}>
+        <p style={{ marginBottom: "0.5rem" }}>
+          <Link href="/about" style={{ margin: "0 10px", textDecoration: "underline" }}>
             About
           </Link>
-          <Link href="/contact" style={{ textDecoration: "underline" }}>
+          |
+          <Link href="/contact" style={{ margin: "0 10px", textDecoration: "underline" }}>
             Contact
           </Link>
-          <Link href="/privacy-policy" style={{ textDecoration: "underline" }}>
+          |
+          <Link href="/privacy-policy" style={{ margin: "0 10px", textDecoration: "underline" }}>
             Privacy Policy
           </Link>
-        </div>
+        </p>
 
         <div
           style={{
-            fontSize: "0.8rem",
-            opacity: 0.7,
+            fontSize: "0.85rem",
+            opacity: 0.8,
             lineHeight: 1.4,
+            maxWidth: 720,
+            margin: "0.5rem auto 0",
           }}
         >
           This website provides meal ideas for inspiration purposes only. Ingredients,
@@ -294,6 +310,9 @@ export default function Home() {
           cooked to safe internal temperatures. The owner of this site is not responsible
           for any illness, injury, or other issues that may arise from the preparation or
           consumption of meals based on these ideas.
+          <div style={{ marginTop: "0.5rem" }}>
+            © {new Date().getFullYear()} What&apos;s For Dinner?
+          </div>
         </div>
       </footer>
     </main>
