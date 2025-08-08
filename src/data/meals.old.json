@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Grilled Chicken Salad",
+    "protein": "chicken",
+    "dietary": ["gluten-free", "low-carb"],
+    "ingredients": [
+      "2 chicken breasts",
+      "4 cups mixed greens",
+      "1 cucumber, sliced",
+      "1/2 cup cherry tomatoes",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Season chicken with salt and pepper. Grill until cooked through, about 6-7 minutes per side. Slice and serve over greens with cucumber and tomatoes. Drizzle with olive oil.",
+    "image": "https://source.unsplash.com/600x400/?chicken,salad"
+  },
+  {
+    "name": "Beef Tacos",
+    "protein": "beef",
+    "dietary": [],
+    "ingredients": [
+      "1 lb ground beef",
+      "8 taco shells",
+      "1 cup shredded lettuce",
+      "1 cup shredded cheese",
+      "Salsa to taste"
+    ],
+    "instructions": "Cook beef in a skillet until browned. Fill taco shells with beef, lettuce, cheese, and salsa.",
+    "image": "https://source.unsplash.com/600x400/?tacos"
+  },
+  {
+    "name": "Vegan Chili",
+    "protein": "beans",
+    "dietary": ["vegan", "gluten-free"],
+    "ingredients": [
+      "2 cans kidney beans",
+      "1 can black beans",
+      "1 can diced tomatoes",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "2 tbsp chili powder"
+    ],
+    "instructions": "Sauté onion and garlic. Add beans, tomatoes, and chili powder. Simmer for 30 minutes.",
+    "image": "https://source.unsplash.com/600x400/?vegan,chili"
+  },
+  {
+    "name": "Garlic Butter Shrimp",
+    "protein": "seafood",
+    "dietary": ["gluten-free", "low-carb"],
+    "ingredients": [
+      "1 lb shrimp, peeled and deveined",
+      "3 tbsp butter",
+      "3 cloves garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "Melt butter in a skillet over medium heat. Add garlic and shrimp. Cook until pink, about 2-3 minutes per side. Season with salt and pepper.",
+    "image": "https://source.unsplash.com/600x400/?shrimp"
+  },
+  {
+    "name": "Margherita Pizza",
+    "protein": "cheese",
+    "dietary": ["vegetarian"],
+    "ingredients": [
+      "1 pizza crust",
+      "1/2 cup tomato sauce",
+      "8 oz fresh mozzarella, sliced",
+      "Fresh basil leaves"
+    ],
+    "instructions": "Spread sauce on crust. Top with mozzarella and basil. Bake at 475°F for 10-12 minutes.",
+    "image": "https://source.unsplash.com/600x400/?pizza"
+  }
+]
