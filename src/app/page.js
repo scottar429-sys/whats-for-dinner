@@ -16,9 +16,9 @@ export default function Home() {
   const { proteinOptions, dietaryOptions } = useMemo(() => {
     const p = new Set();
     const d = new Set();
-    meals.forEach(m => {
+    meals.forEach((m) => {
       if (m.protein) p.add(m.protein);
-      if (Array.isArray(m.dietary)) m.dietary.forEach(t => d.add(t));
+      if (Array.isArray(m.dietary)) m.dietary.forEach((t) => d.add(t));
     });
     return {
       proteinOptions: Array.from(p).sort(),
@@ -28,9 +28,11 @@ export default function Home() {
 
   // Apply filters
   const filteredMeals = useMemo(() => {
-    return meals.filter(m => {
+    return meals.filter((m) => {
       const proteinOK = protein ? m.protein === protein : true;
-      const dietaryOK = dietary ? (Array.isArray(m.dietary) && m.dietary.includes(dietary)) : true;
+      const dietaryOK = dietary
+        ? Array.isArray(m.dietary) && m.dietary.includes(dietary)
+        : true;
       return proteinOK && dietaryOK;
     });
   }, [protein, dietary]);
@@ -57,7 +59,7 @@ export default function Home() {
         padding: "2rem",
         fontFamily: "sans-serif",
         backgroundColor: darkMode ? "#222" : "#fffaf4",
-        color: darkMode ? "#fff" : "#000"
+        color: darkMode ? "#fff" : "#000",
       }}
     >
       {/* Top bar with dark mode toggle */}
@@ -71,7 +73,7 @@ export default function Home() {
             color: darkMode ? "#fff" : "#000",
             padding: "6px 12px",
             borderRadius: "6px",
-            cursor: "pointer"
+            cursor: "pointer",
           }}
         >
           {darkMode ? "☀️ Light Mode" : "🌙 Dark Mode"}
@@ -80,11 +82,17 @@ export default function Home() {
 
       {/* Logo */}
       <div style={{ marginBottom: "1rem" }}>
-        <Image src="/logo.png" alt="What's For Dinner Logo" width={200} height={200} priority />
+        <Image
+          src="/logo.png"
+          alt="What&apos;s For Dinner Logo"
+          width={200}
+          height={200}
+          priority
+        />
       </div>
 
       {/* Title */}
-      <h1 style={{ marginBottom: "0.5rem" }}>What's For Dinner?</h1>
+      <h1 style={{ marginBottom: "0.5rem" }}>What&apos;s For Dinner?</h1>
       <p style={{ color: darkMode ? "#ddd" : "#555", marginBottom: "1rem" }}>
         Pick filters (optional) and generate a dinner idea.
       </p>
@@ -100,7 +108,7 @@ export default function Home() {
           borderRadius: "10px",
           cursor: "pointer",
           fontSize: "1rem",
-          marginBottom: "1.5rem"
+          marginBottom: "1.5rem",
         }}
       >
         🎲 Generate Meal
@@ -113,33 +121,51 @@ export default function Home() {
           gap: 12,
           flexWrap: "wrap",
           justifyContent: "center",
-          marginBottom: "1rem"
+          marginBottom: "1rem",
         }}
       >
         <select
           value={protein}
           onChange={(e) => setProtein(e.target.value)}
-          style={{ padding: "8px 10px", borderRadius: 8, border: "1px solid #ccc", minWidth: 180 }}
+          style={{
+            padding: "8px 10px",
+            borderRadius: 8,
+            border: "1px solid #ccc",
+            minWidth: 180,
+          }}
         >
           <option value="">All Proteins</option>
-          {proteinOptions.map(p => (
-            <option key={p} value={p}>{p}</option>
+          {proteinOptions.map((p) => (
+            <option key={p} value={p}>
+              {p}
+            </option>
           ))}
         </select>
 
         <select
           value={dietary}
           onChange={(e) => setDietary(e.target.value)}
-          style={{ padding: "8px 10px", borderRadius: 8, border: "1px solid #ccc", minWidth: 180 }}
+          style={{
+            padding: "8px 10px",
+            borderRadius: 8,
+            border: "1px solid #ccc",
+            minWidth: 180,
+          }}
         >
           <option value="">All Diets</option>
-          {dietaryOptions.map(d => (
-            <option key={d} value={d}>{d}</option>
+          {dietaryOptions.map((d) => (
+            <option key={d} value={d}>
+              {d}
+            </option>
           ))}
         </select>
 
         <button
-          onClick={() => { setProtein(""); setDietary(""); setMeal(null); }}
+          onClick={() => {
+            setProtein("");
+            setDietary("");
+            setMeal(null); // keep page blank until user clicks again
+          }}
           style={{
             background: "none",
             color: darkMode ? "#fff" : "#000",
@@ -147,14 +173,14 @@ export default function Home() {
             padding: "10px 16px",
             borderRadius: "10px",
             cursor: "pointer",
-            fontSize: "1rem"
+            fontSize: "1rem",
           }}
         >
           Reset
         </button>
       </div>
 
-      {/* Meal Output */}
+      {/* Meal Output - blank until first click */}
       {meal && (
         <section
           style={{
@@ -166,14 +192,20 @@ export default function Home() {
             color: darkMode ? "#fff" : "#000",
             borderRadius: 12,
             padding: "1.25rem",
-            boxShadow: darkMode ? "none" : "0 4px 16px rgba(0,0,0,0.08)"
+            boxShadow: darkMode ? "none" : "0 4px 16px rgba(0,0,0,0.08)",
           }}
         >
           <h2 style={{ marginBottom: "0.5rem", textAlign: "center" }}>
             {meal.name}
           </h2>
 
-          <div style={{ marginBottom: "0.75rem", fontSize: "0.95rem", textAlign: "center" }}>
+          <div
+            style={{
+              marginBottom: "0.75rem",
+              fontSize: "0.95rem",
+              textAlign: "center",
+            }}
+          >
             {meal.protein && <strong>Protein:</strong>} {meal.protein || "—"}
             {Array.isArray(meal.dietary) && meal.dietary.length > 0 && (
               <>
@@ -197,7 +229,9 @@ export default function Home() {
           {meal.instructions && (
             <>
               <h3 style={{ marginTop: "1rem" }}>Instructions</h3>
-              <p style={{ marginTop: 6, whiteSpace: "pre-line" }}>{meal.instructions}</p>
+              <p style={{ marginTop: 6, whiteSpace: "pre-line" }}>
+                {meal.instructions}
+              </p>
             </>
           )}
         </section>
@@ -211,14 +245,14 @@ export default function Home() {
           opacity: 0.7,
           maxWidth: 720,
           textAlign: "center",
-          lineHeight: 1.4
+          lineHeight: 1.4,
         }}
       >
-        This website provides meal ideas for inspiration purposes only. Ingredients, 
-        preparation methods, and cooking times may be adjusted to suit your tastes and 
-        dietary needs. Always ensure meats, seafood, and other perishable foods are 
-        cooked to safe internal temperatures. The owner of this site is not responsible 
-        for any illness, injury, or other issues that may arise from the preparation or 
+        This website provides meal ideas for inspiration purposes only. Ingredients,
+        preparation methods, and cooking times may be adjusted to suit your tastes and
+        dietary needs. Always ensure meats, seafood, and other perishable foods are
+        cooked to safe internal temperatures. The owner of this site is not responsible
+        for any illness, injury, or other issues that may arise from the preparation or
         consumption of meals based on these ideas.
       </footer>
     </main>
