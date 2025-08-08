@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import meals from "../data/meals.json";
 
 export default function Home() {
@@ -62,8 +63,29 @@ export default function Home() {
         color: darkMode ? "#fff" : "#000",
       }}
     >
-      {/* Top bar with dark mode toggle */}
-      <div style={{ width: "100%", display: "flex", justifyContent: "flex-end" }}>
+      {/* Top bar with quick links + dark mode */}
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          gap: 12,
+          marginBottom: "0.5rem",
+        }}
+      >
+        <nav style={{ display: "flex", gap: 16 }}>
+          <Link href="/about" style={{ textDecoration: "underline" }}>
+            About
+          </Link>
+          <Link href="/contact" style={{ textDecoration: "underline" }}>
+            Contact
+          </Link>
+          <Link href="/privacy-policy" style={{ textDecoration: "underline" }}>
+            Privacy Policy
+          </Link>
+        </nav>
+
         <button
           onClick={() => setDarkMode(!darkMode)}
           style={{
@@ -91,10 +113,11 @@ export default function Home() {
         />
       </div>
 
-      {/* Title */}
-      <h1 style={{ marginBottom: "0.5rem" }}>What&apos;s For Dinner?</h1>
-      <p style={{ color: darkMode ? "#ddd" : "#555", marginBottom: "1rem" }}>
-        Pick filters (optional) and generate a dinner idea.
+      {/* Title & tagline */}
+      <h1 style={{ marginBottom: "0.25rem" }}>What&apos;s For Dinner?</h1>
+      <p style={{ color: darkMode ? "#ddd" : "#555", marginBottom: "1rem", maxWidth: 720 }}>
+        Your dinner inspiration generator. Choose optional filters and click the
+        button to get a quick, simple idea for tonight.
       </p>
 
       {/* Generate button directly under title */}
@@ -108,7 +131,7 @@ export default function Home() {
           borderRadius: "10px",
           cursor: "pointer",
           fontSize: "1rem",
-          marginBottom: "1.5rem",
+          marginBottom: "1.25rem",
         }}
       >
         🎲 Generate Meal
@@ -237,23 +260,41 @@ export default function Home() {
         </section>
       )}
 
-      {/* Disclaimer */}
+      {/* Footer links + Disclaimer */}
       <footer
         style={{
           marginTop: "2rem",
-          fontSize: "0.8rem",
-          opacity: 0.7,
           maxWidth: 720,
+          width: "100%",
           textAlign: "center",
-          lineHeight: 1.4,
         }}
       >
-        This website provides meal ideas for inspiration purposes only. Ingredients,
-        preparation methods, and cooking times may be adjusted to suit your tastes and
-        dietary needs. Always ensure meats, seafood, and other perishable foods are
-        cooked to safe internal temperatures. The owner of this site is not responsible
-        for any illness, injury, or other issues that may arise from the preparation or
-        consumption of meals based on these ideas.
+        <div style={{ marginBottom: "0.5rem", display: "flex", gap: 16, justifyContent: "center" }}>
+          <Link href="/about" style={{ textDecoration: "underline" }}>
+            About
+          </Link>
+          <Link href="/contact" style={{ textDecoration: "underline" }}>
+            Contact
+          </Link>
+          <Link href="/privacy-policy" style={{ textDecoration: "underline" }}>
+            Privacy Policy
+          </Link>
+        </div>
+
+        <div
+          style={{
+            fontSize: "0.8rem",
+            opacity: 0.7,
+            lineHeight: 1.4,
+          }}
+        >
+          This website provides meal ideas for inspiration purposes only. Ingredients,
+          preparation methods, and cooking times may be adjusted to suit your tastes and
+          dietary needs. Always ensure meats, seafood, and other perishable foods are
+          cooked to safe internal temperatures. The owner of this site is not responsible
+          for any illness, injury, or other issues that may arise from the preparation or
+          consumption of meals based on these ideas.
+        </div>
       </footer>
     </main>
   );
