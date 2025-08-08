@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function PrivacyPolicy() {
   return (
-    <main style={{ padding: "2rem", maxWidth: "800px", margin: "0 auto" }}>
+    <main style={{ padding: "2rem", maxWidth: 800, margin: "0 auto" }}>
       <h1>Privacy Policy</h1>
       <p>Last updated: {new Date().toLocaleDateString()}</p>
 
@@ -36,6 +38,23 @@ export default function PrivacyPolicy() {
         For questions about this Privacy Policy, please email{" "}
         <a href="mailto:whats4dinnerinspiration@gmail.com">whats4dinnerinspiration@gmail.com</a>.
       </p>
+
+      <div style={{ marginTop: "2rem" }}>
+        <Link
+          href="/"
+          style={{
+            display: "inline-block",
+            padding: "0.6rem 1.2rem",
+            backgroundColor: "#ff6b35",
+            color: "#fff",
+            borderRadius: "6px",
+            textDecoration: "none",
+            fontWeight: "bold",
+          }}
+        >
+          ← Back to Home
+        </Link>
+      </div>
     </main>
   );
 }
