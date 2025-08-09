@@ -1,0 +1,1533 @@
+[
+  {
+    "name": "Grilled Lemon Pepper Chicken Thighs",
+    "protein": "chicken thighs",
+    "method": "grill",
+    "dietary": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 20,
+    "ingredients": [
+      "4 bone-in chicken thighs",
+      "1 tbsp olive oil",
+      "1 tsp lemon pepper seasoning",
+      "1 tsp garlic powder",
+      "Salt"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high (375\u2013400\u00b0F).",
+      "Pat chicken dry; rub with oil, lemon pepper, garlic powder, and salt.",
+      "Grill skin-side down 6\u20137 min; flip and grill 8\u201310 min until 175\u00b0F.",
+      "Rest 5 min before serving."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus",
+      "Roasted baby potatoes",
+      "Mixed green salad"
+    ]
+  },
+  {
+    "name": "Oven-Baked Parmesan Crusted Tilapia",
+    "protein": "tilapia",
+    "method": "oven-bake",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Fish",
+      "Wheat/Gluten",
+      "Dairy"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 14,
+    "ingredients": [
+      "2 tilapia fillets",
+      "1/3 cup panko breadcrumbs",
+      "2 tbsp grated Parmesan",
+      "1 tbsp olive oil",
+      "1 tsp paprika",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F.",
+      "Mix panko, Parmesan, oil, paprika, salt, and pepper.",
+      "Place tilapia on lined sheet; press crumb mix on top.",
+      "Bake 12\u201314 min until flakes easily."
+    ],
+    "recommendedSides": [
+      "Steamed green beans",
+      "Rice pilaf (Wheat/Gluten if orzo)",
+      "Lemon wedges"
+    ]
+  },
+  {
+    "name": "Crockpot Honey Garlic Chicken",
+    "protein": "chicken breast",
+    "method": "crockpot",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [
+      "Soy"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 240,
+    "ingredients": [
+      "2 chicken breasts",
+      "1/4 cup honey",
+      "2 tbsp soy sauce or tamari",
+      "2 cloves garlic, minced",
+      "1/4 cup chicken broth",
+      "Salt"
+    ],
+    "instructions": [
+      "Whisk honey, soy/tamari, garlic, and broth.",
+      "Add chicken to slow cooker; pour sauce over.",
+      "Cook LOW 4\u20135 hrs or HIGH 2\u20133 hrs until 165\u00b0F.",
+      "Shred or slice; spoon sauce over."
+    ],
+    "recommendedSides": [
+      "Steamed rice",
+      "Roasted broccoli",
+      "Cucumber salad"
+    ]
+  },
+  {
+    "name": "Air Fryer Salmon with Maple Mustard",
+    "protein": "salmon",
+    "method": "air-fryer",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "Fish"
+    ],
+    "servings": 2,
+    "prep_time": 5,
+    "cook_time": 10,
+    "ingredients": [
+      "2 salmon fillets",
+      "1 tbsp Dijon mustard",
+      "1 tbsp maple syrup",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat air fryer to 390\u00b0F.",
+      "Mix mustard, maple, oil; brush salmon; season with salt and pepper.",
+      "Air fry 8\u201310 min until flaky."
+    ],
+    "recommendedSides": [
+      "Garlic saut\u00e9ed spinach",
+      "Quinoa pilaf",
+      "Lemon wedges"
+    ]
+  },
+  {
+    "name": "Stovetop Creamy Spinach Tortellini",
+    "protein": "cheese tortellini",
+    "method": "stove-top",
+    "dietary": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "Wheat/Gluten",
+      "Dairy",
+      "Eggs"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 10,
+    "ingredients": [
+      "9 oz cheese tortellini",
+      "1 tbsp butter",
+      "1 clove garlic, minced",
+      "1/2 cup cream",
+      "1 cup baby spinach",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Boil tortellini per package; drain.",
+      "Saut\u00e9 garlic in butter 30 sec; add cream and simmer 2 min.",
+      "Stir in spinach to wilt; fold in tortellini; season."
+    ],
+    "recommendedSides": [
+      "Side salad",
+      "Garlic bread (Wheat/Gluten, Dairy)",
+      "Roasted tomatoes"
+    ]
+  },
+  {
+    "name": "Grilled Shrimp Skewers with Chimichurri",
+    "protein": "shrimp",
+    "method": "grill",
+    "dietary": [
+      "pescatarian",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [
+      "Shellfish"
+    ],
+    "servings": 2,
+    "prep_time": 15,
+    "cook_time": 6,
+    "ingredients": [
+      "12 large shrimp, peeled",
+      "1 tbsp olive oil",
+      "Salt and pepper",
+      "1/2 cup parsley, chopped",
+      "1 tbsp red wine vinegar",
+      "1 clove garlic, minced",
+      "3 tbsp olive oil (extra)"
+    ],
+    "instructions": [
+      "Soak wooden skewers 10 min; preheat grill to high.",
+      "Season shrimp with oil, salt, pepper; thread onto skewers.",
+      "Grill 2\u20133 min per side.",
+      "Mix parsley, vinegar, garlic, extra oil; spoon over shrimp."
+    ],
+    "recommendedSides": [
+      "Grilled zucchini",
+      "Buttered rice",
+      "Tomato-cucumber salad"
+    ]
+  },
+  {
+    "name": "Baked BBQ Meatloaf (Mini)",
+    "protein": "ground beef",
+    "method": "oven-bake",
+    "dietary": [],
+    "allergens": [
+      "Eggs",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 25,
+    "ingredients": [
+      "3/4 lb ground beef",
+      "1/3 cup breadcrumbs",
+      "1 egg",
+      "2 tbsp BBQ sauce",
+      "1 tsp onion powder",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Mix beef, breadcrumbs, egg, BBQ sauce, onion powder, salt, pepper.",
+      "Form two small loaves; place on lined tray.",
+      "Bake 22\u201325 min until 160\u00b0F; brush with extra BBQ sauce if desired."
+    ],
+    "recommendedSides": [
+      "Mashed potatoes (Dairy if butter)",
+      "Roasted green beans",
+      "Coleslaw (Eggs)"
+    ]
+  },
+  {
+    "name": "No-Cook Tuna Chickpea Salad",
+    "protein": "tuna",
+    "method": "no-cook",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Fish",
+      "Eggs (if mayo)"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "1 can tuna, drained",
+      "1 can chickpeas, rinsed",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "1 tbsp chopped parsley",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Flake tuna and combine with chickpeas, olive oil, lemon, parsley, salt, pepper.",
+      "Serve chilled."
+    ],
+    "recommendedSides": [
+      "Mixed green salad",
+      "Crackers (Wheat/Gluten)",
+      "Sliced cucumbers"
+    ]
+  },
+  {
+    "name": "Stove-Top Peanut Noodles with Veggies",
+    "protein": "no primary (no meat)",
+    "method": "stove-top",
+    "dietary": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "Peanuts",
+      "Wheat/Gluten",
+      "Soy",
+      "Sesame"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 10,
+    "ingredients": [
+      "6 oz spaghetti or ramen",
+      "1/4 cup peanut butter",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "1 tbsp lime juice",
+      "1 tsp honey",
+      "1 cup shredded carrots",
+      "1 cup snap peas"
+    ],
+    "instructions": [
+      "Cook noodles; reserve 1/4 cup pasta water.",
+      "Whisk peanut butter, soy, sesame oil, lime, honey with pasta water.",
+      "Toss noodles with sauce, carrots, and snap peas."
+    ],
+    "recommendedSides": [
+      "Edamame (Soy)",
+      "Cucumber salad (Sesame)",
+      "Orange slices"
+    ]
+  },
+  {
+    "name": "Crockpot Lentil Sweet Potato Stew",
+    "protein": "lentils",
+    "method": "crockpot",
+    "dietary": [
+      "vegan",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 360,
+    "ingredients": [
+      "1 cup dry brown lentils, rinsed",
+      "1 small sweet potato, diced",
+      "1/2 onion, diced",
+      "2 cups vegetable broth",
+      "1 tsp cumin",
+      "1/2 tsp smoked paprika",
+      "Salt"
+    ],
+    "instructions": [
+      "Add all ingredients to slow cooker.",
+      "Cook LOW 6\u20138 hrs or HIGH 3\u20134 hrs until lentils are tender.",
+      "Adjust seasoning before serving."
+    ],
+    "recommendedSides": [
+      "Warm naan (Wheat/Gluten)",
+      "Steamed greens",
+      "Yogurt dollop (Dairy, optional)"
+    ]
+  },
+  {
+    "name": "Honey Mustard Trout (Crockpot)",
+    "protein": "trout",
+    "method": "crockpot",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Fish"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 240,
+    "ingredients": [
+      "12 oz trout",
+      "1 tbsp olive oil",
+      "honey",
+      "1 tsp Dijon mustard",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Add protein, seasonings, and 1/2 cup broth to the slow cooker.",
+      "Cook on LOW 4\u20136 hours (or HIGH half the time) until tender.",
+      "Adjust seasoning before serving."
+    ],
+    "recommendedSides": [
+      "garlic mashed potatoes",
+      "steamed green beans",
+      "coleslaw (Eggs)"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Trout (No Cook)",
+    "protein": "trout",
+    "method": "no-cook",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Fish",
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz trout",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Garlic Herb Duck Breast (Oven Bake)",
+    "protein": "duck breast",
+    "method": "oven-bake",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 8,
+    "cook_time": 10,
+    "ingredients": [
+      "12 oz duck breast",
+      "1 tbsp olive oil",
+      "garlic",
+      "parsley",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F and line a sheet pan.",
+      "Toss protein with oil and seasonings; arrange on the pan.",
+      "Bake 10 minutes until cooked through."
+    ],
+    "recommendedSides": [
+      "roasted broccoli",
+      "roasted carrots",
+      "simple side salad"
+    ]
+  },
+  {
+    "name": "Chipotle Lime Chicken Thighs (Oven Bake)",
+    "protein": "chicken thighs",
+    "method": "oven-bake",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 15,
+    "cook_time": 25,
+    "ingredients": [
+      "12 oz chicken thighs",
+      "1 tbsp olive oil",
+      "1 tsp chipotle chili",
+      "1 tsp lime juice",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F and line a sheet pan.",
+      "Toss protein with oil and seasonings; arrange on the pan.",
+      "Bake 25 minutes until cooked through."
+    ],
+    "recommendedSides": [
+      "roasted broccoli",
+      "roasted carrots",
+      "simple side salad"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Salmon (No Cook)",
+    "protein": "salmon",
+    "method": "no-cook",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Fish",
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz salmon",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Creamy Parmesan Ground Turkey (Stove Top)",
+    "protein": "ground turkey",
+    "method": "stove-top",
+    "dietary": [],
+    "allergens": [
+      "Dairy"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 14,
+    "ingredients": [
+      "12 oz ground turkey",
+      "1 tbsp olive oil",
+      "cream",
+      "Parmesan",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 14 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Honey Mustard Duck Breast (Stove Top)",
+    "protein": "duck breast",
+    "method": "stove-top",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 8,
+    "cook_time": 14,
+    "ingredients": [
+      "12 oz duck breast",
+      "1 tbsp olive oil",
+      "honey",
+      "1 tsp Dijon mustard",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 14 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Mediterranean Tempeh (No Cook)",
+    "protein": "tempeh",
+    "method": "no-cook",
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz tempeh",
+      "1 tbsp olive oil",
+      "oregano",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Creamy Parmesan Chicken Thighs (Grill)",
+    "protein": "chicken thighs",
+    "method": "grill",
+    "dietary": [],
+    "allergens": [
+      "Dairy"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 15,
+    "ingredients": [
+      "12 oz chicken thighs",
+      "1 tbsp olive oil",
+      "cream",
+      "Parmesan",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high (375\u2013400\u00b0F).",
+      "Pat protein dry; toss with oil and seasonings; season with salt and pepper.",
+      "Grill 4\u20136 minutes per side until cooked through.",
+      "Rest 3\u20135 minutes before serving."
+    ],
+    "recommendedSides": [
+      "grilled corn on the cob",
+      "roasted baby potatoes",
+      "mixed green salad"
+    ]
+  },
+  {
+    "name": "Mediterranean Chickpeas (Stove Top)",
+    "protein": "chickpeas",
+    "method": "stove-top",
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 22,
+    "ingredients": [
+      "12 oz chickpeas",
+      "1 tbsp olive oil",
+      "oregano",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 22 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Pork Chops (Oven Bake)",
+    "protein": "pork chops",
+    "method": "oven-bake",
+    "dietary": [],
+    "allergens": [
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 12,
+    "cook_time": 30,
+    "ingredients": [
+      "12 oz pork chops",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F and line a sheet pan.",
+      "Toss protein with oil and seasonings; arrange on the pan.",
+      "Bake 30 minutes until cooked through."
+    ],
+    "recommendedSides": [
+      "roasted broccoli",
+      "roasted carrots",
+      "simple side salad"
+    ]
+  },
+  {
+    "name": "Cajun Tofu (No Cook)",
+    "protein": "tofu",
+    "method": "no-cook",
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz tofu",
+      "1 tbsp olive oil",
+      "1 tsp Cajun seasoning",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Steak (No Cook)",
+    "protein": "steak",
+    "method": "no-cook",
+    "dietary": [],
+    "allergens": [
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz steak",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Chipotle Lime Eggplant (Stove Top)",
+    "protein": "eggplant",
+    "method": "stove-top",
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 20,
+    "ingredients": [
+      "12 oz eggplant",
+      "1 tbsp olive oil",
+      "1 tsp chipotle chili",
+      "1 tsp lime juice",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 20 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Cajun Scallops (Air Fryer)",
+    "protein": "scallops",
+    "method": "air-fryer",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Shellfish"
+    ],
+    "servings": 2,
+    "prep_time": 15,
+    "cook_time": 22,
+    "ingredients": [
+      "12 oz scallops",
+      "1 tbsp olive oil",
+      "1 tsp Cajun seasoning",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat air fryer to 380\u2013390\u00b0F.",
+      "Toss protein with oil and seasonings; place in basket.",
+      "Air fry 22 minutes, flipping halfway, until cooked through."
+    ],
+    "recommendedSides": [
+      "air-fried Brussels sprouts",
+      "buttered corn (Dairy)",
+      "tomato-cucumber salad"
+    ]
+  },
+  {
+    "name": "Honey Mustard Chicken Thighs (Stove Top)",
+    "protein": "chicken thighs",
+    "method": "stove-top",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 8,
+    "cook_time": 30,
+    "ingredients": [
+      "12 oz chicken thighs",
+      "1 tbsp olive oil",
+      "honey",
+      "1 tsp Dijon mustard",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 30 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Smoky Paprika Chicken Thighs (Crockpot)",
+    "protein": "chicken thighs",
+    "method": "crockpot",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 12,
+    "cook_time": 360,
+    "ingredients": [
+      "12 oz chicken thighs",
+      "1 tbsp olive oil",
+      "1 tsp smoked paprika",
+      "1 tsp garlic powder",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Add protein, seasonings, and 1/2 cup broth to the slow cooker.",
+      "Cook on LOW 6\u20138 hours (or HIGH half the time) until tender.",
+      "Adjust seasoning before serving."
+    ],
+    "recommendedSides": [
+      "garlic mashed potatoes",
+      "steamed green beans",
+      "coleslaw (Eggs)"
+    ]
+  },
+  {
+    "name": "Smoky Paprika Chicken Thighs (Air Fryer)",
+    "protein": "chicken thighs",
+    "method": "air-fryer",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 8,
+    "cook_time": 25,
+    "ingredients": [
+      "12 oz chicken thighs",
+      "1 tbsp olive oil",
+      "1 tsp smoked paprika",
+      "1 tsp garlic powder",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat air fryer to 380\u2013390\u00b0F.",
+      "Toss protein with oil and seasonings; place in basket.",
+      "Air fry 25 minutes, flipping halfway, until cooked through."
+    ],
+    "recommendedSides": [
+      "air-fried Brussels sprouts",
+      "buttered corn (Dairy)",
+      "tomato-cucumber salad"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Trout (Stove Top)",
+    "protein": "trout",
+    "method": "stove-top",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Fish",
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 12,
+    "cook_time": 15,
+    "ingredients": [
+      "12 oz trout",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 15 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Chipotle Lime Lamb Chops (No Cook)",
+    "protein": "lamb chops",
+    "method": "no-cook",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz lamb chops",
+      "1 tbsp olive oil",
+      "1 tsp chipotle chili",
+      "1 tsp lime juice",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Creamy Parmesan Ground Turkey (Crockpot)",
+    "protein": "ground turkey",
+    "method": "crockpot",
+    "dietary": [],
+    "allergens": [
+      "Dairy"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 420,
+    "ingredients": [
+      "12 oz ground turkey",
+      "1 tbsp olive oil",
+      "cream",
+      "Parmesan",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Add protein, seasonings, and 1/2 cup broth to the slow cooker.",
+      "Cook on LOW 7\u20139 hours (or HIGH half the time) until tender.",
+      "Adjust seasoning before serving."
+    ],
+    "recommendedSides": [
+      "garlic mashed potatoes",
+      "steamed green beans",
+      "coleslaw (Eggs)"
+    ]
+  },
+  {
+    "name": "Teriyaki Tofu (No Cook)",
+    "protein": "tofu",
+    "method": "no-cook",
+    "dietary": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz tofu",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "1 tsp brown sugar",
+      "ginger",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Chicken Thighs (Crockpot)",
+    "protein": "chicken thighs",
+    "method": "crockpot",
+    "dietary": [],
+    "allergens": [
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 12,
+    "cook_time": 300,
+    "ingredients": [
+      "12 oz chicken thighs",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Add protein, seasonings, and 1/2 cup broth to the slow cooker.",
+      "Cook on LOW 5\u20137 hours (or HIGH half the time) until tender.",
+      "Adjust seasoning before serving."
+    ],
+    "recommendedSides": [
+      "garlic mashed potatoes",
+      "steamed green beans",
+      "coleslaw (Eggs)"
+    ]
+  },
+  {
+    "name": "Teriyaki Scallops (Air Fryer)",
+    "protein": "scallops",
+    "method": "air-fryer",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Shellfish",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 12,
+    "cook_time": 14,
+    "ingredients": [
+      "12 oz scallops",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "1 tsp brown sugar",
+      "ginger",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat air fryer to 380\u2013390\u00b0F.",
+      "Toss protein with oil and seasonings; place in basket.",
+      "Air fry 14 minutes, flipping halfway, until cooked through."
+    ],
+    "recommendedSides": [
+      "air-fried Brussels sprouts",
+      "buttered corn (Dairy)",
+      "tomato-cucumber salad"
+    ]
+  },
+  {
+    "name": "Lemon Pepper Black Beans (Stove Top)",
+    "protein": "black beans",
+    "method": "stove-top",
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 15,
+    "cook_time": 12,
+    "ingredients": [
+      "12 oz black beans",
+      "1 tbsp olive oil",
+      "1 tsp lemon zest",
+      "1 tsp black pepper",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 12 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Mediterranean Pork Tenderloin (No Cook)",
+    "protein": "pork tenderloin",
+    "method": "no-cook",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz pork tenderloin",
+      "1 tbsp olive oil",
+      "oregano",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Lemon Pepper Salmon (Air Fryer)",
+    "protein": "salmon",
+    "method": "air-fryer",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Fish"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 30,
+    "ingredients": [
+      "12 oz salmon",
+      "1 tbsp olive oil",
+      "1 tsp lemon zest",
+      "1 tsp black pepper",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat air fryer to 380\u2013390\u00b0F.",
+      "Toss protein with oil and seasonings; place in basket.",
+      "Air fry 30 minutes, flipping halfway, until cooked through."
+    ],
+    "recommendedSides": [
+      "air-fried Brussels sprouts",
+      "buttered corn (Dairy)",
+      "tomato-cucumber salad"
+    ]
+  },
+  {
+    "name": "Smoky Paprika Cauliflower Steaks (Crockpot)",
+    "protein": "cauliflower steaks",
+    "method": "crockpot",
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 240,
+    "ingredients": [
+      "12 oz cauliflower steaks",
+      "1 tbsp olive oil",
+      "1 tsp smoked paprika",
+      "1 tsp garlic powder",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Add protein, seasonings, and 1/2 cup broth to the slow cooker.",
+      "Cook on LOW 4\u20136 hours (or HIGH half the time) until tender.",
+      "Adjust seasoning before serving."
+    ],
+    "recommendedSides": [
+      "garlic mashed potatoes",
+      "steamed green beans",
+      "coleslaw (Eggs)"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Cod (Grill)",
+    "protein": "cod",
+    "method": "grill",
+    "dietary": [
+      "pescatarian"
+    ],
+    "allergens": [
+      "Fish",
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 15,
+    "cook_time": 25,
+    "ingredients": [
+      "12 oz cod",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high (375\u2013400\u00b0F).",
+      "Pat protein dry; toss with oil and seasonings; season with salt and pepper.",
+      "Grill 4\u20136 minutes per side until cooked through.",
+      "Rest 3\u20135 minutes before serving."
+    ],
+    "recommendedSides": [
+      "grilled corn on the cob",
+      "roasted baby potatoes",
+      "mixed green salad"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Chicken Thighs (No Cook)",
+    "protein": "chicken thighs",
+    "method": "no-cook",
+    "dietary": [],
+    "allergens": [
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz chicken thighs",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Mediterranean Ground Beef (Oven Bake)",
+    "protein": "ground beef",
+    "method": "oven-bake",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 15,
+    "cook_time": 15,
+    "ingredients": [
+      "12 oz ground beef",
+      "1 tbsp olive oil",
+      "oregano",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F and line a sheet pan.",
+      "Toss protein with oil and seasonings; arrange on the pan.",
+      "Bake 15 minutes until cooked through."
+    ],
+    "recommendedSides": [
+      "roasted broccoli",
+      "roasted carrots",
+      "simple side salad"
+    ]
+  },
+  {
+    "name": "Mediterranean Eggplant (Oven Bake)",
+    "protein": "eggplant",
+    "method": "oven-bake",
+    "dietary": [
+      "vegetarian",
+      "vegan"
+    ],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 15,
+    "cook_time": 12,
+    "ingredients": [
+      "12 oz eggplant",
+      "1 tbsp olive oil",
+      "oregano",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F and line a sheet pan.",
+      "Toss protein with oil and seasonings; arrange on the pan.",
+      "Bake 12 minutes until cooked through."
+    ],
+    "recommendedSides": [
+      "roasted broccoli",
+      "roasted carrots",
+      "simple side salad"
+    ]
+  },
+  {
+    "name": "Mediterranean Lamb Chops (Air Fryer)",
+    "protein": "lamb chops",
+    "method": "air-fryer",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 15,
+    "cook_time": 30,
+    "ingredients": [
+      "12 oz lamb chops",
+      "1 tbsp olive oil",
+      "oregano",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat air fryer to 380\u2013390\u00b0F.",
+      "Toss protein with oil and seasonings; place in basket.",
+      "Air fry 30 minutes, flipping halfway, until cooked through."
+    ],
+    "recommendedSides": [
+      "air-fried Brussels sprouts",
+      "buttered corn (Dairy)",
+      "tomato-cucumber salad"
+    ]
+  },
+  {
+    "name": "Mediterranean Chicken Thighs (Stove Top)",
+    "protein": "chicken thighs",
+    "method": "stove-top",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 8,
+    "cook_time": 14,
+    "ingredients": [
+      "12 oz chicken thighs",
+      "1 tbsp olive oil",
+      "oregano",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 14 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Sesame Ginger Black Beans (Crockpot)",
+    "protein": "black beans",
+    "method": "crockpot",
+    "dietary": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "Sesame",
+      "Soy",
+      "Wheat/Gluten"
+    ],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 420,
+    "ingredients": [
+      "12 oz black beans",
+      "1 tbsp olive oil",
+      "1 tsp soy sauce",
+      "ginger",
+      "1 tsp sesame oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Add protein, seasonings, and 1/2 cup broth to the slow cooker.",
+      "Cook on LOW 7\u20139 hours (or HIGH half the time) until tender.",
+      "Adjust seasoning before serving."
+    ],
+    "recommendedSides": [
+      "garlic mashed potatoes",
+      "steamed green beans",
+      "coleslaw (Eggs)"
+    ]
+  },
+  {
+    "name": "Cajun Bacon (Crockpot)",
+    "protein": "bacon",
+    "method": "crockpot",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 8,
+    "cook_time": 300,
+    "ingredients": [
+      "12 oz bacon",
+      "1 tbsp olive oil",
+      "1 tsp Cajun seasoning",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Add protein, seasonings, and 1/2 cup broth to the slow cooker.",
+      "Cook on LOW 5\u20137 hours (or HIGH half the time) until tender.",
+      "Adjust seasoning before serving."
+    ],
+    "recommendedSides": [
+      "garlic mashed potatoes",
+      "steamed green beans",
+      "coleslaw (Eggs)"
+    ]
+  },
+  {
+    "name": "Honey Mustard Pork Tenderloin (No Cook)",
+    "protein": "pork tenderloin",
+    "method": "no-cook",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz pork tenderloin",
+      "1 tbsp olive oil",
+      "honey",
+      "1 tsp Dijon mustard",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  },
+  {
+    "name": "Cajun Ham (Stove Top)",
+    "protein": "ham",
+    "method": "stove-top",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 12,
+    "cook_time": 10,
+    "ingredients": [
+      "12 oz ham",
+      "1 tbsp olive oil",
+      "1 tsp Cajun seasoning",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 10 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Chipotle Lime Pork Chops (Stove Top)",
+    "protein": "pork chops",
+    "method": "stove-top",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 12,
+    "cook_time": 20,
+    "ingredients": [
+      "12 oz pork chops",
+      "1 tbsp olive oil",
+      "1 tsp chipotle chili",
+      "1 tsp lime juice",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Sear protein 3\u20134 minutes per side until browned.",
+      "Sprinkle seasonings; cook until done, about 20 minutes total."
+    ],
+    "recommendedSides": [
+      "steamed rice",
+      "saut\u00e9ed greens",
+      "cucumber salad"
+    ]
+  },
+  {
+    "name": "Mediterranean Ground Turkey (No Cook)",
+    "protein": "ground turkey",
+    "method": "no-cook",
+    "dietary": [],
+    "allergens": [],
+    "servings": 2,
+    "prep_time": 10,
+    "cook_time": 0,
+    "ingredients": [
+      "12 oz ground turkey",
+      "1 tbsp olive oil",
+      "oregano",
+      "1 tsp lemon juice",
+      "1 tsp olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine prepared ingredients in a bowl.",
+      "Season to taste and serve chilled."
+    ],
+    "recommendedSides": [
+      "mixed fruit salad",
+      "crackers (Wheat/Gluten)",
+      "green salad"
+    ]
+  }
+]

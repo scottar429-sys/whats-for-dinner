@@ -1,0 +1,795 @@
+[
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  },
+  {
+    "name": "Crockpot Beef Stew",
+    "protein": "beef",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [],
+    "servings": 4,
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "4 cups beef broth",
+      "4 carrots, sliced",
+      "3 potatoes, diced",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "2 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to the crockpot.",
+      "Cook on low for 8 hours or high for 4 hours.",
+      "Adjust seasoning and serve hot."
+    ],
+    "recommendedSides": [
+      "Buttered crusty bread",
+      "Side salad with vinaigrette",
+      "Steamed green beans"
+    ]
+  },
+  {
+    "name": "Oven-Baked Lemon Herb Cod",
+    "protein": "cod",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 cod fillets",
+      "1 lemon, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh parsley, chopped",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Place cod in a baking dish, drizzle with olive oil, and season with oregano, salt, and pepper.",
+      "Layer lemon slices over fish.",
+      "Bake for 12\u201315 minutes until fish flakes easily.",
+      "Garnish with parsley before serving."
+    ],
+    "recommendedSides": [
+      "Steamed broccoli",
+      "Quinoa salad",
+      "Roasted zucchini"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce Variation 4",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  },
+  {
+    "name": "Crockpot Beef Stew Variation 5",
+    "protein": "beef",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [],
+    "servings": 4,
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "4 cups beef broth",
+      "4 carrots, sliced",
+      "3 potatoes, diced",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "2 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to the crockpot.",
+      "Cook on low for 8 hours or high for 4 hours.",
+      "Adjust seasoning and serve hot."
+    ],
+    "recommendedSides": [
+      "Buttered crusty bread",
+      "Side salad with vinaigrette",
+      "Steamed green beans"
+    ]
+  },
+  {
+    "name": "Oven-Baked Lemon Herb Cod Variation 6",
+    "protein": "cod",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 cod fillets",
+      "1 lemon, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh parsley, chopped",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Place cod in a baking dish, drizzle with olive oil, and season with oregano, salt, and pepper.",
+      "Layer lemon slices over fish.",
+      "Bake for 12\u201315 minutes until fish flakes easily.",
+      "Garnish with parsley before serving."
+    ],
+    "recommendedSides": [
+      "Steamed broccoli",
+      "Quinoa salad",
+      "Roasted zucchini"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce Variation 7",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  },
+  {
+    "name": "Crockpot Beef Stew Variation 8",
+    "protein": "beef",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [],
+    "servings": 4,
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "4 cups beef broth",
+      "4 carrots, sliced",
+      "3 potatoes, diced",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "2 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to the crockpot.",
+      "Cook on low for 8 hours or high for 4 hours.",
+      "Adjust seasoning and serve hot."
+    ],
+    "recommendedSides": [
+      "Buttered crusty bread",
+      "Side salad with vinaigrette",
+      "Steamed green beans"
+    ]
+  },
+  {
+    "name": "Oven-Baked Lemon Herb Cod Variation 9",
+    "protein": "cod",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 cod fillets",
+      "1 lemon, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh parsley, chopped",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Place cod in a baking dish, drizzle with olive oil, and season with oregano, salt, and pepper.",
+      "Layer lemon slices over fish.",
+      "Bake for 12\u201315 minutes until fish flakes easily.",
+      "Garnish with parsley before serving."
+    ],
+    "recommendedSides": [
+      "Steamed broccoli",
+      "Quinoa salad",
+      "Roasted zucchini"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce Variation 10",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  },
+  {
+    "name": "Crockpot Beef Stew Variation 11",
+    "protein": "beef",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [],
+    "servings": 4,
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "4 cups beef broth",
+      "4 carrots, sliced",
+      "3 potatoes, diced",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "2 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to the crockpot.",
+      "Cook on low for 8 hours or high for 4 hours.",
+      "Adjust seasoning and serve hot."
+    ],
+    "recommendedSides": [
+      "Buttered crusty bread",
+      "Side salad with vinaigrette",
+      "Steamed green beans"
+    ]
+  },
+  {
+    "name": "Oven-Baked Lemon Herb Cod Variation 12",
+    "protein": "cod",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 cod fillets",
+      "1 lemon, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh parsley, chopped",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Place cod in a baking dish, drizzle with olive oil, and season with oregano, salt, and pepper.",
+      "Layer lemon slices over fish.",
+      "Bake for 12\u201315 minutes until fish flakes easily.",
+      "Garnish with parsley before serving."
+    ],
+    "recommendedSides": [
+      "Steamed broccoli",
+      "Quinoa salad",
+      "Roasted zucchini"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce Variation 13",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  },
+  {
+    "name": "Crockpot Beef Stew Variation 14",
+    "protein": "beef",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [],
+    "servings": 4,
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "4 cups beef broth",
+      "4 carrots, sliced",
+      "3 potatoes, diced",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "2 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to the crockpot.",
+      "Cook on low for 8 hours or high for 4 hours.",
+      "Adjust seasoning and serve hot."
+    ],
+    "recommendedSides": [
+      "Buttered crusty bread",
+      "Side salad with vinaigrette",
+      "Steamed green beans"
+    ]
+  },
+  {
+    "name": "Oven-Baked Lemon Herb Cod Variation 15",
+    "protein": "cod",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 cod fillets",
+      "1 lemon, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh parsley, chopped",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Place cod in a baking dish, drizzle with olive oil, and season with oregano, salt, and pepper.",
+      "Layer lemon slices over fish.",
+      "Bake for 12\u201315 minutes until fish flakes easily.",
+      "Garnish with parsley before serving."
+    ],
+    "recommendedSides": [
+      "Steamed broccoli",
+      "Quinoa salad",
+      "Roasted zucchini"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce Variation 16",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  },
+  {
+    "name": "Crockpot Beef Stew Variation 17",
+    "protein": "beef",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [],
+    "servings": 4,
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "4 cups beef broth",
+      "4 carrots, sliced",
+      "3 potatoes, diced",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "2 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to the crockpot.",
+      "Cook on low for 8 hours or high for 4 hours.",
+      "Adjust seasoning and serve hot."
+    ],
+    "recommendedSides": [
+      "Buttered crusty bread",
+      "Side salad with vinaigrette",
+      "Steamed green beans"
+    ]
+  },
+  {
+    "name": "Oven-Baked Lemon Herb Cod Variation 18",
+    "protein": "cod",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 cod fillets",
+      "1 lemon, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh parsley, chopped",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Place cod in a baking dish, drizzle with olive oil, and season with oregano, salt, and pepper.",
+      "Layer lemon slices over fish.",
+      "Bake for 12\u201315 minutes until fish flakes easily.",
+      "Garnish with parsley before serving."
+    ],
+    "recommendedSides": [
+      "Steamed broccoli",
+      "Quinoa salad",
+      "Roasted zucchini"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce Variation 19",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  },
+  {
+    "name": "Crockpot Beef Stew Variation 20",
+    "protein": "beef",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [],
+    "servings": 4,
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "4 cups beef broth",
+      "4 carrots, sliced",
+      "3 potatoes, diced",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "2 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to the crockpot.",
+      "Cook on low for 8 hours or high for 4 hours.",
+      "Adjust seasoning and serve hot."
+    ],
+    "recommendedSides": [
+      "Buttered crusty bread",
+      "Side salad with vinaigrette",
+      "Steamed green beans"
+    ]
+  },
+  {
+    "name": "Oven-Baked Lemon Herb Cod Variation 21",
+    "protein": "cod",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 cod fillets",
+      "1 lemon, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh parsley, chopped",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Place cod in a baking dish, drizzle with olive oil, and season with oregano, salt, and pepper.",
+      "Layer lemon slices over fish.",
+      "Bake for 12\u201315 minutes until fish flakes easily.",
+      "Garnish with parsley before serving."
+    ],
+    "recommendedSides": [
+      "Steamed broccoli",
+      "Quinoa salad",
+      "Roasted zucchini"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce Variation 22",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  },
+  {
+    "name": "Crockpot Beef Stew Variation 23",
+    "protein": "beef",
+    "dietary": [
+      "gluten-free"
+    ],
+    "allergens": [],
+    "servings": 4,
+    "ingredients": [
+      "2 lbs beef chuck, cubed",
+      "4 cups beef broth",
+      "4 carrots, sliced",
+      "3 potatoes, diced",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "2 tsp dried thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Add all ingredients to the crockpot.",
+      "Cook on low for 8 hours or high for 4 hours.",
+      "Adjust seasoning and serve hot."
+    ],
+    "recommendedSides": [
+      "Buttered crusty bread",
+      "Side salad with vinaigrette",
+      "Steamed green beans"
+    ]
+  },
+  {
+    "name": "Oven-Baked Lemon Herb Cod Variation 24",
+    "protein": "cod",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 cod fillets",
+      "1 lemon, sliced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh parsley, chopped",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F.",
+      "Place cod in a baking dish, drizzle with olive oil, and season with oregano, salt, and pepper.",
+      "Layer lemon slices over fish.",
+      "Bake for 12\u201315 minutes until fish flakes easily.",
+      "Garnish with parsley before serving."
+    ],
+    "recommendedSides": [
+      "Steamed broccoli",
+      "Quinoa salad",
+      "Roasted zucchini"
+    ]
+  },
+  {
+    "name": "Grilled Salmon with Lemon Dill Sauce Variation 25",
+    "protein": "salmon",
+    "dietary": [
+      "pescatarian",
+      "gluten-free"
+    ],
+    "allergens": [
+      "seafood",
+      "dairy"
+    ],
+    "servings": 2,
+    "ingredients": [
+      "2 salmon fillets (6 oz each)",
+      "1 tbsp olive oil",
+      "1 lemon, zested and juiced",
+      "2 tbsp fresh dill, chopped",
+      "1/4 cup plain Greek yogurt",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat (375\u2013400\u00b0F).",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill salmon skin-side down for 4\u20135 minutes, flip, and cook another 3\u20134 minutes until flakes easily.",
+      "In a small bowl, mix yogurt, lemon zest, lemon juice, and dill.",
+      "Serve salmon topped with lemon dill sauce."
+    ],
+    "recommendedSides": [
+      "Grilled asparagus with olive oil and garlic",
+      "Roasted baby potatoes with rosemary",
+      "Mixed greens with balsamic vinaigrette"
+    ]
+  }
+]
