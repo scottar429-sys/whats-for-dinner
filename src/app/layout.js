@@ -1,6 +1,4 @@
 import "./globals.css";
-import ConsentBanner from "../components/ConsentBanner";
-import AdSenseLoader from "../components/AdSenseLoader";
 
 export const metadata = {
   title: "What&apos;s For Dinner?",
@@ -15,10 +13,6 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
-        {/* Consent shows until accepted */}
-        <ConsentBanner />
-        {/* Loads AdSense script only after consent is granted */}
-        <AdSenseLoader />
       </body>
     </html>
   );
