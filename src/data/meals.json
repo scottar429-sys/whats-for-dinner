@@ -324,40 +324,42 @@
     "is_one_pot": true,
     "servings": "6",
     "prep_time": "20 minutes",
-    "cook_time": "45 minutes",
-    "total_time": "1 hour 5 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
     "ingredients": [
-      "Soup Base",
-      "1 whole chicken (about 4 lbs), cut into pieces",
-      "8 cups chicken broth",
-      "2 carrots, diced",
-      "2 celery stalks, diced",
-      "1 onion, diced",
-      "2 cloves garlic, minced",
-      "1 tsp salt",
-      "1/2 tsp black pepper",
-      "1 tsp dried thyme",
+      "Main Ingredients",
+      "2 tbsp butter",
+      "1 onion, chopped",
+      "2 carrots, sliced",
+      "2 celery stalks, sliced",
+      "3 cloves garlic, minced",
+      "6 cups chicken broth",
+      "3 cups cooked chicken, shredded",
+      "1 tsp thyme",
+      "1 bay leaf",
+      "Salt and pepper to taste",
       "Dumplings",
       "2 cups all-purpose flour",
       "1 tbsp baking powder",
       "1 tsp salt",
-      "1/4 cup cold butter, cubed",
-      "3/4 cup milk"
+      "1 cup milk",
+      "4 tbsp butter, melted"
     ],
     "instructions": [
-      "In a large pot, combine chicken, broth, vegetables, garlic, and seasonings. Bring to a boil, reduce heat, and simmer until chicken is cooked (about 30 minutes).",
-      "Remove chicken, shred meat, and return to pot.",
-      "In a bowl, mix flour, baking powder, and salt. Cut in butter until crumbly, stir in milk until dough forms.",
-      "Drop spoonfuls of dough into simmering soup. Cover and cook without lifting lid for 15 minutes.",
+      "In a large pot, melt butter and saut\u00e9 onion, carrots, and celery until softened.",
+      "Add garlic and cook 1 minute.",
+      "Pour in broth, chicken, thyme, bay leaf, salt, and pepper. Simmer 10 minutes.",
+      "Mix dumpling ingredients in a bowl until just combined.",
+      "Drop spoonfuls of dough into simmering soup, cover, and cook 15 minutes without lifting lid.",
       "Serve hot."
     ],
     "variations": [
-      "Add peas for sweetness.",
-      "Use boneless chicken thighs for faster cooking."
+      "Add peas for extra vegetables.",
+      "Use biscuit mix for faster dumplings."
     ],
     "pro_tips": [
-      "Do not lift lid while dumplings cook \u2014 steam is essential.",
-      "Season broth well for flavorful dumplings."
+      "Do not overmix dumpling dough; it should be slightly sticky.",
+      "Keep lid closed while dumplings cook to ensure they steam properly."
     ],
     "methods": [
       "one-pot",
@@ -430,39 +432,38 @@
     ],
     "is_one_pot": false,
     "servings": "4",
-    "prep_time": "15 minutes",
-    "cook_time": "25 minutes",
-    "total_time": "40 minutes",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
     "ingredients": [
       "Grits",
       "4 cups water",
       "1 cup stone-ground grits",
-      "1 cup shredded cheddar cheese",
       "2 tbsp butter",
+      "1 cup shredded cheddar",
       "Salt to taste",
       "Shrimp",
       "1 lb large shrimp, peeled and deveined",
       "4 slices bacon, chopped",
       "1 bell pepper, diced",
       "2 cloves garlic, minced",
-      "1/4 cup green onions, chopped",
-      "1/2 tsp paprika",
-      "Salt and pepper to taste"
+      "1/4 cup green onions, sliced",
+      "1 tsp Cajun seasoning"
     ],
     "instructions": [
-      "In a pot, bring water to boil. Add grits and cook until tender (about 20 minutes). Stir in cheese, butter, and salt.",
-      "In a skillet, cook bacon until crisp. Remove bacon, reserve drippings.",
-      "Saut\u00e9 bell pepper and garlic in bacon drippings until tender.",
-      "Add shrimp, paprika, salt, and pepper; cook until pink (3\u20134 minutes).",
-      "Serve shrimp mixture over cheesy grits, topped with bacon and green onions."
+      "Cook grits according to package instructions, then stir in butter, cheddar, and salt.",
+      "In a skillet, cook bacon until crisp; remove and set aside.",
+      "Saut\u00e9 bell pepper and garlic in bacon fat until softened.",
+      "Add shrimp and Cajun seasoning; cook until shrimp are pink.",
+      "Serve shrimp mixture over grits, topped with bacon and green onions."
     ],
     "variations": [
-      "Add hot sauce for spice.",
-      "Use smoked gouda instead of cheddar."
+      "Use smoked sausage instead of bacon.",
+      "Add hot sauce for heat."
     ],
     "pro_tips": [
-      "Use fresh shrimp for best flavor.",
-      "Stir grits often to prevent sticking."
+      "Do not overcook shrimp; they cook quickly.",
+      "Stir grits often to avoid lumps."
     ],
     "methods": [
       "stove-top"
@@ -586,46 +587,42 @@
     "diet": [],
     "is_one_pot": false,
     "servings": "4",
-    "prep_time": "20 minutes",
+    "prep_time": "15 minutes",
     "cook_time": "20 minutes",
-    "total_time": "40 minutes",
+    "total_time": "35 minutes",
     "ingredients": [
-      "Steak",
+      "Main Ingredients",
       "4 cube steaks",
-      "2 cups all-purpose flour",
+      "1 cup all-purpose flour",
       "1 tsp paprika",
-      "1 tsp garlic powder",
-      "1 tsp salt",
-      "1/2 tsp black pepper",
-      "2 cups buttermilk",
-      "2 large eggs",
+      "1/2 tsp garlic powder",
+      "1/2 tsp onion powder",
+      "Salt and pepper to taste",
+      "2 eggs, beaten",
+      "1/4 cup milk",
       "Vegetable oil for frying",
       "Gravy",
-      "1/4 cup pan drippings",
-      "1/4 cup all-purpose flour",
-      "2 cups whole milk",
+      "2 tbsp pan drippings",
+      "2 tbsp flour",
+      "2 cups milk",
       "Salt and pepper to taste"
     ],
     "instructions": [
-      "Whisk eggs and buttermilk together in a shallow dish.",
-      "Mix flour, paprika, garlic powder, salt, and pepper in another dish.",
-      "Dredge steaks in flour, dip in buttermilk mixture, then back in flour.",
-      "Heat oil in skillet over medium-high heat. Fry steaks 3\u20134 minutes per side until golden.",
-      "For gravy, remove all but 1/4 cup drippings from skillet. Stir in flour and cook 1\u20132 minutes.",
-      "Gradually whisk in milk, cook until thickened. Season with salt and pepper.",
-      "Serve steaks topped with gravy."
+      "Mix flour, paprika, garlic powder, onion powder, salt, and pepper.",
+      "Whisk eggs and milk in another bowl.",
+      "Dredge steaks in flour, then egg mixture, then flour again.",
+      "Fry in oil over medium heat until golden, about 3\u20134 minutes per side.",
+      "For gravy, whisk flour into drippings, cook 1 minute, then whisk in milk until thickened. Season to taste."
     ],
     "variations": [
-      "Add cayenne to flour for a spicier crust.",
-      "Use chicken breasts pounded thin for a poultry version."
+      "Add cayenne pepper to flour for spice.",
+      "Serve with mashed potatoes and green beans."
     ],
     "pro_tips": [
-      "Do not overcrowd skillet; cook in batches if needed.",
-      "Let steaks rest on wire rack to keep crust crispy."
+      "Do not overcrowd pan when frying.",
+      "Keep cooked steaks warm in oven while making gravy."
     ],
-    "methods": [
-      "stove-top"
-    ],
+    "methods": [],
     "allergens": [
       "dairy",
       "eggs",
@@ -646,28 +643,29 @@
     "ingredients": [
       "Main Ingredients",
       "1 lb ground beef",
-      "1 onion, diced",
-      "1 green bell pepper, diced",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
       "2 cloves garlic, minced",
       "1 can (28 oz) crushed tomatoes",
-      "2 cups beef broth",
       "2 cups elbow macaroni",
+      "2 cups beef broth",
       "1 tsp Italian seasoning",
       "Salt and pepper to taste"
     ],
     "instructions": [
-      "In a large pot, brown beef with onion, pepper, and garlic; drain excess fat.",
-      "Stir in tomatoes, broth, macaroni, and Italian seasoning.",
-      "Bring to a boil, then reduce heat and simmer 15\u201320 minutes until pasta is tender.",
-      "Adjust seasoning and serve hot."
+      "In a large pot, cook beef, onion, and bell pepper until beef is browned.",
+      "Add garlic and cook 1 minute.",
+      "Stir in tomatoes, macaroni, broth, Italian seasoning, salt, and pepper.",
+      "Cover and simmer 20\u201325 minutes until pasta is tender.",
+      "Serve hot."
     ],
     "variations": [
-      "Add shredded cheddar for a cheesy version.",
-      "Mix in diced zucchini for extra vegetables."
+      "Add mushrooms for extra flavor.",
+      "Top with shredded cheese before serving."
     ],
     "pro_tips": [
       "Stir occasionally to prevent pasta from sticking.",
-      "Use a mix of ground beef and pork for richer flavor."
+      "Adjust broth amount if needed during cooking."
     ],
     "methods": [
       "one-pot",
@@ -691,30 +689,31 @@
     "ingredients": [
       "Main Ingredients",
       "1 lb beef stew meat, cubed",
+      "2 tbsp olive oil",
       "1 onion, chopped",
-      "2 carrots, diced",
-      "2 celery stalks, diced",
+      "2 carrots, sliced",
+      "2 celery stalks, sliced",
       "3 cloves garlic, minced",
       "8 cups beef broth",
-      "3/4 cup pearl barley",
-      "1 tsp dried thyme",
-      "2 bay leaves",
+      "1 cup pearl barley",
+      "1 bay leaf",
+      "1 tsp thyme",
       "Salt and pepper to taste"
     ],
     "instructions": [
-      "In a large pot, brown beef over medium-high heat.",
-      "Add onion, carrots, celery, and garlic; cook until softened.",
-      "Stir in broth, barley, thyme, and bay leaves.",
-      "Bring to a boil, reduce heat, cover, and simmer 1.5 hours until beef and barley are tender.",
-      "Remove bay leaves, adjust seasoning, and serve."
+      "Heat oil in a large pot, brown beef on all sides; remove and set aside.",
+      "Saut\u00e9 onion, carrots, celery, and garlic until softened.",
+      "Return beef to pot, add broth, barley, bay leaf, thyme, salt, and pepper.",
+      "Simmer 1\u20131.5 hours until beef and barley are tender.",
+      "Remove bay leaf before serving."
     ],
     "variations": [
-      "Add mushrooms for earthy flavor.",
-      "Use chicken and chicken broth instead for a lighter soup."
+      "Add mushrooms for a richer flavor.",
+      "Use chicken instead of beef for a lighter version."
     ],
     "pro_tips": [
-      "Barley will thicken soup as it cooks.",
-      "Skim fat off the top for a cleaner broth."
+      "Rinse barley before adding to remove excess starch.",
+      "Cook slowly for tender beef and full flavor."
     ],
     "methods": [
       "one-pot",
@@ -735,47 +734,39 @@
     "is_one_pot": false,
     "servings": "6",
     "prep_time": "20 minutes",
-    "cook_time": "30 minutes",
-    "total_time": "50 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
     "ingredients": [
-      "Meat Filling",
+      "Main Ingredients",
       "1 lb ground beef",
-      "1 onion, diced",
-      "2 carrots, diced",
-      "1 cup frozen peas",
-      "2 cloves garlic, minced",
+      "1 onion, chopped",
+      "2 cups mixed vegetables (peas, carrots, corn)",
       "2 tbsp tomato paste",
       "1 cup beef broth",
-      "1 tsp Worcestershire sauce",
-      "Salt and pepper to taste",
-      "Potato Topping",
-      "2 lbs potatoes, peeled and cubed",
-      "4 tbsp butter",
-      "1/2 cup milk",
+      "2 tbsp Worcestershire sauce",
+      "4 cups mashed potatoes",
       "Salt and pepper to taste"
     ],
     "instructions": [
-      "Boil potatoes until tender, mash with butter, milk, salt, and pepper.",
-      "In a skillet, brown beef with onion, carrots, and garlic.",
-      "Stir in tomato paste, broth, Worcestershire, peas, salt, and pepper. Simmer until slightly thickened.",
-      "Spread meat mixture in a baking dish, top with mashed potatoes.",
-      "Bake at 375\u00b0F (190\u00b0C) for 20\u201325 minutes until golden on top."
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "In a skillet, cook beef and onion until beef is browned; drain excess fat.",
+      "Stir in vegetables, tomato paste, broth, Worcestershire sauce, salt, and pepper; simmer 5 minutes.",
+      "Spread beef mixture in a baking dish, top with mashed potatoes.",
+      "Bake 20\u201325 minutes until potatoes are golden."
     ],
     "variations": [
-      "Use ground lamb for a traditional shepherd\u2019s pie.",
+      "Use ground turkey or lamb instead of beef.",
       "Top with shredded cheese before baking."
     ],
     "pro_tips": [
-      "Fluff potatoes with a fork for more texture.",
-      "Let pie cool slightly before serving."
+      "For extra creamy potatoes, use warm milk when mashing.",
+      "Let rest a few minutes before serving."
     ],
     "methods": [
       "oven-bake",
       "stove-top"
     ],
-    "allergens": [
-      "dairy"
-    ]
+    "allergens": []
   },
   {
     "name": "Crock Pot Pulled Pork",
@@ -788,43 +779,41 @@
     ],
     "is_one_pot": true,
     "servings": "8",
-    "prep_time": "15 minutes",
-    "cook_time": "8 hours",
-    "total_time": "8 hours 15 minutes",
+    "prep_time": "10 minutes",
+    "cook_time": "8 hours (slow cooker)",
+    "total_time": "8 hours 10 minutes",
     "ingredients": [
       "Main Ingredients",
-      "4\u20135 lbs pork shoulder (Boston butt)",
-      "1 large onion, sliced",
-      "4 cloves garlic, minced",
+      "4 lbs pork shoulder",
+      "1 onion, sliced",
       "1 cup chicken broth",
       "1/4 cup apple cider vinegar",
       "2 tbsp brown sugar",
-      "2 tsp smoked paprika",
-      "1 tsp chili powder",
+      "1 tbsp paprika",
+      "1 tsp garlic powder",
+      "1 tsp onion powder",
       "1 tsp salt",
-      "1/2 tsp black pepper",
-      "BBQ sauce for serving"
+      "1/2 tsp black pepper"
     ],
     "instructions": [
-      "Place sliced onion in the bottom of a slow cooker.",
-      "Rub pork with brown sugar, paprika, chili powder, salt, and pepper.",
-      "Place pork on top of onions, add garlic, broth, and vinegar.",
-      "Cover and cook on LOW for 8\u201310 hours or until pork is fork-tender.",
-      "Shred pork with two forks, mix with some cooking juices and BBQ sauce, and serve."
+      "Place onion slices in bottom of slow cooker.",
+      "Mix brown sugar, paprika, garlic powder, onion powder, salt, and pepper; rub onto pork.",
+      "Place pork on top of onions, pour broth and vinegar around it.",
+      "Cover and cook on low 8\u201310 hours until pork is tender.",
+      "Shred pork with two forks and mix with juices before serving."
     ],
     "variations": [
-      "Add cayenne pepper for heat.",
-      "Use a bone-in pork shoulder for more flavor."
+      "Add BBQ sauce after shredding for a different flavor.",
+      "Use pork loin for a leaner version."
     ],
     "pro_tips": [
-      "Remove excess fat before shredding.",
-      "For crispy edges, spread shredded pork on a baking sheet and broil for 5 minutes before serving."
+      "Remove excess fat before shredding for a cleaner texture.",
+      "Serve on buns with coleslaw for classic pulled pork sandwiches."
     ],
     "methods": [
-      "grill",
-      "one-pot",
       "slow cooker",
-      "stove-top"
+      "stove-top",
+      "one-pot"
     ],
     "allergens": []
   },
@@ -843,32 +832,30 @@
     "ingredients": [
       "Main Ingredients",
       "1 lb large shrimp, peeled and deveined",
-      "8 oz linguine or spaghetti",
-      "4 tbsp butter",
+      "3 tbsp butter",
       "2 tbsp olive oil",
       "4 cloves garlic, minced",
-      "1/4 tsp red pepper flakes",
-      "Juice of 1 lemon",
       "1/4 cup white wine or chicken broth",
+      "Juice of 1 lemon",
+      "1/4 cup fresh parsley, chopped",
       "Salt and pepper to taste",
-      "2 tbsp fresh parsley, chopped"
+      "8 oz linguine or spaghetti, cooked"
     ],
     "instructions": [
-      "Cook pasta according to package instructions; reserve 1/2 cup pasta water.",
-      "In a large skillet, melt butter with olive oil over medium heat.",
-      "Add garlic and red pepper flakes, cook 1 minute.",
-      "Add shrimp, season with salt and pepper, and cook until pink (2\u20133 minutes per side).",
-      "Remove shrimp, add wine or broth and lemon juice to skillet; simmer 2 minutes.",
-      "Return shrimp, add pasta, toss with sauce, and use pasta water as needed to loosen.",
-      "Garnish with parsley and serve."
+      "Season shrimp with salt and pepper.",
+      "In a skillet, heat butter and oil over medium heat.",
+      "Add garlic, cook 1 minute until fragrant.",
+      "Add shrimp and cook 2 minutes per side until pink.",
+      "Stir in wine or broth, lemon juice, and parsley.",
+      "Toss with pasta and serve immediately."
     ],
     "variations": [
-      "Use zucchini noodles instead of pasta for a low-carb version.",
-      "Add cherry tomatoes for color and sweetness."
+      "Add red pepper flakes for heat.",
+      "Use zucchini noodles instead of pasta for low-carb."
     ],
     "pro_tips": [
-      "Do not overcook shrimp; they turn rubbery quickly.",
-      "Fresh lemon juice is essential for bright flavor."
+      "Do not overcook shrimp; they should just turn pink.",
+      "Cook pasta al dente to hold up to sauce."
     ],
     "methods": [
       "stove-top"
@@ -1031,44 +1018,43 @@
       "pork"
     ],
     "diet": [
-      "gluten-free",
       "keto",
       "low-carb"
     ],
     "is_one_pot": false,
     "servings": "4",
     "prep_time": "10 minutes + 30 minutes marinating",
-    "cook_time": "12\u201315 minutes",
-    "total_time": "40\u201345 minutes",
+    "cook_time": "12 minutes",
+    "total_time": "42 minutes",
     "ingredients": [
       "Main Ingredients",
-      "4 bone-in pork chops, about 1 inch thick",
+      "4 bone-in pork chops",
       "2 tbsp olive oil",
+      "2 tbsp soy sauce",
       "2 cloves garlic, minced",
-      "1 tsp dried rosemary",
-      "1 tsp paprika",
-      "1/2 tsp salt",
-      "1/2 tsp black pepper"
+      "1 tsp rosemary",
+      "Salt and pepper to taste"
     ],
     "instructions": [
-      "In a bowl, mix olive oil, garlic, rosemary, paprika, salt, and pepper.",
-      "Rub mixture over pork chops and marinate for at least 30 minutes.",
+      "Mix olive oil, soy sauce, garlic, rosemary, salt, and pepper; coat pork chops and marinate 30 minutes.",
       "Preheat grill to medium-high heat.",
-      "Grill pork chops 5\u20137 minutes per side or until internal temperature reaches 145\u00b0F.",
-      "Let rest for 5 minutes before serving."
+      "Grill pork chops 5\u20136 minutes per side until internal temperature reaches 145\u00b0F (63\u00b0C).",
+      "Let rest 3 minutes before serving."
     ],
     "variations": [
-      "Add lemon juice to marinade for brightness.",
-      "Use thyme instead of rosemary for a different herb flavor."
+      "Use boneless chops for faster cooking.",
+      "Add lemon juice to marinade for brightness."
     ],
     "pro_tips": [
-      "Do not overcook; pork can dry out quickly.",
-      "Bone-in chops retain more moisture."
+      "Do not overcook; pork is best slightly pink inside.",
+      "Use a meat thermometer for accuracy."
     ],
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [
+      "soy"
+    ]
   },
   {
     "name": "Grilled Salmon with Dill Sauce",
@@ -1084,33 +1070,34 @@
     "is_one_pot": false,
     "servings": "4",
     "prep_time": "10 minutes",
-    "cook_time": "12 minutes",
-    "total_time": "22 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "20 minutes",
     "ingredients": [
-      "Salmon",
+      "Main Ingredients",
       "4 salmon fillets",
       "2 tbsp olive oil",
       "Salt and pepper to taste",
       "Dill Sauce",
       "1/2 cup sour cream",
+      "2 tbsp mayonnaise",
       "2 tbsp fresh dill, chopped",
       "1 tbsp lemon juice",
       "Salt and pepper to taste"
     ],
     "instructions": [
       "Preheat grill to medium-high heat.",
-      "Brush salmon with olive oil and season with salt and pepper.",
-      "Grill skin-side down for 6\u20137 minutes, then flip and cook 4\u20135 minutes more until salmon flakes easily.",
+      "Brush salmon with olive oil, season with salt and pepper.",
+      "Grill 4\u20135 minutes per side until flaky.",
       "Mix dill sauce ingredients in a bowl.",
-      "Serve salmon topped with dill sauce."
+      "Serve salmon with dill sauce drizzled over top."
     ],
     "variations": [
       "Use Greek yogurt instead of sour cream for a lighter sauce.",
-      "Add minced garlic to sauce for extra flavor."
+      "Add minced garlic to dill sauce for extra flavor."
     ],
     "pro_tips": [
       "Oil grill grates to prevent sticking.",
-      "Do not overcook salmon; it should be moist inside."
+      "Cook salmon skin-side down first for crisp skin."
     ],
     "methods": [
       "grill"
@@ -1133,31 +1120,31 @@
     "total_time": "30 minutes",
     "ingredients": [
       "Main Ingredients",
-      "4 boneless skinless chicken breasts",
-      "1/2 cup all-purpose flour",
-      "Salt and pepper to taste",
-      "3 tbsp olive oil",
+      "4 chicken breasts, pounded thin",
+      "1/2 cup flour for dredging",
+      "2 tbsp olive oil",
+      "2 tbsp butter",
       "8 oz mushrooms, sliced",
       "3/4 cup Marsala wine",
       "3/4 cup chicken broth",
-      "2 tbsp butter",
-      "2 tbsp fresh parsley, chopped"
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
     ],
     "instructions": [
-      "Pound chicken breasts to even thickness. Season with salt and pepper, dredge in flour.",
-      "Heat oil in a skillet over medium-high heat. Cook chicken 4\u20135 minutes per side until golden and cooked through; remove and keep warm.",
+      "Season chicken with salt and pepper, dredge in flour.",
+      "Heat oil and butter in skillet, cook chicken until golden, remove and set aside.",
       "Add mushrooms to skillet, cook until browned.",
-      "Pour in Marsala wine and broth, simmer until reduced by half.",
-      "Stir in butter, return chicken to skillet, and coat with sauce.",
-      "Garnish with parsley and serve."
+      "Pour in Marsala wine and broth, simmer 5 minutes.",
+      "Return chicken to pan, cook until heated through.",
+      "Garnish with parsley before serving."
     ],
     "variations": [
-      "Use dry sherry instead of Marsala for a twist.",
+      "Use pork cutlets instead of chicken.",
       "Add cream for a richer sauce."
     ],
     "pro_tips": [
-      "Do not overcrowd pan; cook chicken in batches if necessary.",
-      "Deglaze pan well to get all the flavor from browned bits."
+      "Do not overcrowd the pan when browning chicken.",
+      "Reduce sauce until slightly thickened for best flavor."
     ],
     "methods": [
       "stove-top"
@@ -1221,35 +1208,36 @@
       "pescatarian"
     ],
     "is_one_pot": false,
-    "servings": "12 mushrooms",
+    "servings": "6",
     "prep_time": "15 minutes",
     "cook_time": "20 minutes",
     "total_time": "35 minutes",
     "ingredients": [
       "Main Ingredients",
-      "12 large white mushrooms, stems removed",
-      "8 oz crab meat",
+      "24 large white mushrooms, stems removed",
+      "8 oz lump crab meat",
+      "4 oz cream cheese, softened",
       "1/4 cup breadcrumbs",
-      "1/4 cup cream cheese, softened",
-      "2 tbsp Parmesan cheese, grated",
+      "2 tbsp mayonnaise",
       "2 tbsp fresh parsley, chopped",
       "1 clove garlic, minced",
+      "1/4 cup Parmesan cheese, grated",
       "Salt and pepper to taste"
     ],
     "instructions": [
       "Preheat oven to 375\u00b0F (190\u00b0C).",
-      "In a bowl, mix crab meat, breadcrumbs, cream cheese, Parmesan, parsley, garlic, salt, and pepper.",
-      "Stuff mushroom caps with mixture and place on a baking sheet.",
-      "Bake 18\u201320 minutes until mushrooms are tender and filling is golden.",
-      "Serve warm."
+      "Clean mushrooms and remove stems.",
+      "In a bowl, mix crab meat, cream cheese, breadcrumbs, mayonnaise, parsley, garlic, Parmesan, salt, and pepper.",
+      "Stuff each mushroom cap with mixture and place on baking sheet.",
+      "Bake 18\u201320 minutes until golden and heated through."
     ],
     "variations": [
-      "Add diced red pepper for color.",
+      "Add a dash of Old Bay seasoning for classic flavor.",
       "Use panko breadcrumbs for extra crunch."
     ],
     "pro_tips": [
-      "Do not overbake mushrooms to prevent sogginess.",
-      "Drain crab meat well before mixing."
+      "Do not overbake; mushrooms release water if cooked too long.",
+      "Choose firm, large mushrooms for easier stuffing."
     ],
     "methods": [
       "oven-bake"
@@ -2126,60 +2114,6 @@
     ]
   },
   {
-    "name": "Shrimp and Grits",
-    "protein": [
-      "pork",
-      "seafood"
-    ],
-    "diet": [
-      "gluten-free",
-      "keto",
-      "low-carb"
-    ],
-    "is_one_pot": false,
-    "servings": "4",
-    "prep_time": "10 minutes",
-    "cook_time": "20 minutes",
-    "total_time": "30 minutes",
-    "ingredients": [
-      "Grits",
-      "4 cups water",
-      "1 cup stone-ground grits",
-      "2 tbsp butter",
-      "1 cup shredded cheddar",
-      "Salt to taste",
-      "Shrimp",
-      "1 lb large shrimp, peeled and deveined",
-      "4 slices bacon, chopped",
-      "1 bell pepper, diced",
-      "2 cloves garlic, minced",
-      "1/4 cup green onions, sliced",
-      "1 tsp Cajun seasoning"
-    ],
-    "instructions": [
-      "Cook grits according to package instructions, then stir in butter, cheddar, and salt.",
-      "In a skillet, cook bacon until crisp; remove and set aside.",
-      "Saut\u00e9 bell pepper and garlic in bacon fat until softened.",
-      "Add shrimp and Cajun seasoning; cook until shrimp are pink.",
-      "Serve shrimp mixture over grits, topped with bacon and green onions."
-    ],
-    "variations": [
-      "Use smoked sausage instead of bacon.",
-      "Add hot sauce for heat."
-    ],
-    "pro_tips": [
-      "Do not overcook shrimp; they cook quickly.",
-      "Stir grits often to avoid lumps."
-    ],
-    "methods": [
-      "stove-top"
-    ],
-    "allergens": [
-      "dairy",
-      "shellfish"
-    ]
-  },
-  {
     "name": "Ratatouille",
     "protein": [],
     "diet": [
@@ -2477,61 +2411,6 @@
     ]
   },
   {
-    "name": "Chicken and Dumplings",
-    "protein": [
-      "chicken"
-    ],
-    "diet": [],
-    "is_one_pot": true,
-    "servings": "6",
-    "prep_time": "20 minutes",
-    "cook_time": "40 minutes",
-    "total_time": "1 hour",
-    "ingredients": [
-      "Main Ingredients",
-      "2 tbsp butter",
-      "1 onion, chopped",
-      "2 carrots, sliced",
-      "2 celery stalks, sliced",
-      "3 cloves garlic, minced",
-      "6 cups chicken broth",
-      "3 cups cooked chicken, shredded",
-      "1 tsp thyme",
-      "1 bay leaf",
-      "Salt and pepper to taste",
-      "Dumplings",
-      "2 cups all-purpose flour",
-      "1 tbsp baking powder",
-      "1 tsp salt",
-      "1 cup milk",
-      "4 tbsp butter, melted"
-    ],
-    "instructions": [
-      "In a large pot, melt butter and saut\u00e9 onion, carrots, and celery until softened.",
-      "Add garlic and cook 1 minute.",
-      "Pour in broth, chicken, thyme, bay leaf, salt, and pepper. Simmer 10 minutes.",
-      "Mix dumpling ingredients in a bowl until just combined.",
-      "Drop spoonfuls of dough into simmering soup, cover, and cook 15 minutes without lifting lid.",
-      "Serve hot."
-    ],
-    "variations": [
-      "Add peas for extra vegetables.",
-      "Use biscuit mix for faster dumplings."
-    ],
-    "pro_tips": [
-      "Do not overmix dumpling dough; it should be slightly sticky.",
-      "Keep lid closed while dumplings cook to ensure they steam properly."
-    ],
-    "methods": [
-      "one-pot",
-      "stove-top"
-    ],
-    "allergens": [
-      "dairy",
-      "wheat/gluten"
-    ]
-  },
-  {
     "name": "Fajitas",
     "protein": [
       "beef",
@@ -2637,341 +2516,6 @@
     ],
     "allergens": [
       "shellfish"
-    ]
-  },
-  {
-    "name": "Chicken Fried Steak",
-    "protein": [
-      "beef",
-      "chicken"
-    ],
-    "diet": [],
-    "is_one_pot": false,
-    "servings": "4",
-    "prep_time": "15 minutes",
-    "cook_time": "20 minutes",
-    "total_time": "35 minutes",
-    "ingredients": [
-      "Main Ingredients",
-      "4 cube steaks",
-      "1 cup all-purpose flour",
-      "1 tsp paprika",
-      "1/2 tsp garlic powder",
-      "1/2 tsp onion powder",
-      "Salt and pepper to taste",
-      "2 eggs, beaten",
-      "1/4 cup milk",
-      "Vegetable oil for frying",
-      "Gravy",
-      "2 tbsp pan drippings",
-      "2 tbsp flour",
-      "2 cups milk",
-      "Salt and pepper to taste"
-    ],
-    "instructions": [
-      "Mix flour, paprika, garlic powder, onion powder, salt, and pepper.",
-      "Whisk eggs and milk in another bowl.",
-      "Dredge steaks in flour, then egg mixture, then flour again.",
-      "Fry in oil over medium heat until golden, about 3\u20134 minutes per side.",
-      "For gravy, whisk flour into drippings, cook 1 minute, then whisk in milk until thickened. Season to taste."
-    ],
-    "variations": [
-      "Add cayenne pepper to flour for spice.",
-      "Serve with mashed potatoes and green beans."
-    ],
-    "pro_tips": [
-      "Do not overcrowd pan when frying.",
-      "Keep cooked steaks warm in oven while making gravy."
-    ],
-    "methods": [],
-    "allergens": [
-      "dairy",
-      "eggs",
-      "wheat/gluten"
-    ]
-  },
-  {
-    "name": "American Chop Suey",
-    "protein": [
-      "beef"
-    ],
-    "diet": [],
-    "is_one_pot": true,
-    "servings": "6",
-    "prep_time": "10 minutes",
-    "cook_time": "30 minutes",
-    "total_time": "40 minutes",
-    "ingredients": [
-      "Main Ingredients",
-      "1 lb ground beef",
-      "1 onion, chopped",
-      "1 green bell pepper, chopped",
-      "2 cloves garlic, minced",
-      "1 can (28 oz) crushed tomatoes",
-      "2 cups elbow macaroni",
-      "2 cups beef broth",
-      "1 tsp Italian seasoning",
-      "Salt and pepper to taste"
-    ],
-    "instructions": [
-      "In a large pot, cook beef, onion, and bell pepper until beef is browned.",
-      "Add garlic and cook 1 minute.",
-      "Stir in tomatoes, macaroni, broth, Italian seasoning, salt, and pepper.",
-      "Cover and simmer 20\u201325 minutes until pasta is tender.",
-      "Serve hot."
-    ],
-    "variations": [
-      "Add mushrooms for extra flavor.",
-      "Top with shredded cheese before serving."
-    ],
-    "pro_tips": [
-      "Stir occasionally to prevent pasta from sticking.",
-      "Adjust broth amount if needed during cooking."
-    ],
-    "methods": [
-      "one-pot",
-      "stove-top"
-    ],
-    "allergens": [
-      "wheat/gluten"
-    ]
-  },
-  {
-    "name": "Beef and Barley Soup",
-    "protein": [
-      "beef"
-    ],
-    "diet": [],
-    "is_one_pot": true,
-    "servings": "6",
-    "prep_time": "15 minutes",
-    "cook_time": "1 hour 30 minutes",
-    "total_time": "1 hour 45 minutes",
-    "ingredients": [
-      "Main Ingredients",
-      "1 lb beef stew meat, cubed",
-      "2 tbsp olive oil",
-      "1 onion, chopped",
-      "2 carrots, sliced",
-      "2 celery stalks, sliced",
-      "3 cloves garlic, minced",
-      "8 cups beef broth",
-      "1 cup pearl barley",
-      "1 bay leaf",
-      "1 tsp thyme",
-      "Salt and pepper to taste"
-    ],
-    "instructions": [
-      "Heat oil in a large pot, brown beef on all sides; remove and set aside.",
-      "Saut\u00e9 onion, carrots, celery, and garlic until softened.",
-      "Return beef to pot, add broth, barley, bay leaf, thyme, salt, and pepper.",
-      "Simmer 1\u20131.5 hours until beef and barley are tender.",
-      "Remove bay leaf before serving."
-    ],
-    "variations": [
-      "Add mushrooms for a richer flavor.",
-      "Use chicken instead of beef for a lighter version."
-    ],
-    "pro_tips": [
-      "Rinse barley before adding to remove excess starch.",
-      "Cook slowly for tender beef and full flavor."
-    ],
-    "methods": [
-      "one-pot",
-      "stove-top"
-    ],
-    "allergens": [
-      "wheat/gluten"
-    ]
-  },
-  {
-    "name": "American Shepherd\u2019s Pie",
-    "protein": [
-      "beef"
-    ],
-    "diet": [
-      "gluten-free"
-    ],
-    "is_one_pot": false,
-    "servings": "6",
-    "prep_time": "20 minutes",
-    "cook_time": "40 minutes",
-    "total_time": "1 hour",
-    "ingredients": [
-      "Main Ingredients",
-      "1 lb ground beef",
-      "1 onion, chopped",
-      "2 cups mixed vegetables (peas, carrots, corn)",
-      "2 tbsp tomato paste",
-      "1 cup beef broth",
-      "2 tbsp Worcestershire sauce",
-      "4 cups mashed potatoes",
-      "Salt and pepper to taste"
-    ],
-    "instructions": [
-      "Preheat oven to 375\u00b0F (190\u00b0C).",
-      "In a skillet, cook beef and onion until beef is browned; drain excess fat.",
-      "Stir in vegetables, tomato paste, broth, Worcestershire sauce, salt, and pepper; simmer 5 minutes.",
-      "Spread beef mixture in a baking dish, top with mashed potatoes.",
-      "Bake 20\u201325 minutes until potatoes are golden."
-    ],
-    "variations": [
-      "Use ground turkey or lamb instead of beef.",
-      "Top with shredded cheese before baking."
-    ],
-    "pro_tips": [
-      "For extra creamy potatoes, use warm milk when mashing.",
-      "Let rest a few minutes before serving."
-    ],
-    "methods": [
-      "oven-bake",
-      "stove-top"
-    ],
-    "allergens": []
-  },
-  {
-    "name": "Crock Pot Pulled Pork",
-    "protein": [
-      "chicken",
-      "pork"
-    ],
-    "diet": [
-      "gluten-free"
-    ],
-    "is_one_pot": true,
-    "servings": "8",
-    "prep_time": "10 minutes",
-    "cook_time": "8 hours (slow cooker)",
-    "total_time": "8 hours 10 minutes",
-    "ingredients": [
-      "Main Ingredients",
-      "4 lbs pork shoulder",
-      "1 onion, sliced",
-      "1 cup chicken broth",
-      "1/4 cup apple cider vinegar",
-      "2 tbsp brown sugar",
-      "1 tbsp paprika",
-      "1 tsp garlic powder",
-      "1 tsp onion powder",
-      "1 tsp salt",
-      "1/2 tsp black pepper"
-    ],
-    "instructions": [
-      "Place onion slices in bottom of slow cooker.",
-      "Mix brown sugar, paprika, garlic powder, onion powder, salt, and pepper; rub onto pork.",
-      "Place pork on top of onions, pour broth and vinegar around it.",
-      "Cover and cook on low 8\u201310 hours until pork is tender.",
-      "Shred pork with two forks and mix with juices before serving."
-    ],
-    "variations": [
-      "Add BBQ sauce after shredding for a different flavor.",
-      "Use pork loin for a leaner version."
-    ],
-    "pro_tips": [
-      "Remove excess fat before shredding for a cleaner texture.",
-      "Serve on buns with coleslaw for classic pulled pork sandwiches."
-    ],
-    "methods": [
-      "slow cooker",
-      "stove-top",
-      "one-pot"
-    ],
-    "allergens": []
-  },
-  {
-    "name": "Shrimp Scampi",
-    "protein": [
-      "chicken",
-      "seafood"
-    ],
-    "diet": [],
-    "is_one_pot": false,
-    "servings": "4",
-    "prep_time": "10 minutes",
-    "cook_time": "10 minutes",
-    "total_time": "20 minutes",
-    "ingredients": [
-      "Main Ingredients",
-      "1 lb large shrimp, peeled and deveined",
-      "3 tbsp butter",
-      "2 tbsp olive oil",
-      "4 cloves garlic, minced",
-      "1/4 cup white wine or chicken broth",
-      "Juice of 1 lemon",
-      "1/4 cup fresh parsley, chopped",
-      "Salt and pepper to taste",
-      "8 oz linguine or spaghetti, cooked"
-    ],
-    "instructions": [
-      "Season shrimp with salt and pepper.",
-      "In a skillet, heat butter and oil over medium heat.",
-      "Add garlic, cook 1 minute until fragrant.",
-      "Add shrimp and cook 2 minutes per side until pink.",
-      "Stir in wine or broth, lemon juice, and parsley.",
-      "Toss with pasta and serve immediately."
-    ],
-    "variations": [
-      "Add red pepper flakes for heat.",
-      "Use zucchini noodles instead of pasta for low-carb."
-    ],
-    "pro_tips": [
-      "Do not overcook shrimp; they should just turn pink.",
-      "Cook pasta al dente to hold up to sauce."
-    ],
-    "methods": [
-      "stove-top"
-    ],
-    "allergens": [
-      "dairy",
-      "shellfish",
-      "wheat/gluten"
-    ]
-  },
-  {
-    "name": "Chicken Marsala",
-    "protein": [
-      "chicken"
-    ],
-    "diet": [],
-    "is_one_pot": false,
-    "servings": "4",
-    "prep_time": "10 minutes",
-    "cook_time": "20 minutes",
-    "total_time": "30 minutes",
-    "ingredients": [
-      "Main Ingredients",
-      "4 chicken breasts, pounded thin",
-      "1/2 cup flour for dredging",
-      "2 tbsp olive oil",
-      "2 tbsp butter",
-      "8 oz mushrooms, sliced",
-      "3/4 cup Marsala wine",
-      "3/4 cup chicken broth",
-      "Salt and pepper to taste",
-      "Fresh parsley for garnish"
-    ],
-    "instructions": [
-      "Season chicken with salt and pepper, dredge in flour.",
-      "Heat oil and butter in skillet, cook chicken until golden, remove and set aside.",
-      "Add mushrooms to skillet, cook until browned.",
-      "Pour in Marsala wine and broth, simmer 5 minutes.",
-      "Return chicken to pan, cook until heated through.",
-      "Garnish with parsley before serving."
-    ],
-    "variations": [
-      "Use pork cutlets instead of chicken.",
-      "Add cream for a richer sauce."
-    ],
-    "pro_tips": [
-      "Do not overcrowd the pan when browning chicken.",
-      "Reduce sauce until slightly thickened for best flavor."
-    ],
-    "methods": [
-      "stove-top"
-    ],
-    "allergens": [
-      "dairy",
-      "wheat/gluten"
     ]
   },
   {
@@ -6130,5 +5674,278 @@
       "one-pot"
     ],
     "allergens": []
+  },
+  {
+    "name": "Grilled Lamb Chops with Rosemary",
+    "protein": [
+      "lamb"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes + 1 hour marinating",
+    "cook_time": "8 minutes",
+    "total_time": "1 hour 18 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "8 lamb chops",
+      "3 tbsp olive oil",
+      "2 tbsp fresh rosemary, chopped",
+      "3 cloves garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Combine olive oil, rosemary, garlic, salt, and pepper; coat lamb chops and marinate 1 hour.",
+      "Preheat grill to medium-high heat.",
+      "Grill lamb chops 3\u20134 minutes per side for medium-rare.",
+      "Rest 5 minutes before serving."
+    ],
+    "variations": [
+      "Add lemon zest to marinade for brightness.",
+      "Use thyme instead of rosemary."
+    ],
+    "pro_tips": [
+      "Bring lamb to room temperature before grilling.",
+      "Do not overcook; lamb is best slightly pink inside."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Grilled Mahi-Mahi with Citrus Salsa",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 mahi-mahi fillets",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Citrus Salsa",
+      "1 orange, diced",
+      "1 grapefruit, diced",
+      "1/2 red onion, finely chopped",
+      "1 jalape\u00f1o, minced",
+      "2 tbsp cilantro, chopped",
+      "Juice of 1 lime",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "Brush mahi-mahi with olive oil, season with salt and pepper.",
+      "Grill 4\u20135 minutes per side until fish flakes easily.",
+      "Mix salsa ingredients in a bowl.",
+      "Serve fish topped with citrus salsa."
+    ],
+    "variations": [
+      "Add mango to salsa for extra sweetness.",
+      "Use cod or halibut instead of mahi-mahi."
+    ],
+    "pro_tips": [
+      "Cut citrus over a bowl to save juice for salsa.",
+      "Oil grill grates to prevent sticking."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Grilled Shrimp Tacos",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "6 minutes",
+    "total_time": "21 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb large shrimp, peeled and deveined",
+      "2 tbsp olive oil",
+      "1 tsp chili powder",
+      "1/2 tsp paprika",
+      "1/2 tsp cumin",
+      "Salt and pepper to taste",
+      "8 small tortillas",
+      "1 cup shredded lettuce",
+      "1/2 cup diced tomatoes",
+      "1/4 cup sour cream"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "Toss shrimp with olive oil, chili powder, paprika, cumin, salt, and pepper.",
+      "Grill shrimp 2\u20133 minutes per side until pink.",
+      "Serve in tortillas with lettuce, tomatoes, and sour cream."
+    ],
+    "variations": [
+      "Add avocado slices.",
+      "Use corn tortillas for gluten-free option."
+    ],
+    "pro_tips": [
+      "Do not overcook shrimp; they cook quickly.",
+      "Warm tortillas before serving."
+    ],
+    "methods": [
+      "grill",
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Smoked Sausage and Potato Foil Packets",
+    "protein": [
+      "pork"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb smoked sausage, sliced",
+      "1 lb baby potatoes, halved",
+      "1 red bell pepper, chopped",
+      "1 yellow bell pepper, chopped",
+      "2 tbsp olive oil",
+      "1 tsp paprika",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium heat.",
+      "Toss sausage, potatoes, and peppers with olive oil, paprika, salt, and pepper.",
+      "Divide mixture onto 4 large pieces of foil; fold and seal tightly.",
+      "Grill 25\u201330 minutes until potatoes are tender."
+    ],
+    "variations": [
+      "Add onions for extra flavor.",
+      "Use kielbasa instead of smoked sausage."
+    ],
+    "pro_tips": [
+      "Cut potatoes small for faster cooking.",
+      "Open packets carefully; steam will escape."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Smoked Portobello Burgers",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes + 30 minutes marinating",
+    "cook_time": "15 minutes",
+    "total_time": "55 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 large portobello mushrooms, stems removed",
+      "3 tbsp olive oil",
+      "2 tbsp balsamic vinegar",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste",
+      "4 burger buns",
+      "Lettuce, tomato, onion for topping"
+    ],
+    "instructions": [
+      "Mix olive oil, balsamic vinegar, garlic, salt, and pepper; coat mushrooms and marinate 30 minutes.",
+      "Preheat grill to medium heat.",
+      "Grill mushrooms 5\u20137 minutes per side until tender.",
+      "Serve on buns with toppings."
+    ],
+    "variations": [
+      "Add vegan cheese for extra flavor.",
+      "Top with grilled onions."
+    ],
+    "pro_tips": [
+      "Do not over-marinate; mushrooms can get soggy.",
+      "Press mushrooms gently to remove excess liquid before grilling."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Grilled Steak Fajitas",
+    "protein": [
+      "beef"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes + 1 hour marinating",
+    "cook_time": "10 minutes",
+    "total_time": "1 hour 25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb flank steak",
+      "2 tbsp olive oil",
+      "Juice of 1 lime",
+      "2 cloves garlic, minced",
+      "1 tsp chili powder",
+      "1 tsp cumin",
+      "Salt and pepper to taste",
+      "1 red bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 onion, sliced",
+      "8 flour tortillas"
+    ],
+    "instructions": [
+      "Mix olive oil, lime juice, garlic, chili powder, cumin, salt, and pepper; coat steak and marinate 1 hour.",
+      "Preheat grill to medium-high heat.",
+      "Grill steak 4\u20135 minutes per side; rest before slicing thinly.",
+      "Grill peppers and onion until tender.",
+      "Serve steak and vegetables in tortillas."
+    ],
+    "variations": [
+      "Use skirt steak instead of flank steak.",
+      "Add jalape\u00f1os for spice."
+    ],
+    "pro_tips": [
+      "Slice steak against the grain for tenderness.",
+      "Warm tortillas before serving."
+    ],
+    "methods": [
+      "grill",
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "wheat/gluten"
+    ]
   }
 ]
