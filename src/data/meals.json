@@ -1,42 +1,42 @@
 [
   {
-    "name": "**Classic Juicy Hamburgers**",
-    "protein": "ground beef",
-    "method": "grill",
-    "secondaryCookingMethod": "stove-top",
-    "dietary": [],
-    "allergens": [
-      "Wheat/Gluten",
-      "Dairy"
+    "name": "Classic Juicy Hamburgers",
+    "protein": [
+      "beef"
     ],
-    "allergenNotes": [
-      "Use gluten\u2011free buns for GF.",
-      "Cheese contains Dairy; omit for dairy\u2011free.",
-      "Some Worcestershire sauces contain anchovies (Fish). Check label if sensitive."
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
     ],
-    "prep_time": 15,
-    "cook_time": 10,
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "8\u201310 minutes",
+    "total_time": "25 minutes",
     "ingredients": [
-      "2 lb ground beef (80/20)",
+      "For the Patties",
+      "2 lbs (900 g) ground beef, 80/20 blend",
       "1 small onion, very finely grated or minced (optional)",
       "2 cloves garlic, minced (optional)",
-      "1 tsp kosher salt",
+      "1 tsp salt",
       "1/2 tsp black pepper",
       "1 tsp Worcestershire sauce",
       "1/2 tsp smoked paprika (optional)",
-      "4 burger buns, lightly toasted (Wheat/Gluten)",
-      "4 slices cheddar, American, or Swiss cheese (optional, Dairy)",
+      "For Serving",
+      "4 burger buns, lightly toasted",
+      "4 slices cheddar, American, or Swiss cheese (optional)",
       "Lettuce leaves",
       "Tomato slices",
       "Pickles",
-      "Ketchup, mustard, mayo, or BBQ sauce"
+      "Condiments of choice (ketchup, mustard, mayo, BBQ sauce)"
     ],
     "instructions": [
-      "Place ground beef in a large bowl; add seasonings and optional onion/garlic. Mix gently until just combined.",
-      "Divide into 4 equal portions; form patties with a small indentation in the center.",
-      "Preheat grill (or skillet) over medium\u2011high heat.",
-      "Cook patties 4\u20135 minutes on the first side without pressing, then flip and cook 3\u20134 minutes more for medium doneness.",
-      "Add cheese during the last minute if desired. Toast buns cut\u2011side down until golden.",
+      "Place ground beef in a large bowl, add seasonings and optional onion/garlic.",
+      "Mix gently until just combined. Divide into 4 equal portions and form patties with a small indentation in the center.",
+      "Preheat grill or skillet over medium-high heat.",
+      "Cook patties 4\u20135 minutes on the first side without pressing, then flip and cook 3\u20134 minutes more for medium.",
+      "Add cheese during the last minute if desired. Toast buns cut-side down until golden.",
       "Assemble burgers with desired toppings and serve hot."
     ],
     "variations": [
@@ -45,250 +45,2468 @@
       "Mushroom Swiss: Add saut\u00e9ed mushrooms with Swiss cheese.",
       "Spicy Kick: Mix chopped jalape\u00f1os into the beef."
     ],
-    "proTips": [
+    "pro_tips": [
       "Use cold meat for better shape retention.",
-      "An 80/20 beef blend ensures juiciness.",
+      "80/20 beef blend ensures juiciness.",
       "Do not press patties while cooking.",
       "Rest burgers 2\u20133 minutes before serving."
     ],
-    "totalTime": 25,
-    "servings": 2,
-    "portion": "Serves 2"
+    "methods": [
+      "grill",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
   },
   {
-    "name": "**Steak and Baked Potato**",
-    "protein": "steak",
-    "method": "stove-top",
-    "secondaryCookingMethod": "grill",
-    "dietary": [],
-    "allergens": [
-      "Dairy"
+    "name": "Crispy Southern Fried Chicken",
+    "protein": [
+      "chicken"
     ],
-    "allergenNotes": [
-      "Use dairy\u2011free butter/sour cream to avoid Dairy."
+    "diet": [
+      "dairy-free"
     ],
-    "prep_time": 10,
-    "cook_time": 60,
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "20 minutes + 4 hours marinating",
+    "cook_time": "20\u201325 minutes",
+    "total_time": "4 hours 45 minutes",
     "ingredients": [
-      "2 ribeye or sirloin steaks (8 oz each)",
-      "Kosher salt and black pepper, to taste",
-      "2 tbsp olive oil",
-      "2 large russet potatoes",
-      "Olive oil for rubbing",
-      "Kosher salt for potatoes",
-      "Butter, sour cream, and chives for topping (Dairy)"
+      "Chicken",
+      "1 whole chicken, cut into pieces",
+      "2 cups buttermilk",
+      "1 tbsp hot sauce (optional)",
+      "Coating",
+      "2 cups all-purpose flour",
+      "1 tsp paprika",
+      "1 tsp garlic powder",
+      "1 tsp onion powder",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1/2 tsp cayenne pepper (optional)",
+      "For Frying",
+      "Vegetable oil for deep frying"
     ],
     "instructions": [
-      "Preheat oven to 400\u00b0F (200\u00b0C). Scrub potatoes, pierce with a fork, rub with olive oil and salt; bake 1 hour or until tender.",
-      "Pat steaks dry; season with salt and pepper.",
-      "Heat a skillet or grill over high; add 1\u20132 tbsp olive oil.",
-      "Cook steaks 3\u20134 minutes per side for medium\u2011rare (adjust to desired doneness).",
-      "Serve steaks with baked potatoes topped with butter, sour cream, and chives."
+      "Place chicken pieces in a large bowl, cover with buttermilk and hot sauce. Marinate 4 hours or overnight.",
+      "Mix flour and seasonings in a large shallow dish.",
+      "Heat oil to 350\u00b0F (175\u00b0C) in a deep fryer or large pot.",
+      "Remove chicken from marinade, dredge in flour mixture, pressing to coat well.",
+      "Fry chicken in batches for 12\u201315 minutes (white meat) or 15\u201318 minutes (dark meat), until golden brown and internal temperature reaches 165\u00b0F.",
+      "Drain on paper towels before serving."
     ],
     "variations": [
-      "Garlic Herb Steak: Add a pat of garlic butter on top before serving.",
-      "Loaded Potatoes: Add shredded cheese, bacon bits, and sliced green onions."
+      "Spicy Fried Chicken: Add extra cayenne and chili powder to coating.",
+      "Oven-Fried: Bake coated chicken at 400\u00b0F for 40\u201350 minutes, turning halfway."
     ],
-    "proTips": [
-      "Bring steaks to room temperature before cooking.",
-      "Use a meat thermometer for perfect doneness.",
-      "Rest steaks for 5 minutes before slicing."
+    "pro_tips": [
+      "Maintain oil temperature to ensure crispiness.",
+      "Do not overcrowd the fryer; it lowers oil temperature.",
+      "Let coated chicken rest 10 minutes before frying for better crust."
     ],
-    "totalTime": 70,
-    "servings": 2,
-    "portion": "Serves 2"
+    "methods": [
+      "one-pot",
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "wheat/gluten"
+    ]
   },
   {
-    "name": "**Homestyle Macaroni and Cheese**",
-    "protein": "vegetarian",
-    "method": "stove-top",
-    "secondaryCookingMethod": "oven-bake",
-    "dietary": [
+    "name": "Baked Macaroni and Cheese",
+    "protein": [],
+    "diet": [
       "vegetarian"
     ],
-    "allergens": [
-      "Wheat/Gluten",
-      "Dairy"
-    ],
-    "allergenNotes": [
-      "Use gluten\u2011free pasta and cornstarch instead of flour to thicken for GF.",
-      "Use lactose\u2011free milk if needed."
-    ],
-    "prep_time": 10,
-    "cook_time": 20,
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "45 minutes",
     "ingredients": [
-      "1 lb elbow macaroni (Wheat/Gluten)",
-      "4 tbsp butter (Dairy)",
-      "4 tbsp all\u2011purpose flour (Wheat/Gluten)",
-      "4 cups whole milk (Dairy)",
-      "4 cups shredded sharp cheddar cheese (Dairy)",
-      "1 tsp kosher salt",
-      "1/2 tsp black pepper"
+      "Pasta",
+      "1 lb elbow macaroni",
+      "Cheese Sauce",
+      "4 tbsp butter",
+      "4 tbsp all-purpose flour",
+      "4 cups whole milk",
+      "4 cups shredded sharp cheddar cheese",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "Topping",
+      "1 cup breadcrumbs",
+      "2 tbsp melted butter"
     ],
     "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
       "Cook macaroni according to package directions; drain.",
-      "Melt butter in a saucepan over medium heat; whisk in flour and cook 1 minute.",
-      "Gradually whisk in milk; cook, stirring, until thickened.",
-      "Stir in cheddar until melted; season with salt and pepper.",
-      "Combine cheese sauce with macaroni and serve hot."
+      "In a saucepan, melt butter over medium heat. Whisk in flour and cook 1 minute.",
+      "Gradually whisk in milk, cook until thickened. Stir in cheese until melted.",
+      "Combine cheese sauce with macaroni, season with salt and pepper.",
+      "Pour into a greased baking dish. Mix breadcrumbs with melted butter, sprinkle on top.",
+      "Bake 20\u201325 minutes until golden and bubbly."
     ],
     "variations": [
-      "Baked Mac: Top with breadcrumbs and bake until golden.",
+      "Three-Cheese: Mix cheddar, mozzarella, and Parmesan.",
       "Spicy Mac: Add diced jalape\u00f1os or hot sauce.",
-      "Three\u2011Cheese: Use a mix of cheddar, mozzarella, and Parmesan."
+      "Bacon Mac: Stir in cooked bacon pieces."
     ],
-    "proTips": [
+    "pro_tips": [
       "Shred cheese yourself for smoother melting.",
-      "Do not boil the sauce after adding cheese to prevent graininess."
+      "Do not overcook pasta; it will cook more in the oven."
     ],
-    "totalTime": 30,
-    "servings": 2,
-    "portion": "Serves 2"
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
   },
   {
-    "name": "**Classic Meatloaf**",
-    "protein": "ground beef",
-    "method": "oven-bake",
-    "secondaryCookingMethod": "",
-    "dietary": [],
-    "allergens": [
-      "Wheat/Gluten",
-      "Dairy",
-      "Eggs"
+    "name": "Classic Meatloaf",
+    "protein": [
+      "beef"
     ],
-    "allergenNotes": [],
-    "prep_time": 20,
-    "cook_time": 60,
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "6\u20138",
+    "prep_time": "20 minutes",
+    "cook_time": "1 hour",
+    "total_time": "1 hour 20 minutes",
     "ingredients": [
-      "2 lb ground beef (80/20)",
-      "1 cup fresh breadcrumbs (Wheat/Gluten)",
-      "3/4 cup whole milk (Dairy)",
-      "2 large eggs, lightly beaten (Eggs)",
+      "Meat Mixture",
+      "2 lbs ground beef, 80/20",
+      "1 cup fresh breadcrumbs",
+      "3/4 cup whole milk",
+      "2 large eggs, lightly beaten",
       "1 medium onion, finely diced",
       "2 cloves garlic, minced",
-      "1/2 cup finely diced celery (optional)",
       "2 tbsp ketchup",
       "1 tbsp Worcestershire sauce",
-      "1 tsp Dijon mustard (optional)",
-      "1 tsp kosher salt",
+      "1 tsp salt",
       "1/2 tsp black pepper",
       "1 tsp dried thyme",
-      "2 tbsp chopped parsley (optional)",
-      "Glaze: 1/2 cup ketchup + 2 tbsp brown sugar + 1 tbsp apple cider vinegar + 1 tsp Worcestershire sauce"
+      "Glaze",
+      "1/2 cup ketchup",
+      "2 tbsp brown sugar",
+      "1 tbsp apple cider vinegar"
     ],
     "instructions": [
-      "Preheat oven to 350\u00b0F (175\u00b0C). Line a sheet pan or prep a loaf pan.",
+      "Preheat oven to 350\u00b0F (175\u00b0C).",
       "Combine breadcrumbs and milk; let sit 5 minutes.",
-      "Add eggs, onion, garlic, celery, ketchup, Worcestershire, mustard, salt, pepper, thyme, and parsley; mix to combine.",
-      "Add ground beef and gently mix until just combined; shape into a loaf.",
-      "Spread half the glaze over the loaf; bake 40 minutes.",
-      "Spread remaining glaze; bake another 20\u201325 minutes or until internal temperature reaches 160\u00b0F.",
+      "Add eggs, onion, garlic, ketchup, Worcestershire, salt, pepper, and thyme; mix well.",
+      "Add beef and mix gently until just combined.",
+      "Shape into a loaf on a baking sheet. Spread half the glaze over top.",
+      "Bake 40 minutes, spread remaining glaze, bake another 20\u201325 minutes until 160\u00b0F internal temp.",
       "Rest 10 minutes before slicing."
     ],
     "variations": [
       "BBQ Meatloaf: Use BBQ sauce instead of ketchup glaze.",
-      "Italian\u2011Style: Add Parmesan and Italian seasoning; use marinara for glaze.",
-      "Bacon\u2011Wrapped: Wrap the loaf with bacon before baking."
+      "Italian Meatloaf: Add Parmesan and Italian seasoning, top with marinara."
     ],
-    "proTips": [
-      "Do not overmix to keep meatloaf tender.",
-      "Day\u2011old breadcrumbs help absorb moisture.",
+    "pro_tips": [
+      "Do not overmix for a tender loaf.",
       "Resting allows juices to redistribute."
     ],
-    "totalTime": 80,
-    "servings": 2,
-    "portion": "Serves 2"
+    "methods": [
+      "grill",
+      "oven-bake"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
   },
   {
-    "name": "**Crispy Southern Fried Chicken**",
-    "protein": "chicken",
-    "method": "stove-top",
-    "secondaryCookingMethod": "oven-bake",
-    "dietary": [],
-    "allergens": [
-      "Wheat/Gluten",
-      "Dairy"
+    "name": "Hearty Beef Chili",
+    "protein": [
+      "beef"
     ],
-    "allergenNotes": [
-      "Use dairy\u2011free buttermilk alternative if needed."
+    "diet": [
+      "dairy-free",
+      "gluten-free"
     ],
-    "prep_time": 20,
-    "cook_time": 25,
-    "totalTime": 285,
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "1 hour",
+    "total_time": "1 hour 15 minutes",
     "ingredients": [
-      "1 whole chicken, cut into pieces",
-      "2 cups buttermilk (Dairy)",
-      "1 tbsp hot sauce (optional)",
-      "2 cups all\u2011purpose flour (Wheat/Gluten)",
+      "Main Ingredients",
+      "2 lbs ground beef",
+      "1 onion, diced",
+      "3 cloves garlic, minced",
+      "2 cans (15 oz) kidney beans, drained",
+      "2 cans (15 oz) diced tomatoes",
+      "1 cup beef broth",
+      "2 tbsp chili powder",
+      "1 tsp cumin",
       "1 tsp paprika",
-      "1 tsp garlic powder",
-      "1 tsp onion powder",
-      "1 tsp kosher salt",
-      "1/2 tsp black pepper",
-      "1/2 tsp cayenne pepper (optional)",
-      "Neutral oil for deep frying"
+      "Salt and pepper to taste"
     ],
     "instructions": [
-      "Place chicken pieces in a large bowl; cover with buttermilk and hot sauce. Marinate 4 hours or overnight in the refrigerator.",
-      "Mix flour, paprika, garlic powder, onion powder, salt, pepper, and cayenne (if using) in a shallow dish.",
-      "Heat oil to 350\u00b0F (175\u00b0C) in a deep fryer or heavy pot.",
-      "Remove chicken from marinade; dredge in flour mixture, pressing to coat well.",
-      "Fry in batches: 12\u201315 minutes for white meat or 15\u201318 minutes for dark meat, until golden and 165\u00b0F internal.",
-      "Drain on a rack or paper towels before serving."
+      "In a large pot, brown beef with onion and garlic; drain excess fat.",
+      "Add beans, tomatoes, broth, and seasonings.",
+      "Bring to a boil, then reduce heat and simmer uncovered for 45 minutes, stirring occasionally.",
+      "Adjust seasoning and serve hot."
     ],
     "variations": [
-      "Spicy Fried Chicken: Add extra cayenne and chili powder to the coating.",
-      "Oven\u2011Fried: Bake coated chicken at 400\u00b0F for 40\u201350 minutes, turning halfway."
+      "Add diced bell peppers for sweetness.",
+      "Use ground turkey for a lighter chili."
     ],
-    "proTips": [
-      "Maintain oil temperature for a crisp crust.",
-      "Do not overcrowd the fryer; it drops oil temperature.",
-      "Let coated chicken rest 10 minutes before frying for better adhesion."
+    "pro_tips": [
+      "Simmer longer for deeper flavor.",
+      "Chili tastes even better the next day."
     ],
-    "servings": 2,
-    "portion": "Serves 2"
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
   },
   {
-    "name": "**Chicken Fried Steak**",
-    "protein": "steak",
-    "method": "stove-top",
-    "secondaryCookingMethod": "",
-    "dietary": [],
-    "allergens": [
-      "Wheat/Gluten",
-      "Dairy"
+    "name": "Classic Chicken Pot Pie",
+    "protein": [
+      "chicken"
     ],
-    "allergenNotes": [],
-    "prep_time": 15,
-    "cook_time": 15,
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "30 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour 15 minutes",
     "ingredients": [
-      "4 cube steaks",
-      "2 cups all\u2011purpose flour (Wheat/Gluten)",
-      "1 tsp paprika",
-      "1 tsp garlic powder",
-      "1 tsp kosher salt",
-      "1/2 tsp black pepper",
-      "2 cups buttermilk (Dairy)",
-      "Neutral oil for frying",
-      "Gravy: 3 tbsp pan drippings + 3 tbsp flour (Wheat/Gluten) + 2 cups milk (Dairy)",
-      "Salt and pepper, to taste"
+      "Filling",
+      "2 cups cooked chicken, diced",
+      "1 cup carrots, diced",
+      "1 cup celery, diced",
+      "1 cup frozen peas",
+      "1/3 cup butter",
+      "1/3 cup all-purpose flour",
+      "1/2 tsp salt",
+      "1/4 tsp black pepper",
+      "1/4 tsp dried thyme",
+      "1 3/4 cups chicken broth",
+      "2/3 cup milk",
+      "Crust",
+      "2 prepared pie crusts (top and bottom)"
     ],
     "instructions": [
-      "Season steaks with salt and pepper. Dredge in flour mixed with paprika and garlic powder; dip in buttermilk; dredge again in flour.",
-      "Fry steaks in hot oil 3\u20134 minutes per side until golden and cooked through; drain briefly.",
-      "For gravy: Whisk flour into pan drippings; cook 1 minute; whisk in milk; simmer until thickened. Season with salt and pepper.",
+      "Preheat oven to 425\u00b0F (220\u00b0C).",
+      "In a saucepan, melt butter over medium heat. Add carrots and celery, cook until slightly softened.",
+      "Stir in flour, salt, pepper, and thyme to make a roux.",
+      "Gradually add chicken broth and milk, stirring until thickened.",
+      "Stir in chicken and peas. Remove from heat.",
+      "Line a pie dish with one crust, fill with mixture, cover with second crust. Seal edges and cut slits in top.",
+      "Bake 30\u201335 minutes or until crust is golden brown. Let rest 10 minutes before serving."
+    ],
+    "variations": [
+      "Use puff pastry instead of pie crust for a flakier topping.",
+      "Add mushrooms for extra flavor."
+    ],
+    "pro_tips": [
+      "Cool filling slightly before adding to crust to prevent sogginess.",
+      "Brush top crust with egg wash for shine."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Chicken and Dumplings",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour 5 minutes",
+    "ingredients": [
+      "Soup Base",
+      "1 whole chicken (about 4 lbs), cut into pieces",
+      "8 cups chicken broth",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1 tsp dried thyme",
+      "Dumplings",
+      "2 cups all-purpose flour",
+      "1 tbsp baking powder",
+      "1 tsp salt",
+      "1/4 cup cold butter, cubed",
+      "3/4 cup milk"
+    ],
+    "instructions": [
+      "In a large pot, combine chicken, broth, vegetables, garlic, and seasonings. Bring to a boil, reduce heat, and simmer until chicken is cooked (about 30 minutes).",
+      "Remove chicken, shred meat, and return to pot.",
+      "In a bowl, mix flour, baking powder, and salt. Cut in butter until crumbly, stir in milk until dough forms.",
+      "Drop spoonfuls of dough into simmering soup. Cover and cook without lifting lid for 15 minutes.",
+      "Serve hot."
+    ],
+    "variations": [
+      "Add peas for sweetness.",
+      "Use boneless chicken thighs for faster cooking."
+    ],
+    "pro_tips": [
+      "Do not lift lid while dumplings cook \u2014 steam is essential.",
+      "Season broth well for flavorful dumplings."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Hearty Beef Stew",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "2 hours",
+    "total_time": "2 hours 20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 lbs beef chuck, cut into 1-inch cubes",
+      "3 tbsp vegetable oil",
+      "1 onion, chopped",
+      "3 carrots, sliced",
+      "3 potatoes, diced",
+      "3 cloves garlic, minced",
+      "4 cups beef broth",
+      "1 cup red wine (optional)",
+      "2 tbsp tomato paste",
+      "1 tsp dried thyme",
+      "2 bay leaves",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, heat oil over medium-high heat. Brown beef in batches, remove and set aside.",
+      "Add onion, carrots, and garlic; cook until softened.",
+      "Stir in tomato paste, then add beef, potatoes, broth, wine, thyme, and bay leaves.",
+      "Bring to a boil, reduce heat, cover, and simmer for 1.5\u20132 hours until beef is tender.",
+      "Remove bay leaves, adjust seasoning, and serve."
+    ],
+    "variations": [
+      "Add peas for color and sweetness.",
+      "Use Guinness instead of wine for a richer flavor."
+    ],
+    "pro_tips": [
+      "Browning meat adds depth to flavor.",
+      "Cut vegetables uniformly for even cooking."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Shrimp and Grits",
+    "protein": [
+      "pork",
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Grits",
+      "4 cups water",
+      "1 cup stone-ground grits",
+      "1 cup shredded cheddar cheese",
+      "2 tbsp butter",
+      "Salt to taste",
+      "Shrimp",
+      "1 lb large shrimp, peeled and deveined",
+      "4 slices bacon, chopped",
+      "1 bell pepper, diced",
+      "2 cloves garlic, minced",
+      "1/4 cup green onions, chopped",
+      "1/2 tsp paprika",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a pot, bring water to boil. Add grits and cook until tender (about 20 minutes). Stir in cheese, butter, and salt.",
+      "In a skillet, cook bacon until crisp. Remove bacon, reserve drippings.",
+      "Saut\u00e9 bell pepper and garlic in bacon drippings until tender.",
+      "Add shrimp, paprika, salt, and pepper; cook until pink (3\u20134 minutes).",
+      "Serve shrimp mixture over cheesy grits, topped with bacon and green onions."
+    ],
+    "variations": [
+      "Add hot sauce for spice.",
+      "Use smoked gouda instead of cheddar."
+    ],
+    "pro_tips": [
+      "Use fresh shrimp for best flavor.",
+      "Stir grits often to prevent sticking."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish"
+    ]
+  },
+  {
+    "name": "Chicken or Beef Fajitas",
+    "protein": [
+      "beef",
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes + 30 minutes marinating",
+    "cook_time": "10 minutes",
+    "total_time": "55 minutes",
+    "ingredients": [
+      "Protein",
+      "1 lb chicken breast or flank steak, sliced thin",
+      "2 tbsp olive oil",
+      "Juice of 1 lime",
+      "2 cloves garlic, minced",
+      "1 tsp chili powder",
+      "1 tsp cumin",
+      "Salt and pepper to taste",
+      "Vegetables",
+      "1 red bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 onion, sliced",
+      "For Serving",
+      "Flour tortillas",
+      "Sour cream, salsa, shredded cheese"
+    ],
+    "instructions": [
+      "Combine protein with oil, lime juice, garlic, and spices. Marinate 30 minutes.",
+      "Heat a skillet over medium-high heat. Cook meat until done, remove and keep warm.",
+      "Add peppers and onions to skillet; saut\u00e9 until tender-crisp.",
+      "Return meat to skillet, toss to combine.",
+      "Serve with warm tortillas and toppings."
+    ],
+    "variations": [
+      "Use portobello mushrooms for a vegetarian version.",
+      "Add jalape\u00f1os for heat."
+    ],
+    "pro_tips": [
+      "Slice meat thin for quick cooking.",
+      "Serve sizzling hot for best presentation."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Classic Jambalaya",
+    "protein": [
+      "chicken",
+      "pork"
+    ],
+    "diet": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour 5 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb andouille sausage, sliced",
+      "1 lb chicken thighs, diced",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "2 celery stalks, chopped",
+      "3 cloves garlic, minced",
+      "1 can (14.5 oz) diced tomatoes",
+      "2 cups chicken broth",
+      "1 cup long-grain rice",
+      "2 tsp Cajun seasoning",
+      "1/2 tsp paprika",
+      "1/2 tsp thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, brown sausage and chicken; remove and set aside.",
+      "Add onion, pepper, celery, and garlic to pot; cook until softened.",
+      "Stir in rice, Cajun seasoning, paprika, and thyme; cook 1\u20132 minutes.",
+      "Add tomatoes, broth, sausage, and chicken; bring to a boil.",
+      "Reduce heat, cover, and simmer 20\u201325 minutes until rice is tender.",
+      "Adjust seasoning and serve hot."
+    ],
+    "variations": [
+      "Add shrimp during the last 5 minutes of cooking.",
+      "Use smoked turkey sausage for a lighter option."
+    ],
+    "pro_tips": [
+      "Do not stir rice too much while cooking to avoid mushiness.",
+      "Adjust Cajun seasoning to your spice preference."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "shellfish"
+    ]
+  },
+  {
+    "name": "Chicken Fried Steak",
+    "protein": [
+      "beef",
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "20 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Steak",
+      "4 cube steaks",
+      "2 cups all-purpose flour",
+      "1 tsp paprika",
+      "1 tsp garlic powder",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "2 cups buttermilk",
+      "2 large eggs",
+      "Vegetable oil for frying",
+      "Gravy",
+      "1/4 cup pan drippings",
+      "1/4 cup all-purpose flour",
+      "2 cups whole milk",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Whisk eggs and buttermilk together in a shallow dish.",
+      "Mix flour, paprika, garlic powder, salt, and pepper in another dish.",
+      "Dredge steaks in flour, dip in buttermilk mixture, then back in flour.",
+      "Heat oil in skillet over medium-high heat. Fry steaks 3\u20134 minutes per side until golden.",
+      "For gravy, remove all but 1/4 cup drippings from skillet. Stir in flour and cook 1\u20132 minutes.",
+      "Gradually whisk in milk, cook until thickened. Season with salt and pepper.",
       "Serve steaks topped with gravy."
     ],
     "variations": [
-      "Spicy: Add cayenne pepper to the flour mixture.",
-      "Herb Gravy: Stir chopped fresh herbs into the gravy."
+      "Add cayenne to flour for a spicier crust.",
+      "Use chicken breasts pounded thin for a poultry version."
     ],
-    "proTips": [
-      "Keep oil at ~350\u00b0F for a crisp coating.",
-      "Do not overcrowd the skillet to maintain heat."
+    "pro_tips": [
+      "Do not overcrowd skillet; cook in batches if needed.",
+      "Let steaks rest on wire rack to keep crust crispy."
     ],
-    "totalTime": 30,
-    "servings": 2,
-    "portion": "Serves 2"
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "American Chop Suey",
+    "protein": [
+      "beef"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "10 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb ground beef",
+      "1 onion, diced",
+      "1 green bell pepper, diced",
+      "2 cloves garlic, minced",
+      "1 can (28 oz) crushed tomatoes",
+      "2 cups beef broth",
+      "2 cups elbow macaroni",
+      "1 tsp Italian seasoning",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, brown beef with onion, pepper, and garlic; drain excess fat.",
+      "Stir in tomatoes, broth, macaroni, and Italian seasoning.",
+      "Bring to a boil, then reduce heat and simmer 15\u201320 minutes until pasta is tender.",
+      "Adjust seasoning and serve hot."
+    ],
+    "variations": [
+      "Add shredded cheddar for a cheesy version.",
+      "Mix in diced zucchini for extra vegetables."
+    ],
+    "pro_tips": [
+      "Stir occasionally to prevent pasta from sticking.",
+      "Use a mix of ground beef and pork for richer flavor."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Beef and Barley Soup",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "dairy-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "1 hour 30 minutes",
+    "total_time": "1 hour 45 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb beef stew meat, cubed",
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "3 cloves garlic, minced",
+      "8 cups beef broth",
+      "3/4 cup pearl barley",
+      "1 tsp dried thyme",
+      "2 bay leaves",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, brown beef over medium-high heat.",
+      "Add onion, carrots, celery, and garlic; cook until softened.",
+      "Stir in broth, barley, thyme, and bay leaves.",
+      "Bring to a boil, reduce heat, cover, and simmer 1.5 hours until beef and barley are tender.",
+      "Remove bay leaves, adjust seasoning, and serve."
+    ],
+    "variations": [
+      "Add mushrooms for earthy flavor.",
+      "Use chicken and chicken broth instead for a lighter soup."
+    ],
+    "pro_tips": [
+      "Barley will thicken soup as it cooks.",
+      "Skim fat off the top for a cleaner broth."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "American Shepherd\u2019s Pie",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "50 minutes",
+    "ingredients": [
+      "Meat Filling",
+      "1 lb ground beef",
+      "1 onion, diced",
+      "2 carrots, diced",
+      "1 cup frozen peas",
+      "2 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "1 cup beef broth",
+      "1 tsp Worcestershire sauce",
+      "Salt and pepper to taste",
+      "Potato Topping",
+      "2 lbs potatoes, peeled and cubed",
+      "4 tbsp butter",
+      "1/2 cup milk",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Boil potatoes until tender, mash with butter, milk, salt, and pepper.",
+      "In a skillet, brown beef with onion, carrots, and garlic.",
+      "Stir in tomato paste, broth, Worcestershire, peas, salt, and pepper. Simmer until slightly thickened.",
+      "Spread meat mixture in a baking dish, top with mashed potatoes.",
+      "Bake at 375\u00b0F (190\u00b0C) for 20\u201325 minutes until golden on top."
+    ],
+    "variations": [
+      "Use ground lamb for a traditional shepherd\u2019s pie.",
+      "Top with shredded cheese before baking."
+    ],
+    "pro_tips": [
+      "Fluff potatoes with a fork for more texture.",
+      "Let pie cool slightly before serving."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Crock Pot Pulled Pork",
+    "protein": [
+      "chicken",
+      "pork"
+    ],
+    "diet": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "8",
+    "prep_time": "15 minutes",
+    "cook_time": "8 hours",
+    "total_time": "8 hours 15 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4\u20135 lbs pork shoulder (Boston butt)",
+      "1 large onion, sliced",
+      "4 cloves garlic, minced",
+      "1 cup chicken broth",
+      "1/4 cup apple cider vinegar",
+      "2 tbsp brown sugar",
+      "2 tsp smoked paprika",
+      "1 tsp chili powder",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "BBQ sauce for serving"
+    ],
+    "instructions": [
+      "Place sliced onion in the bottom of a slow cooker.",
+      "Rub pork with brown sugar, paprika, chili powder, salt, and pepper.",
+      "Place pork on top of onions, add garlic, broth, and vinegar.",
+      "Cover and cook on LOW for 8\u201310 hours or until pork is fork-tender.",
+      "Shred pork with two forks, mix with some cooking juices and BBQ sauce, and serve."
+    ],
+    "variations": [
+      "Add cayenne pepper for heat.",
+      "Use a bone-in pork shoulder for more flavor."
+    ],
+    "pro_tips": [
+      "Remove excess fat before shredding.",
+      "For crispy edges, spread shredded pork on a baking sheet and broil for 5 minutes before serving."
+    ],
+    "methods": [
+      "grill",
+      "one-pot",
+      "slow cooker",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Shrimp Scampi",
+    "protein": [
+      "chicken",
+      "seafood"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb large shrimp, peeled and deveined",
+      "8 oz linguine or spaghetti",
+      "4 tbsp butter",
+      "2 tbsp olive oil",
+      "4 cloves garlic, minced",
+      "1/4 tsp red pepper flakes",
+      "Juice of 1 lemon",
+      "1/4 cup white wine or chicken broth",
+      "Salt and pepper to taste",
+      "2 tbsp fresh parsley, chopped"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions; reserve 1/2 cup pasta water.",
+      "In a large skillet, melt butter with olive oil over medium heat.",
+      "Add garlic and red pepper flakes, cook 1 minute.",
+      "Add shrimp, season with salt and pepper, and cook until pink (2\u20133 minutes per side).",
+      "Remove shrimp, add wine or broth and lemon juice to skillet; simmer 2 minutes.",
+      "Return shrimp, add pasta, toss with sauce, and use pasta water as needed to loosen.",
+      "Garnish with parsley and serve."
+    ],
+    "variations": [
+      "Use zucchini noodles instead of pasta for a low-carb version.",
+      "Add cherry tomatoes for color and sweetness."
+    ],
+    "pro_tips": [
+      "Do not overcook shrimp; they turn rubbery quickly.",
+      "Fresh lemon juice is essential for bright flavor."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Baked Ziti",
+    "protein": [
+      "beef",
+      "pork"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "8",
+    "prep_time": "20 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "50 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb ziti pasta",
+      "1 lb Italian sausage or ground beef",
+      "1 jar (24 oz) marinara sauce",
+      "1 cup ricotta cheese",
+      "2 cups shredded mozzarella",
+      "1/2 cup grated Parmesan",
+      "2 cloves garlic, minced",
+      "1 tsp Italian seasoning",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "Cook pasta until al dente; drain.",
+      "In a skillet, brown meat with garlic; drain excess fat.",
+      "Stir in marinara sauce, Italian seasoning, salt, and pepper.",
+      "Mix pasta with ricotta and half the mozzarella.",
+      "Layer pasta mixture, meat sauce, and remaining mozzarella in a baking dish.",
+      "Top with Parmesan and bake 20\u201325 minutes until bubbly and golden."
+    ],
+    "variations": [
+      "Add spinach to ricotta mixture for extra greens.",
+      "Use a spicy marinara for heat."
+    ],
+    "pro_tips": [
+      "Let ziti rest 5 minutes before serving to set layers.",
+      "Shred mozzarella fresh for better melting."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "protein": [
+      "beef",
+      "turkey"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour 5 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "6 bell peppers, tops cut off and seeds removed",
+      "1 lb ground beef or turkey",
+      "1 cup cooked rice",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "1 can (14.5 oz) diced tomatoes",
+      "1 cup shredded mozzarella",
+      "1 tsp Italian seasoning",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "In a skillet, brown meat with onion and garlic; drain excess fat.",
+      "Stir in rice, tomatoes, Italian seasoning, salt, and pepper.",
+      "Stuff peppers with mixture and place in baking dish.",
+      "Top with cheese, cover with foil, and bake 30 minutes.",
+      "Remove foil and bake an additional 10\u201315 minutes until cheese is melted and peppers are tender."
+    ],
+    "variations": [
+      "Use quinoa instead of rice for a healthier option.",
+      "Add black beans and corn for a Tex-Mex twist."
+    ],
+    "pro_tips": [
+      "Parboil peppers for 5 minutes before stuffing for softer texture.",
+      "Choose peppers that can stand upright for easier filling."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Turkey Burgers",
+    "protein": [
+      "turkey"
+    ],
+    "diet": [
+      "dairy-free"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb ground turkey",
+      "1/4 cup breadcrumbs",
+      "1 egg",
+      "2 cloves garlic, minced",
+      "1/4 cup onion, finely minced",
+      "1 tbsp Worcestershire sauce",
+      "1/2 tsp paprika",
+      "Salt and pepper to taste",
+      "Burger buns and toppings of choice"
+    ],
+    "instructions": [
+      "In a bowl, combine turkey, breadcrumbs, egg, garlic, onion, Worcestershire, paprika, salt, and pepper.",
+      "Form mixture into 4 patties.",
+      "Heat a skillet or grill over medium-high heat; cook patties 4\u20135 minutes per side until cooked through (165\u00b0F internal temp).",
+      "Serve on buns with toppings."
+    ],
+    "variations": [
+      "Add shredded zucchini for extra moisture.",
+      "Use feta and spinach mixed into patties for a Mediterranean twist."
+    ],
+    "pro_tips": [
+      "Do not overmix meat to keep burgers tender.",
+      "Brush patties with oil before grilling to prevent sticking."
+    ],
+    "methods": [
+      "grill",
+      "stove-top"
+    ],
+    "allergens": [
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Grilled Pork Chops",
+    "protein": [
+      "pork"
+    ],
+    "diet": [
+      "dairy-free",
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes + 30 minutes marinating",
+    "cook_time": "12\u201315 minutes",
+    "total_time": "40\u201345 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 bone-in pork chops, about 1 inch thick",
+      "2 tbsp olive oil",
+      "2 cloves garlic, minced",
+      "1 tsp dried rosemary",
+      "1 tsp paprika",
+      "1/2 tsp salt",
+      "1/2 tsp black pepper"
+    ],
+    "instructions": [
+      "In a bowl, mix olive oil, garlic, rosemary, paprika, salt, and pepper.",
+      "Rub mixture over pork chops and marinate for at least 30 minutes.",
+      "Preheat grill to medium-high heat.",
+      "Grill pork chops 5\u20137 minutes per side or until internal temperature reaches 145\u00b0F.",
+      "Let rest for 5 minutes before serving."
+    ],
+    "variations": [
+      "Add lemon juice to marinade for brightness.",
+      "Use thyme instead of rosemary for a different herb flavor."
+    ],
+    "pro_tips": [
+      "Do not overcook; pork can dry out quickly.",
+      "Bone-in chops retain more moisture."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Grilled Salmon with Dill Sauce",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb",
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "12 minutes",
+    "total_time": "22 minutes",
+    "ingredients": [
+      "Salmon",
+      "4 salmon fillets",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Dill Sauce",
+      "1/2 cup sour cream",
+      "2 tbsp fresh dill, chopped",
+      "1 tbsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "Brush salmon with olive oil and season with salt and pepper.",
+      "Grill skin-side down for 6\u20137 minutes, then flip and cook 4\u20135 minutes more until salmon flakes easily.",
+      "Mix dill sauce ingredients in a bowl.",
+      "Serve salmon topped with dill sauce."
+    ],
+    "variations": [
+      "Use Greek yogurt instead of sour cream for a lighter sauce.",
+      "Add minced garlic to sauce for extra flavor."
+    ],
+    "pro_tips": [
+      "Oil grill grates to prevent sticking.",
+      "Do not overcook salmon; it should be moist inside."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": [
+      "dairy",
+      "fish"
+    ]
+  },
+  {
+    "name": "Chicken Marsala",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 boneless skinless chicken breasts",
+      "1/2 cup all-purpose flour",
+      "Salt and pepper to taste",
+      "3 tbsp olive oil",
+      "8 oz mushrooms, sliced",
+      "3/4 cup Marsala wine",
+      "3/4 cup chicken broth",
+      "2 tbsp butter",
+      "2 tbsp fresh parsley, chopped"
+    ],
+    "instructions": [
+      "Pound chicken breasts to even thickness. Season with salt and pepper, dredge in flour.",
+      "Heat oil in a skillet over medium-high heat. Cook chicken 4\u20135 minutes per side until golden and cooked through; remove and keep warm.",
+      "Add mushrooms to skillet, cook until browned.",
+      "Pour in Marsala wine and broth, simmer until reduced by half.",
+      "Stir in butter, return chicken to skillet, and coat with sauce.",
+      "Garnish with parsley and serve."
+    ],
+    "variations": [
+      "Use dry sherry instead of Marsala for a twist.",
+      "Add cream for a richer sauce."
+    ],
+    "pro_tips": [
+      "Do not overcrowd pan; cook chicken in batches if necessary.",
+      "Deglaze pan well to get all the flavor from browned bits."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Pork Tenderloin with Garlic Herb Rub",
+    "protein": [
+      "pork"
+    ],
+    "diet": [
+      "dairy-free",
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4\u20136",
+    "prep_time": "10 minutes",
+    "cook_time": "25\u201330 minutes",
+    "total_time": "35\u201340 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 pork tenderloins",
+      "3 cloves garlic, minced",
+      "2 tbsp olive oil",
+      "1 tbsp fresh rosemary, chopped",
+      "1 tbsp fresh thyme, chopped",
+      "1 tsp salt",
+      "1/2 tsp black pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F (200\u00b0C).",
+      "Mix garlic, olive oil, rosemary, thyme, salt, and pepper into a paste.",
+      "Rub mixture evenly over tenderloins.",
+      "Place on a baking sheet and roast 25\u201330 minutes or until internal temp reaches 145\u00b0F.",
+      "Rest 5 minutes before slicing."
+    ],
+    "variations": [
+      "Add Dijon mustard to rub for extra tang.",
+      "Marinate overnight for deeper flavor."
+    ],
+    "pro_tips": [
+      "Use a meat thermometer to avoid overcooking.",
+      "Slice against the grain for tenderness."
+    ],
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Crab-Stuffed Mushrooms",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "12 mushrooms",
+    "prep_time": "15 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "35 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "12 large white mushrooms, stems removed",
+      "8 oz crab meat",
+      "1/4 cup breadcrumbs",
+      "1/4 cup cream cheese, softened",
+      "2 tbsp Parmesan cheese, grated",
+      "2 tbsp fresh parsley, chopped",
+      "1 clove garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "In a bowl, mix crab meat, breadcrumbs, cream cheese, Parmesan, parsley, garlic, salt, and pepper.",
+      "Stuff mushroom caps with mixture and place on a baking sheet.",
+      "Bake 18\u201320 minutes until mushrooms are tender and filling is golden.",
+      "Serve warm."
+    ],
+    "variations": [
+      "Add diced red pepper for color.",
+      "Use panko breadcrumbs for extra crunch."
+    ],
+    "pro_tips": [
+      "Do not overbake mushrooms to prevent sogginess.",
+      "Drain crab meat well before mixing."
+    ],
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Beef Fajita Bowls",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes + 30 minutes marinating",
+    "cook_time": "15 minutes",
+    "total_time": "45 minutes",
+    "ingredients": [
+      "Beef Marinade",
+      "1 lb flank steak, thinly sliced",
+      "2 tbsp olive oil",
+      "Juice of 1 lime",
+      "2 cloves garlic, minced",
+      "1 tsp chili powder",
+      "1 tsp cumin",
+      "1/2 tsp paprika",
+      "Salt and pepper to taste",
+      "Vegetables",
+      "1 red bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 onion, sliced",
+      "For Serving",
+      "2 cups cooked rice",
+      "Sour cream, shredded cheese, salsa, avocado"
+    ],
+    "instructions": [
+      "Combine beef with marinade ingredients; refrigerate for 30 minutes.",
+      "Heat a large skillet over medium-high heat. Cook beef until browned; remove and set aside.",
+      "In same skillet, saut\u00e9 peppers and onions until tender-crisp.",
+      "Serve beef and vegetables over rice with toppings of choice."
+    ],
+    "variations": [
+      "Use quinoa instead of rice for a lighter base.",
+      "Add black beans and corn for extra flavor."
+    ],
+    "pro_tips": [
+      "Slice beef against the grain for tenderness.",
+      "Cook beef in batches to avoid steaming."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Chicken Quesadillas",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 cups cooked chicken, shredded",
+      "1 cup shredded cheddar or Monterey Jack cheese",
+      "1/2 cup diced bell peppers",
+      "1/4 cup diced onions",
+      "8 flour tortillas",
+      "2 tbsp butter or oil"
+    ],
+    "instructions": [
+      "Heat a skillet over medium heat. Add a tortilla, sprinkle with cheese, chicken, peppers, and onions, then more cheese.",
+      "Top with another tortilla and cook until golden on bottom, about 3\u20134 minutes.",
+      "Flip and cook until golden on second side and cheese is melted.",
+      "Repeat with remaining ingredients. Slice into wedges and serve."
+    ],
+    "variations": [
+      "Add jalape\u00f1os for spice.",
+      "Use a blend of cheeses for more flavor."
+    ],
+    "pro_tips": [
+      "Cook on medium heat to melt cheese without burning tortillas.",
+      "Use pre-cooked chicken for a quick meal."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Pan-Seared Scallops with Butter Sauce",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "keto",
+      "low-carb",
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "6 minutes",
+    "total_time": "16 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb large sea scallops",
+      "Salt and pepper to taste",
+      "2 tbsp olive oil",
+      "2 tbsp butter",
+      "2 cloves garlic, minced",
+      "Juice of 1 lemon",
+      "2 tbsp fresh parsley, chopped"
+    ],
+    "instructions": [
+      "Pat scallops dry and season with salt and pepper.",
+      "Heat oil in a skillet over medium-high heat. Sear scallops 2\u20133 minutes per side until golden and opaque; remove from pan.",
+      "Lower heat to medium, add butter and garlic; cook 1 minute.",
+      "Stir in lemon juice and parsley. Return scallops to pan to coat in sauce.",
+      "Serve immediately."
+    ],
+    "variations": [
+      "Add a splash of white wine to the sauce.",
+      "Serve over pasta or risotto."
+    ],
+    "pro_tips": [
+      "Dry scallops well to ensure a good sear.",
+      "Do not overcrowd pan; cook in batches if necessary."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "protein": [
+      "pork"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "12 oz spaghetti",
+      "4 oz pancetta or bacon, diced",
+      "2 cloves garlic, minced",
+      "3 large eggs",
+      "1 cup grated Parmesan cheese",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti in salted water until al dente; reserve 1 cup pasta water.",
+      "In a skillet, cook pancetta until crisp; add garlic and cook 1 minute.",
+      "Whisk eggs and Parmesan in a bowl.",
+      "Drain pasta and quickly toss with pancetta mixture. Remove from heat, add egg mixture, and toss, adding pasta water as needed to create a creamy sauce.",
+      "Season with pepper and serve immediately."
+    ],
+    "variations": [
+      "Add peas for color and sweetness.",
+      "Use Pecorino Romano for a sharper flavor."
+    ],
+    "pro_tips": [
+      "Work quickly when adding eggs to prevent scrambling.",
+      "Reserve pasta water to adjust sauce consistency."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Beef and Broccoli Stir Fry",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "dairy-free"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb flank steak, sliced thin against the grain",
+      "2 cups broccoli florets",
+      "2 tbsp vegetable oil",
+      "2 cloves garlic, minced",
+      "1 tsp fresh ginger, minced",
+      "1/4 cup soy sauce",
+      "2 tbsp oyster sauce",
+      "1 tbsp cornstarch mixed with 2 tbsp water",
+      "1/2 cup beef broth"
+    ],
+    "instructions": [
+      "Heat oil in a large skillet or wok over medium-high heat. Stir-fry beef until browned; remove and set aside.",
+      "Add broccoli, garlic, and ginger; stir-fry 2\u20133 minutes.",
+      "Return beef to skillet, add soy sauce, oyster sauce, and broth.",
+      "Stir in cornstarch slurry, cook until sauce thickens.",
+      "Serve over steamed rice."
+    ],
+    "variations": [
+      "Add bell peppers for more color.",
+      "Use chicken instead of beef for variety."
+    ],
+    "pro_tips": [
+      "Slice beef thin for quick cooking.",
+      "Do not overcook broccoli; it should be tender-crisp."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "soy"
+    ]
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 pizza dough ball",
+      "1/2 cup BBQ sauce",
+      "1 1/2 cups cooked chicken, shredded",
+      "1 cup shredded mozzarella",
+      "1/2 cup shredded cheddar",
+      "1/4 cup red onion, thinly sliced",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Preheat oven to 475\u00b0F (245\u00b0C).",
+      "Roll out pizza dough on a floured surface and transfer to a baking sheet or pizza stone.",
+      "Spread BBQ sauce evenly over dough.",
+      "Top with chicken, mozzarella, cheddar, and red onion.",
+      "Bake 12\u201315 minutes until crust is golden and cheese is bubbly.",
+      "Garnish with fresh cilantro before serving."
+    ],
+    "variations": [
+      "Add sliced jalape\u00f1os for spice.",
+      "Use smoked gouda instead of cheddar for extra smokiness."
+    ],
+    "pro_tips": [
+      "Preheat pizza stone for a crispier crust.",
+      "Do not overload toppings to ensure even cooking."
+    ],
+    "methods": [
+      "grill",
+      "oven-bake"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Lobster Rolls",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb",
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "5 minutes",
+    "total_time": "20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb cooked lobster meat, chopped",
+      "1/4 cup mayonnaise",
+      "1 tbsp lemon juice",
+      "2 tbsp celery, finely diced",
+      "Salt and pepper to taste",
+      "4 New England-style split-top buns",
+      "2 tbsp butter, melted"
+    ],
+    "instructions": [
+      "In a bowl, mix lobster meat, mayonnaise, lemon juice, celery, salt, and pepper.",
+      "Brush buns with melted butter and toast until golden.",
+      "Fill buns with lobster mixture and serve immediately."
+    ],
+    "variations": [
+      "Add chopped chives or parsley for freshness.",
+      "Use lettuce leaves inside the bun for crunch."
+    ],
+    "pro_tips": [
+      "Chill lobster mixture before serving for a refreshing bite.",
+      "Use top-quality lobster for best flavor."
+    ],
+    "methods": [],
+    "allergens": [
+      "dairy",
+      "shellfish"
+    ]
+  },
+  {
+    "name": "Stuffed Cabbage Rolls",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "30 minutes",
+    "cook_time": "1 hour 30 minutes",
+    "total_time": "2 hours",
+    "ingredients": [
+      "Cabbage Rolls",
+      "12 large cabbage leaves",
+      "1 lb ground beef",
+      "1/2 cup cooked rice",
+      "1 small onion, finely chopped",
+      "2 cloves garlic, minced",
+      "1 egg",
+      "Salt and pepper to taste",
+      "Tomato Sauce",
+      "2 cups tomato sauce",
+      "1 cup beef broth",
+      "1 tbsp brown sugar",
+      "1 tbsp vinegar",
+      "1 tsp paprika"
+    ],
+    "instructions": [
+      "Bring a large pot of water to boil. Blanch cabbage leaves for 2\u20133 minutes until pliable.",
+      "In a bowl, mix beef, rice, onion, garlic, egg, salt, and pepper.",
+      "Place a portion of filling in each cabbage leaf and roll tightly, tucking in sides.",
+      "In a large pot, mix tomato sauce ingredients and bring to simmer.",
+      "Place rolls seam-side down in sauce, cover, and simmer 1.5 hours until tender."
+    ],
+    "variations": [
+      "Use ground pork or a beef-pork mix for richer flavor.",
+      "Add chopped herbs like dill or parsley to filling."
+    ],
+    "pro_tips": [
+      "Do not overstuff leaves to prevent tearing.",
+      "Simmer gently to keep rolls intact."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "eggs"
+    ]
+  },
+  {
+    "name": "Baked Salmon with Honey Mustard Glaze",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "dairy-free",
+      "gluten-free",
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 salmon fillets",
+      "2 tbsp Dijon mustard",
+      "2 tbsp honey",
+      "1 tbsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F (200\u00b0C).",
+      "In a small bowl, whisk mustard, honey, lemon juice, salt, and pepper.",
+      "Place salmon on a lined baking sheet and brush with glaze.",
+      "Bake 12\u201315 minutes until salmon flakes easily with a fork."
+    ],
+    "variations": [
+      "Add minced garlic to glaze for extra flavor.",
+      "Top with chopped herbs after baking."
+    ],
+    "pro_tips": [
+      "Do not overcook; salmon should be moist inside.",
+      "Line pan with foil for easy cleanup."
+    ],
+    "methods": [
+      "grill",
+      "oven-bake"
+    ],
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "name": "Chicken Parmesan",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 boneless, skinless chicken breasts",
+      "1 cup breadcrumbs",
+      "1/2 cup grated Parmesan cheese",
+      "1 tsp Italian seasoning",
+      "2 eggs, beaten",
+      "2 cups marinara sauce",
+      "1 cup shredded mozzarella",
+      "2 tbsp olive oil"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "Pound chicken to even thickness. Mix breadcrumbs, Parmesan, and Italian seasoning.",
+      "Dip chicken in eggs, then breadcrumb mixture.",
+      "Heat oil in a skillet and brown chicken 2\u20133 minutes per side.",
+      "Place chicken in a baking dish, top with marinara and mozzarella.",
+      "Bake 20 minutes until cheese is melted and chicken is cooked through."
+    ],
+    "variations": [
+      "Use provolone instead of mozzarella for a richer flavor.",
+      "Add fresh basil before serving."
+    ],
+    "pro_tips": [
+      "Do not overcrowd skillet when browning chicken.",
+      "For crispier chicken, bake on a wire rack."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Beef Stroganoff",
+    "protein": [
+      "beef"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "45 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb beef sirloin, sliced thin",
+      "2 tbsp butter",
+      "1 onion, chopped",
+      "8 oz mushrooms, sliced",
+      "2 cloves garlic, minced",
+      "2 cups beef broth",
+      "1 tbsp Worcestershire sauce",
+      "1 cup sour cream",
+      "2 tbsp flour",
+      "12 oz egg noodles",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Melt butter in a large pot over medium heat. Brown beef, then remove and set aside.",
+      "Saut\u00e9 onion, mushrooms, and garlic until softened.",
+      "Stir in flour, cook 1 minute, then add broth and Worcestershire sauce.",
+      "Add noodles and simmer until tender, about 10 minutes.",
+      "Return beef to pot, stir in sour cream, and season to taste."
+    ],
+    "variations": [
+      "Add paprika for more flavor.",
+      "Use ground beef instead of sliced steak for a budget version."
+    ],
+    "pro_tips": [
+      "Do not boil after adding sour cream to prevent curdling.",
+      "Slice beef against the grain for tenderness."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Shakshuka",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "1 red bell pepper, chopped",
+      "3 cloves garlic, minced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1/4 tsp cayenne pepper",
+      "1 can (28 oz) crushed tomatoes",
+      "Salt and pepper to taste",
+      "4\u20136 large eggs",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a large skillet. Saut\u00e9 onion and bell pepper until softened.",
+      "Add garlic and spices, cook 1 minute.",
+      "Stir in tomatoes, simmer 10 minutes.",
+      "Make wells in sauce, crack eggs into wells, cover, and cook until eggs are set to desired doneness.",
+      "Garnish with parsley and serve with crusty bread."
+    ],
+    "variations": [
+      "Add feta cheese before serving.",
+      "Use spinach or kale for extra greens."
+    ],
+    "pro_tips": [
+      "Cook eggs gently to keep yolks runny.",
+      "Simmer sauce to concentrate flavor before adding eggs."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Teriyaki Chicken",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [
+      "dairy-free"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb chicken thighs, boneless and skinless",
+      "1/4 cup soy sauce",
+      "2 tbsp honey",
+      "2 tbsp rice vinegar",
+      "2 cloves garlic, minced",
+      "1 tsp fresh ginger, minced",
+      "1 tbsp cornstarch mixed with 2 tbsp water",
+      "2 tbsp vegetable oil",
+      "Sesame seeds and green onions for garnish"
+    ],
+    "instructions": [
+      "In a bowl, mix soy sauce, honey, vinegar, garlic, and ginger.",
+      "Heat oil in a skillet, cook chicken until browned and cooked through.",
+      "Pour sauce over chicken, bring to simmer.",
+      "Add cornstarch slurry and cook until sauce thickens.",
+      "Garnish with sesame seeds and green onions."
+    ],
+    "variations": [
+      "Use chicken breast instead of thighs.",
+      "Add broccoli or snap peas for vegetables."
+    ],
+    "pro_tips": [
+      "Do not over-reduce sauce; it will thicken quickly with cornstarch.",
+      "Marinate chicken for 30 minutes for more flavor."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "sesame",
+      "soy"
+    ]
+  },
+  {
+    "name": "Creamy Tomato Basil Soup",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "10 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 cans (28 oz each) crushed tomatoes",
+      "2 cups chicken or vegetable broth",
+      "1 cup heavy cream",
+      "1/4 cup fresh basil, chopped",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a pot, saut\u00e9 onion until translucent.",
+      "Add garlic and cook 1 minute.",
+      "Stir in tomatoes and broth, simmer 20 minutes.",
+      "Blend soup until smooth, return to pot.",
+      "Stir in cream and basil, season to taste."
+    ],
+    "variations": [
+      "Add red pepper flakes for spice.",
+      "Use coconut milk instead of cream for dairy-free."
+    ],
+    "pro_tips": [
+      "Use fresh basil for best flavor.",
+      "Blend in batches to avoid splattering."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Chicken Alfredo Pasta",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "8 oz fettuccine pasta",
+      "2 tbsp butter",
+      "1 lb chicken breast, sliced",
+      "2 cloves garlic, minced",
+      "1 cup heavy cream",
+      "1 cup grated Parmesan cheese",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions; drain.",
+      "In a skillet, melt butter and cook chicken until golden and cooked through.",
+      "Add garlic, cook 1 minute.",
+      "Pour in cream, bring to simmer, stir in Parmesan until smooth.",
+      "Toss pasta with sauce, garnish with parsley."
+    ],
+    "variations": [
+      "Add broccoli for vegetables.",
+      "Use shrimp instead of chicken."
+    ],
+    "pro_tips": [
+      "Do not boil sauce after adding cheese to prevent separation.",
+      "Cook pasta al dente so it finishes cooking in sauce."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Chicken Pot Pie",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour 5 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 cups cooked chicken, diced",
+      "1 cup carrots, diced",
+      "1 cup peas",
+      "1 cup potatoes, diced",
+      "1/3 cup butter",
+      "1/3 cup flour",
+      "2 cups chicken broth",
+      "1 cup milk",
+      "Salt and pepper to taste",
+      "1 refrigerated pie crust"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F (220\u00b0C).",
+      "In a saucepan, melt butter, stir in flour to form a roux.",
+      "Gradually whisk in broth and milk, cooking until thickened.",
+      "Add chicken, carrots, peas, and potatoes; season with salt and pepper.",
+      "Pour mixture into a pie dish, cover with crust, and seal edges.",
+      "Cut slits in crust and bake 30\u201335 minutes until golden brown."
+    ],
+    "variations": [
+      "Use puff pastry instead of pie crust.",
+      "Add mushrooms for more flavor."
+    ],
+    "pro_tips": [
+      "Let pie cool slightly before cutting to avoid a runny filling.",
+      "Brush crust with egg wash for a shiny finish."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Bangers and Mash",
+    "protein": [
+      "beef",
+      "pork"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "8 pork sausages",
+      "2 lbs potatoes, peeled and cubed",
+      "1/4 cup butter",
+      "1/2 cup milk",
+      "Salt and pepper to taste",
+      "1 large onion, sliced",
+      "2 tbsp flour",
+      "2 cups beef broth"
+    ],
+    "instructions": [
+      "Boil potatoes until tender, drain, and mash with butter, milk, salt, and pepper.",
+      "Cook sausages in a skillet until browned and cooked through; remove and keep warm.",
+      "In the same skillet, saut\u00e9 onions until caramelized.",
+      "Stir in flour, cook 1 minute, then whisk in broth to make gravy.",
+      "Serve sausages over mashed potatoes with onion gravy."
+    ],
+    "variations": [
+      "Use chicken or beef sausages.",
+      "Add garlic to mashed potatoes."
+    ],
+    "pro_tips": [
+      "Cook sausages over medium heat to avoid splitting.",
+      "Mash potatoes while hot for a smoother texture."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "20 minutes + marinating time",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Marinade",
+      "1 lb chicken breast, cubed",
+      "1 cup plain yogurt",
+      "2 cloves garlic, minced",
+      "1 tsp ginger, minced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "Salt to taste",
+      "Sauce",
+      "2 tbsp butter",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "1 tsp ginger, minced",
+      "2 tsp garam masala",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1/2 tsp turmeric",
+      "1 can (15 oz) tomato sauce",
+      "1 cup heavy cream",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt, garlic, ginger, cumin, paprika, and salt for at least 1 hour.",
+      "In a pot, melt butter and saut\u00e9 onion until softened.",
+      "Add garlic, ginger, and spices; cook 1 minute.",
+      "Stir in tomato sauce, bring to simmer.",
+      "Add chicken and cook until done, then stir in cream and season to taste."
+    ],
+    "variations": [
+      "Use coconut milk instead of cream for dairy-free.",
+      "Add vegetables like peas or bell peppers."
+    ],
+    "pro_tips": [
+      "Marinate chicken overnight for best flavor.",
+      "Simmer gently after adding cream to avoid curdling."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Shrimp and Grits",
+    "protein": [
+      "pork",
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Grits",
+      "4 cups water",
+      "1 cup stone-ground grits",
+      "2 tbsp butter",
+      "1 cup shredded cheddar",
+      "Salt to taste",
+      "Shrimp",
+      "1 lb large shrimp, peeled and deveined",
+      "4 slices bacon, chopped",
+      "1 bell pepper, diced",
+      "2 cloves garlic, minced",
+      "1/4 cup green onions, sliced",
+      "1 tsp Cajun seasoning"
+    ],
+    "instructions": [
+      "Cook grits according to package instructions, then stir in butter, cheddar, and salt.",
+      "In a skillet, cook bacon until crisp; remove and set aside.",
+      "Saut\u00e9 bell pepper and garlic in bacon fat until softened.",
+      "Add shrimp and Cajun seasoning; cook until shrimp are pink.",
+      "Serve shrimp mixture over grits, topped with bacon and green onions."
+    ],
+    "variations": [
+      "Use smoked sausage instead of bacon.",
+      "Add hot sauce for heat."
+    ],
+    "pro_tips": [
+      "Do not overcook shrimp; they cook quickly.",
+      "Stir grits often to avoid lumps."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish"
+    ]
+  },
+  {
+    "name": "Ratatouille",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "1 eggplant, diced",
+      "1 zucchini, diced",
+      "1 yellow squash, diced",
+      "1 red bell pepper, diced",
+      "1 green bell pepper, diced",
+      "3 cloves garlic, minced",
+      "2 cups tomato sauce",
+      "1 tsp thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot. Saut\u00e9 onion until softened.",
+      "Add eggplant, zucchini, squash, and peppers; cook 5\u20137 minutes.",
+      "Add garlic, tomato sauce, thyme, salt, and pepper.",
+      "Simmer 30\u201335 minutes until vegetables are tender."
+    ],
+    "variations": [
+      "Add fresh basil before serving.",
+      "Top with Parmesan cheese."
+    ],
+    "pro_tips": [
+      "Cut vegetables into similar sizes for even cooking.",
+      "Serve with crusty bread to soak up sauce."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Stuffed Zucchini Boats",
+    "protein": [
+      "beef",
+      "turkey"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 medium zucchinis",
+      "1 lb ground beef or turkey",
+      "1/2 cup onion, diced",
+      "1 cup marinara sauce",
+      "1 cup shredded mozzarella",
+      "1/4 cup grated Parmesan",
+      "1 tsp Italian seasoning",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "Slice zucchinis in half lengthwise and scoop out seeds to create boats.",
+      "In a skillet, cook meat and onion until browned; drain excess fat.",
+      "Stir in marinara, Italian seasoning, salt, and pepper.",
+      "Spoon mixture into zucchini boats, top with mozzarella and Parmesan.",
+      "Bake 20\u201325 minutes until zucchini is tender and cheese is melted."
+    ],
+    "variations": [
+      "Add cooked rice or quinoa to filling.",
+      "Use sausage instead of ground beef."
+    ],
+    "pro_tips": [
+      "Do not overbake or zucchini will become mushy.",
+      "Choose zucchinis of similar size for even cooking."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Paella",
+    "protein": [
+      "chicken",
+      "seafood"
+    ],
+    "diet": [
+      "dairy-free",
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "1 red bell pepper, chopped",
+      "2 cloves garlic, minced",
+      "1 1/2 cups short-grain rice",
+      "1/4 tsp saffron threads",
+      "1 tsp paprika",
+      "4 cups chicken broth",
+      "1/2 lb chicken thighs, chopped",
+      "1/2 lb shrimp, peeled and deveined",
+      "1/2 lb mussels or clams, cleaned",
+      "1 cup peas",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large skillet or paella pan. Saut\u00e9 onion, bell pepper, and garlic until softened.",
+      "Add rice, saffron, and paprika; cook 2 minutes.",
+      "Pour in broth, bring to a simmer.",
+      "Add chicken, cook 15 minutes.",
+      "Add shrimp, mussels, and peas; cook until seafood is done and rice is tender.",
+      "Season with salt and pepper, serve hot."
+    ],
+    "variations": [
+      "Use chorizo for added flavor.",
+      "Add squid rings for more seafood variety."
+    ],
+    "pro_tips": [
+      "Do not stir after adding broth; this helps form the socarrat (crispy bottom).",
+      "Use high-quality saffron for best flavor."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "shellfish"
+    ]
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 large eggplants, sliced into 1/2-inch rounds",
+      "1 cup breadcrumbs",
+      "1/2 cup grated Parmesan cheese",
+      "2 eggs, beaten",
+      "2 cups marinara sauce",
+      "2 cups shredded mozzarella",
+      "1 tsp Italian seasoning",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "Mix breadcrumbs, Parmesan, Italian seasoning, salt, and pepper.",
+      "Dip eggplant slices in eggs, then breadcrumb mixture.",
+      "Bake on a lined sheet for 20 minutes, flipping halfway.",
+      "In a baking dish, layer sauce, eggplant, mozzarella; repeat.",
+      "Bake 20 minutes until cheese is melted and bubbly."
+    ],
+    "variations": [
+      "Fry eggplant slices for a richer flavor.",
+      "Add ricotta cheese between layers."
+    ],
+    "pro_tips": [
+      "Salt eggplant slices and let sit to remove bitterness before breading.",
+      "Use fresh mozzarella for a creamier texture."
+    ],
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Fish Tacos",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb white fish fillets (cod, tilapia, or halibut)",
+      "1 tbsp olive oil",
+      "1 tsp chili powder",
+      "1/2 tsp cumin",
+      "Salt and pepper to taste",
+      "8 corn tortillas",
+      "Toppings: shredded cabbage, salsa, sour cream, lime wedges"
+    ],
+    "instructions": [
+      "Season fish with olive oil, chili powder, cumin, salt, and pepper.",
+      "Cook fish in a skillet over medium heat for 3\u20134 minutes per side until flaky.",
+      "Warm tortillas in a dry skillet or oven.",
+      "Assemble tacos with fish and desired toppings."
+    ],
+    "variations": [
+      "Use shrimp instead of fish.",
+      "Add avocado slices for creaminess."
+    ],
+    "pro_tips": [
+      "Do not overcook fish; it should flake easily.",
+      "Serve immediately for best texture."
+    ],
+    "methods": [
+      "one-pot",
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "fish",
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Vegetable Curry",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "45 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tbsp fresh ginger, minced",
+      "2 tbsp curry powder",
+      "1 tsp turmeric",
+      "1 can (14 oz) coconut milk",
+      "2 cups vegetable broth",
+      "2 cups mixed vegetables (carrots, potatoes, cauliflower)",
+      "1 cup peas",
+      "Salt to taste",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a large pot, saut\u00e9 onion until softened.",
+      "Add garlic, ginger, curry powder, and turmeric; cook 1 minute.",
+      "Stir in coconut milk, broth, and vegetables; simmer until tender, about 20 minutes.",
+      "Add peas and cook 5 minutes more.",
+      "Season with salt, garnish with cilantro, and serve."
+    ],
+    "variations": [
+      "Add chickpeas for more protein.",
+      "Use sweet potatoes for a sweeter flavor."
+    ],
+    "pro_tips": [
+      "Cut vegetables into similar sizes for even cooking.",
+      "Simmer gently to keep vegetables intact."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
   }
 ]
