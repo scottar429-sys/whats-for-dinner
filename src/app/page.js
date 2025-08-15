@@ -1,501 +1,514 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import mealsRaw from "../data/meals.json";
+import mealsData from "@/data/meals.json";
 
-/* =========================
-   Helpers & Normalizers
-   ========================= */
-function toArray(x) {
-  if (!x) return [];
-  if (Array.isArray(x)) return x;
-  if (typeof x === "string") return [x];
-  return [];
-}
-
-// Parse time strings like "1 hour 15 minutes", "8–10 minutes", "30 min" → minutes (number)
-function toMinutes(str) {
-  if (!str || typeof str !== "string") return 0;
-  const s = str.toLowerCase();
-  let minutes = 0;
-
-  // hours
-  const hrMatch = s.match(/(\d+)\s*hour/);
-  if (hrMatch) minutes += parseInt(hrMatch[1], 10) * 60;
-
-  // ranges like 8–10 minutes or 8-10 min: take upper bound
-  const rangeMatch = s.match(/(\d+)\s*[–-]\s*(\d+)\s*min/);
-  if (rangeMatch) {
-    minutes += parseInt(rangeMatch[2], 10);
-    return minutes;
-  }
-
-  // plain minutes
-  const minMatch = s.match(/(\d+)\s*min/);
-  if (minMatch) {
-    minutes += parseInt(minMatch[1], 10);
-  }
-  return minutes;
-}
-
-// Normalize method names to a consistent set
-function normalizeMethod(raw) {
-  if (!raw) return null;
-  const s = String(raw).trim().toLowerCase();
-  const map = new Map([
-    ["stovetop", "stove-top"],
-    ["stove top", "stove-top"],
-    ["stove-top", "stove-top"],
-    ["pan-fry", "stove-top"],
-    ["skillet", "stove-top"],
-
-    ["oven", "oven-bake"],
-    ["baked", "oven-bake"],
-    ["bake", "oven-bake"],
-    ["roast", "oven-bake"],
-    ["roasting", "oven-bake"],
-    ["sheet pan", "oven-bake"],
-    ["sheet-pan", "oven-bake"],
-
-    ["grilled", "grill"],
-    ["bbq", "grill"],
-    ["barbecue", "grill"],
-    ["smoker", "grill"],
-
-    ["slow-cooker", "slow cooker"],
-    ["slow cooker", "slow cooker"],
-    ["crockpot", "slow cooker"],
-    ["crock pot", "slow cooker"],
-
-    ["instant pot", "instant pot"],
-    ["pressure cooker", "instant pot"],
-
-    ["air fryer", "air fryer"],
-    ["air-fryer", "air fryer"]
-  ]);
-  return map.get(s) || s;
-}
-
-// Display labels for canonical methods
-const METHOD_LABELS = new Map([
-  ["stove-top", "Stove-top"],
-  ["oven-bake", "Oven-bake"],
-  ["grill", "Grill"],
-  ["slow cooker", "Slow cooker"],
-  ["instant pot", "Instant Pot"],
-  ["air fryer", "Air Fryer"],
-  ["one-pot", "One-Pot"]
-]);
+// -------------------- Helpers --------------------
+const toArray = (v) => {
+  if (!v) return [];
+  if (Array.isArray(v)) return v;
+  return [v];
+};
 
 function normalizeMeal(m) {
-  let protein = toArray(m.protein).map((s) => String(s).toLowerCase());
-  let dietary = (Array.isArray(m.diet) ? m.diet : m.dietary) || [];
-  const methods = toArray(m.method || m.methods).map((s) => normalizeMethod(s)).filter(Boolean);
-  const allergens = toArray(m.allergens).map((s) => String(s).toLowerCase());
-  // --- Move vegetarian/vegan/pescatarian from protein -> diet (runtime safety) ---
-  const proteinDietTerms = new Set(["vegetarian","vegan","pescatarian"]);
-  const movedToDiet = [];
+  // Lowercased copies
+  let protein = toArray(m.protein).map((s) => String(s).toLowerCase().trim());
+  let diet = (Array.isArray(m.diet) ? m.diet : m.dietary) || [];
+  diet = toArray(diet).map((s) => String(s).toLowerCase().trim());
+  const methods = toArray(m.methods).map((s) => String(s).toLowerCase().trim());
+  const allergens = toArray(m.allergens).map((s) => String(s).toLowerCase().trim());
+
+  // Move vegetarian/vegan/pescatarian from protein -> diet (runtime safety)
+  const proteinDietTerms = new Set(["vegetarian", "vegan", "pescatarian"]);
+  const moved = [];
   protein = protein.filter((p) => {
-    const keep = !proteinDietTerms.has(p);
-    if (!keep) movedToDiet.push(p);
-    return keep;
+    if (proteinDietTerms.has(p)) { moved.push(p); return false; }
+    return true;
   });
-  dietary = [...new Set([...dietary, ...movedToDiet])];
-
-  const isOnePot = !!m.is_one_pot || methods.includes("one-pot") || methods.includes("one pot");
-  if (isOnePot && !methods.includes("one-pot")) methods.push("one-pot");
-
-  let t = 0;
-  if (m.total_time) t = toMinutes(String(m.total_time));
-  else t = toMinutes(String(m.cook_time)) + toMinutes(String(m.prep_time));
+  diet = [...new Set([...diet, ...moved])];
 
   return {
-    name: m.name || "Untitled",
+    ...m,
+    name: m.name,
     protein,
-    dietary: dietary.map((s) => String(s).toLowerCase()),
+    diet,
     methods,
     allergens,
-    is_one_pot: isOnePot,
-    time_minutes: t,
-    servings: m.servings || "",
-    prep_time: m.prep_time || "",
-    cook_time: m.cook_time || "",
-    total_time: m.total_time || "",
-    ingredients: toArray(m.ingredients),
-    instructions: toArray(m.instructions),
-    variations: toArray(m.variations),
+    is_one_pot: Boolean(m.is_one_pot),
     pro_tips: toArray(m.pro_tips),
-    description: m.description || "",
+    variations: toArray(m.variations),
+    servings: m.servings ?? m.portion_size ?? ""
   };
 }
 
-const meals = mealsRaw.map(normalizeMeal);
+const pretty = (s) =>
+  String(s).replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-const STANDARD_ALLERGENS = [
-  "dairy","eggs","fish","shellfish","tree nuts","peanuts","soy","wheat/gluten","sesame",
-];
+// -------------------- UI Bits --------------------
+function Pill({ text }) {
+  return (
+    <span
+      style={{
+        display: "inline-block",
+        padding: "2px 8px",
+        borderRadius: 999,
+        border: "1px solid var(--border)",
+        background: "var(--card)",
+        color: "var(--foreground)",
+        fontSize: "0.85rem",
+        marginRight: 6,
+        marginTop: 4,
+      }}
+    >
+      {text}
+    </span>
+  );
+}
 
-const TIME_OPTIONS = [
-  { value: "", label: "Any time" },
-  { value: "15", label: "≤ 15 min" },
-  { value: "30", label: "≤ 30 min" },
-  { value: "45", label: "≤ 45 min" },
-  { value: "60", label: "≤ 60 min" },
-  { value: "61+", label: "> 60 min" },
-];
-
-/* =========================
-   Ad Slot (placeholder)
-   ========================= */
-function AdSlot({ id, size = "300x250" }) {
-  const [w, h] = size.split("x").map(Number);
+function AdSlot({ label }) {
   return (
     <div
-      id={id}
-      role="complementary"
-      aria-label={`Ad slot ${id}`}
       style={{
         width: "100%",
-        maxWidth: w,
-        minHeight: h,
-        margin: "16px auto",
-        border: "2px dashed var(--border)",
-        borderRadius: 16,
+        minHeight: 90,
+        border: "1px dashed var(--border)",
+        borderRadius: 12,
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        color: "var(--muted)",
-        background: "var(--card)",
+        opacity: 0.7,
       }}
     >
-      Ad space: {size}
+      {label}
     </div>
   );
 }
 
-
-function Pill({ text, highlight=false }) {
-  return (
-    <span style={{
-      display: "inline-block",
-      padding: "2px 8px",
-      borderRadius: 999,
-      border: highlight ? "1px solid #2ecc71" : "1px solid var(--border)",
-      background: highlight ? "rgba(46, 204, 113, 0.12)" : "var(--card)",
-      color: highlight ? "#2ecc71" : "var(--foreground)",
-      fontSize: "0.85rem",
-      marginRight: 6,
-      marginTop: 4
-    }}>{text}</span>
-  );
-}
-
-/* =========================
-   Page
-   ========================= */
+// -------------------- Page --------------------
 export default function Page() {
-  // ---- Paywall flags ----
-  const showPremium = false;  // flip to true to reveal Variations
-  const showUpsell = true;    // show small upsell note when premium is off
+  const meals = useMemo(() => mealsData.map(normalizeMeal), []);
 
   // Filters
   const [protein, setProtein] = useState("");
-  const [dietary, setDietary] = useState("");
+  const [diet, setDiet] = useState("");
   const [method, setMethod] = useState("");
-  const [onePotOnly, setOnePotOnly] = useState(false);
   const [excludeAllergen, setExcludeAllergen] = useState("");
-  const [timeFilter, setTimeFilter] = useState("");
+  const [onePotOnly, setOnePotOnly] = useState(false);
+  const [timeFilter, setTimeFilter] = useState(""); // "under-20" | "20-40" | "over-40"
+
+  // Roll result + cue
+  const [current, setCurrent] = useState(null);
+  const [hasRolled, setHasRolled] = useState(false);
+  const [flashKey, setFlashKey] = useState(0); // retrigger animation
+  const [showCue, setShowCue] = useState(false);
+
   const resetFilters = () => {
     setProtein("");
-    setDietary("");
+    setDiet("");
     setMethod("");
-    setOnePotOnly(false);
     setExcludeAllergen("");
+    setOnePotOnly(false);
     setTimeFilter("");
     setCurrent(null);
+    setHasRolled(false);
+    setShowCue(false);
   };
 
+  // Build option sets
+  const proteins = useMemo(() => {
+    const s = new Set();
+    meals.forEach((m) => m.protein.forEach((p) => s.add(p)));
+    return Array.from(s).sort();
+  }, [meals]);
 
-  // Options from data
-  const { proteinOptions, dietaryOptions, methodOptions } = useMemo(() => {
-    const p = new Set(), d = new Set(), me = new Set();
-    meals.forEach((m) => {
-      m.protein.forEach((x) => p.add(x));
-      m.dietary.forEach((x) => d.add(x));
-      m.methods.forEach((x) => me.add(x));
-      if (m.is_one_pot) me.add("one-pot");
-    });
-    return {
-      proteinOptions: [...p].sort(),
-      dietaryOptions: [...d].sort(),
-      methodOptions: [...me].sort(),
-    };
-  }, []);
+  const diets = useMemo(() => {
+    const s = new Set();
+    meals.forEach((m) => m.diet.forEach((d) => s.add(d)));
+    return Array.from(s).sort();
+  }, [meals]);
 
-  function pickRandom(list) {
-    if (!list || list.length === 0) return null;
-    const idx = Math.floor(Math.random() * list.length);
-    return list[idx];
-  }
+  const methodsRaw = useMemo(() => {
+    const s = new Set();
+    meals.forEach((m) => m.methods.forEach((d) => s.add(d)));
+    return Array.from(s).sort();
+  }, [meals]);
 
-  const filteredMeals = useMemo(() => {
+  // Remove "one-pot" from Cooking Method options (separate checkbox)
+  const methodOptions = useMemo(
+    () => methodsRaw.filter((x) => x !== "one-pot"),
+    [methodsRaw]
+  );
+
+  const allergens = useMemo(() => {
+    const s = new Set();
+    meals.forEach((m) => m.allergens.forEach((a) => s.add(a)));
+    return Array.from(s).sort();
+  }, [meals]);
+
+  // Time parsing helper (best-effort)
+  const minutesOf = (str) => {
+    if (!str) return 0;
+    const parts = String(str).match(/(\d+)\s*(min|m|minutes?)/gi);
+    if (parts) {
+      const nums = parts
+        .map((x) => parseInt(x.replace(/\D/g, "") || "0", 10))
+        .filter(Boolean);
+      if (nums.length) return nums.reduce((a, b) => a + b, 0);
+    }
+    return 0;
+  };
+
+  const passesTime = (m) => {
+    if (!timeFilter) return true;
+    const total = (minutesOf(m.prep_time) ?? 0) + (minutesOf(m.cook_time) ?? 0);
+    if (timeFilter === "under-20") return total < 20;
+    if (timeFilter === "20-40") return total >= 20 && total <= 40;
+    if (timeFilter === "over-40") return total > 40;
+    return true;
+  };
+
+  // Filtered list
+  const filtered = useMemo(() => {
     return meals.filter((m) => {
-      const proteinOK = protein ? m.protein.includes(protein) : true;
-      const dietaryOK = dietary ? m.dietary.includes(dietary) : true;
-      const methodOK = method
-        ? m.methods.includes(method) || (method === "one-pot" && m.is_one_pot)
-        : true;
-      const onePotOK = onePotOnly ? m.is_one_pot === true : true;
-      const allergenOK = excludeAllergen ? !(m.allergens || []).includes(excludeAllergen) : true;
-      let timeOK = true;
-      if (timeFilter) {
-        const t = m.time_minutes || 0;
-        if (timeFilter === "61+") timeOK = t > 60;
-        else timeOK = t <= parseInt(timeFilter, 10);
-      }
-      return proteinOK && dietaryOK && methodOK && onePotOK && allergenOK && timeOK;
+      if (protein && !m.protein.includes(protein)) return false;
+      if (diet && !m.diet.includes(diet)) return false;
+      if (method && !m.methods.includes(method)) return false;
+      if (excludeAllergen && m.allergens.includes(excludeAllergen)) return false;
+      if (onePotOnly && !m.is_one_pot) return false;
+      if (!passesTime(m)) return false;
+      return true;
     });
-  }, [protein, dietary, method, onePotOnly, excludeAllergen, timeFilter]);
+  }, [meals, protein, diet, method, excludeAllergen, onePotOnly, timeFilter]);
 
-  const [current, setCurrent] = useState(null);
-  function roll() { setCurrent(pickRandom(filteredMeals)); }
+  const roll = () => {
+    const list = filtered.length ? filtered : meals;
+    const pick = list[Math.floor(Math.random() * list.length)];
+    setCurrent(pick);
+    setHasRolled(true);
+    setShowCue(true);
+    setFlashKey((k) => k + 1); // retrigger flash
+  };
+
+  // Auto-hide the cue after ~6s, but re-show on next roll
+  useEffect(() => {
+    if (!hasRolled || !showCue) return;
+    const t = setTimeout(() => setShowCue(false), 6000);
+    return () => clearTimeout(t);
+  }, [hasRolled, showCue, flashKey]);
+
+  // Colors tuned to your logo
+  const accent = "#c8322b";
+  const border = "var(--border)";
 
   return (
-    <main style={{ padding: "1.75rem", maxWidth: 980, margin: "0 auto" }}>
-      {/* Logo hero */}
-      <header
+    <main
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        padding: "16px 12px 40px",
+      }}
+    >
+      {/* Top ad banner */}
+      <div style={{ width: "100%", maxWidth: 1000, margin: "12px 0" }}>
+        <AdSlot label="Ad Banner — Top" />
+      </div>
+
+      {/* Logo centered (no tagline) */}
+      <div
         style={{
+          width: "100%",
+          maxWidth: 900,
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
-          textAlign: "center",
-          gap: 10,
-          marginBottom: "1rem",
+          justifyContent: "center",
+          margin: "12px 0 6px",
         }}
       >
         <Image
           src="/logo.png"
-          alt="What's For Dinner"
-          width={220}
-          height={220}
+          alt="What's for Dinner"
+          width={360}
+          height={110}
           priority
-          style={{ height: "auto" }}
         />
-        <h1 style={{ fontSize: "2rem", margin: 0 }}>What&apos;s For Dinner?</h1>
-        <p style={{ opacity: 0.8, marginTop: 6 }}>Your daily dinner inspiration.</p>
-      </header>
+      </div>
 
-      {/* Top banner ad */}
-      <AdSlot id="ad-top" size="728x90" />
+      {/* Filters */}
+      <section style={{ width: "100%", maxWidth: 1000, marginTop: 8 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(12, 1fr)", gap: 12 }}>
+          <label style={{ gridColumn: "span 12", fontWeight: 600 }}>
+            Filters (optional)
+          </label>
 
-      {/* Filter helpers note */}
-      <p style={{ textAlign: "center", margin: "12px 0 6px", color: "var(--muted)" }}>
-        Use the filters to narrow your dinner ideas — or leave them blank and just roll!
-      </p>
-
-      {/* Filters – tidy grid */}
-      <section
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(12, 1fr)",
-          gap: 12,
-          margin: "0 0 16px",
-        }}
-      >
-        <div style={filterCell(6)}>
-          <label htmlFor="proteinSelect" style={label}>Protein</label>
-          <select id="proteinSelect" value={protein} onChange={(e) => setProtein(e.target.value)} style={select}>
-            <option value="">Any</option>
-            {proteinOptions.map((p) => <option key={p} value={p}>{p}</option>)}
+          {/* Protein */}
+          <select
+            value={protein}
+            onChange={(e) => setProtein(e.target.value)}
+            style={{
+              gridColumn: "span 6",
+              padding: 10,
+              borderRadius: 8,
+              border: `1px solid ${border}`,
+            }}
+          >
+            <option value="">Protein: Any</option>
+            {proteins.map((p) => (
+              <option key={p} value={p}>
+                {pretty(p)}
+              </option>
+            ))}
           </select>
-        </div>
 
-        <div style={filterCell(6)}>
-          <label htmlFor="dietSelect" style={label}>Diet</label>
-          <select id="dietSelect" value={dietary} onChange={(e) => setDietary(e.target.value)} style={select}>
-            <option value="">Any</option>
-            {dietaryOptions.map((d) => <option key={d} value={d}>{d}</option>)}
+          {/* Diet */}
+          <select
+            value={diet}
+            onChange={(e) => setDiet(e.target.value)}
+            style={{
+              gridColumn: "span 6",
+              padding: 10,
+              borderRadius: 8,
+              border: `1px solid ${border}`,
+            }}
+          >
+            <option value="">Diet: Any</option>
+            {diets.map((d) => (
+              <option key={d} value={d}>
+                {pretty(d)}
+              </option>
+            ))}
           </select>
-        </div>
 
-        <div style={filterCell(4)}>
-          <label htmlFor="methodSelect" style={label}>Method</label>
-          <select id="methodSelect" value={method} onChange={(e) => setMethod(e.target.value)} style={select}>
-            <option value="">Any method</option>
-            {methodOptions.map((m) => <option key={m} value={m}>{METHOD_LABELS.get(m) || m}</option>)}
-            {!methodOptions.includes("one-pot") && <option value="one-pot">{METHOD_LABELS.get("one-pot")}</option>}
+          {/* Cooking Method (one-pot removed from options) */}
+          <select
+            value={method}
+            onChange={(e) => setMethod(e.target.value)}
+            style={{
+              gridColumn: "span 6",
+              padding: 10,
+              borderRadius: 8,
+              border: `1px solid ${border}`,
+            }}
+          >
+            <option value="">Cooking Method: Any</option>
+            {methodOptions.map((m) => (
+              <option key={m} value={m}>
+                {pretty(m)}
+              </option>
+            ))}
           </select>
-        </div>
 
-        <div style={filterCell(4)}>
-          <label htmlFor="allergenSelect" style={label}>Exclude Allergen</label>
-          <select id="allergenSelect" value={excludeAllergen} onChange={(e) => setExcludeAllergen(e.target.value)} style={select}>
-            <option value="">None</option>
-            {STANDARD_ALLERGENS.map((a) => <option key={a} value={a}>{a}</option>)}
+          {/* Allergens (exclude) */}
+          <select
+            value={excludeAllergen}
+            onChange={(e) => setExcludeAllergen(e.target.value)}
+            style={{
+              gridColumn: "span 6",
+              padding: 10,
+              borderRadius: 8,
+              border: `1px solid ${border}`,
+            }}
+          >
+            <option value="">Exclude Allergen: None</option>
+            {allergens.map((a) => (
+              <option key={a} value={a}>
+                {pretty(a)}
+              </option>
+            ))}
           </select>
-        </div>
 
-        <div style={filterCell(4)}>
-          <label htmlFor="timeSelect" style={label}>Cook Time</label>
-          <select id="timeSelect" value={timeFilter} onChange={(e) => setTimeFilter(e.target.value)} style={select}>
-            {TIME_OPTIONS.map((opt) => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
+          {/* One-pot separate toggle */}
+          <div style={{ gridColumn: "span 6", display: "flex", alignItems: "center", gap: 8 }}>
+            <input
+              id="onepot"
+              type="checkbox"
+              checked={onePotOnly}
+              onChange={(e) => setOnePotOnly(e.target.checked)}
+            />
+            <label htmlFor="onepot">One-pot meals only</label>
+          </div>
+
+          {/* Total Time */}
+          <select
+            value={timeFilter}
+            onChange={(e) => setTimeFilter(e.target.value)}
+            style={{
+              gridColumn: "span 6",
+              padding: 10,
+              borderRadius: 8,
+              border: `1px solid ${border}`,
+            }}
+          >
+            <option value="">Total Time: Any</option>
+            <option value="under-20">Under 20 min</option>
+            <option value="20-40">20–40 min</option>
+            <option value="over-40">Over 40 min</option>
           </select>
-        </div>
 
-        <div style={{ gridColumn: "span 12", display: "flex", justifyContent: "center", marginTop: 4 }}>
-          <button onClick={roll} style={rollBtn}>Roll Dinner 🎲</button>
-          <button onClick={resetFilters} style={{
-            marginTop: "0.5rem",
-            padding: "0.5rem 1rem",
-            borderRadius: 8,
-            border: "1px solid var(--border)",
-            background: "transparent",
-            color: "var(--foreground)",
-            cursor: "pointer",
-            fontSize: "1rem"
-          }}>
-            Reset Filters
-          </button>
+          {/* Roll + Reset */}
+          <div
+            style={{
+              gridColumn: "span 12",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginTop: 4,
+            }}
+          >
+            <button
+              onClick={roll}
+              style={{
+                padding: "0.8rem 1.2rem",
+                borderRadius: 10,
+                border: "none",
+                background: accent,
+                color: "white",
+                cursor: "pointer",
+                fontSize: "1.05rem",
+                fontWeight: 700,
+                boxShadow: "0 4px 10px rgba(0,0,0,0.12)",
+              }}
+            >
+              Roll Dinner 🎲
+            </button>
+
+            <button
+              onClick={() => {
+                resetFilters();
+              }}
+              style={{
+                marginTop: "0.5rem",
+                padding: "0.55rem 1rem",
+                borderRadius: 8,
+                border: `1px solid ${border}`,
+                background: "transparent",
+                color: "var(--foreground)",
+                cursor: "pointer",
+                fontSize: "1rem",
+              }}
+            >
+              Reset Filters
+            </button>
+
+            {/* Flashing mobile cue (auto-hide after ~6s) */}
+            {hasRolled && showCue && (
+              <div
+                key={flashKey}
+                className="scroll-cue"
+                style={{
+                  marginTop: 10,
+                  fontSize: "1.1rem",
+                  fontWeight: 800,
+                  letterSpacing: 0.2,
+                  textAlign: "center",
+                }}
+              >
+                Scroll down for your recipe ↓
+              </div>
+            )}
+          </div>
         </div>
       </section>
 
-      {/* Inline rectangle ad */}
-      <AdSlot id="ad-inline" size="300x250" />
+      {/* Bottom ad */}
+      <div style={{ width: "100%", maxWidth: 1000, margin: "16px 0" }}>
+        <AdSlot label="Ad Banner — Inline" />
+      </div>
 
-      {/* Result Card */}
-      {current ? (
-        <article style={card}>
-          <h2 style={{ marginTop: 0 }}>{current.name}</h2>
-          <div style={{ opacity: 0.9, marginTop: 4 }}>
-            {current.protein && current.protein.length > 0 && current.protein.map(p => <Pill key={p} text={p} />)}
-            {current.diet && current.diet.length > 0 && current.diet.map(d => <Pill key={d} text={d} highlight={d === "vegan"} />)}
-            {current.is_one_pot && <Pill text="one-pot" />}
-          </div>
-          {(current.servings || current.prep_time || current.cook_time || current.total_time) && (
-            <p style={{ opacity: 0.8, marginTop: 4 }}>
-              {current.servings && <span>Servings: {current.servings} • </span>}
-              {current.prep_time && <span>Prep: {current.prep_time} • </span>}
-              {current.cook_time && <span>Cook: {current.cook_time} • </span>}
-              {current.total_time && <span>Total: {current.total_time}</span>}
-            </p>
+      {/* Result */}
+      {current && (
+        <article style={{ width: "100%", maxWidth: 900, marginTop: 8 }}>
+          <h2 style={{ marginBottom: 2 }}>{current.name}</h2>
+
+          {(current.servings || current.portion_size) && (
+            <div style={{ opacity: 0.85, marginTop: 2 }}>
+              Servings: {current.servings || current.portion_size}
+            </div>
           )}
 
+          <div style={{ opacity: 0.9, marginTop: 6 }}>
+            {current.protein?.map((p) => (
+              <Pill key={p} text={p} />
+            ))}
+            {current.diet?.map((d) => (
+              <Pill key={d} text={d} />
+            ))}
+            {current.is_one_pot && <Pill text="one-pot" />}
+          </div>
+
           {/* Ingredients */}
-          {current.ingredients.length > 0 && (
+          {current.ingredients?.length > 0 && (
             <section style={{ marginTop: 12 }}>
               <h3>Ingredients</h3>
               <ul style={{ marginTop: 6, paddingLeft: 20 }}>
-                {current.ingredients.map((it, idx) => <li key={idx}>{it}</li>)}
+                {current.ingredients.map((it, i) => (
+                  <li key={i}>{it}</li>
+                ))}
               </ul>
             </section>
           )}
 
           {/* Instructions */}
-          {current.instructions.length > 0 && (
+          {current.instructions?.length > 0 && (
             <section style={{ marginTop: 12 }}>
               <h3>Instructions</h3>
               <ol style={{ marginTop: 6, paddingLeft: 20 }}>
-                {current.instructions.map((s, idx) => <li key={idx}>{s}</li>)}
+                {current.instructions.map((step, i) => (
+                  <li key={i} style={{ marginTop: 4 }}>
+                    {step}
+                  </li>
+                ))}
               </ol>
             </section>
           )}
 
-          {/* Pro Tips ALWAYS visible */}
-          {current.pro_tips.length > 0 && (
+          {/* Pro Tips (visible) */}
+          {current.pro_tips?.length > 0 && (
             <section style={{ marginTop: 12 }}>
               <h3>Pro Tips</h3>
               <ul style={{ marginTop: 6, paddingLeft: 20 }}>
-                {current.pro_tips.map((t, idx) => <li key={idx}>{t}</li>)}
+                {current.pro_tips.map((t, i) => (
+                  <li key={i}>{t}</li>
+                ))}
               </ul>
             </section>
           )}
 
-          {/* Premium: Variations (paywalled) */}
-          {current.variations.length > 0 && (
-            showPremium ? (
-              <section style={{ marginTop: 12 }}>
-                <h3>Variations</h3>
-                <ul style={{ marginTop: 6, paddingLeft: 20 }}>
-                  {current.variations.map((v, idx) => <li key={idx}>{v}</li>)}
-                </ul>
-              </section>
-            ) : (
-              showUpsell && (
-                <div style={{ marginTop: 10, padding: "10px 12px", border: "1px dashed var(--border)", borderRadius: 12, color: "var(--muted)" }}>
-                  Variations available with premium.
-                </div>
-              )
-            )
+          {/* Variations: paywall-ready placeholder */}
+          {current.variations?.length > 0 && (
+            <section style={{ marginTop: 12 }}>
+              <div
+                style={{
+                  padding: "10px 12px",
+                  border: `1px dashed ${border}`,
+                  borderRadius: 12,
+                  color: "var(--muted)",
+                }}
+              >
+                Variations are available for premium members.
+              </div>
+            </section>
           )}
-        </article>
-      ) : (
-        <article style={{ ...card, opacity: 0.95 }}>
-          <p>Use the controls above to dial in your dinner, then hit <strong>Roll Dinner 🎲</strong>.</p>
         </article>
       )}
 
-      {/* Footer */}
-      <footer style={{ marginTop: "3rem", paddingTop: "1rem", borderTop: "1px solid var(--border)", width: "100%", maxWidth: 900, textAlign: "center" }}>
-        <p style={{ marginBottom: 6 }}>
-          <Link href="/about" style={{ margin: "0 10px", textDecoration: "underline" }}>About</Link> |
-          <Link href="/contact" style={{ margin: "0 10px", textDecoration: "underline" }}>Contact</Link> |
-          <Link href="/privacy-policy" style={{ margin: "0 10px", textDecoration: "underline" }}>Privacy Policy</Link>
-        </p>
-        <div style={{ fontSize: "0.85rem", opacity: 0.8, lineHeight: 1.4, maxWidth: 720, margin: "0.5rem auto 0" }}>
-          This website provides meal ideas for inspiration only. Adjust ingredients and times to your needs.
-          Always follow safe cooking practices and cook proteins to safe temperatures.
-          <div style={{ marginTop: "0.5rem" }}>© {new Date().getFullYear()} What&apos;s For Dinner?</div>
-        </div>
-      </footer>
+      {/* Styles for flashing cue */}
+      <style jsx>{`
+        @keyframes wfdfade {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.15; }
+        }
+        .scroll-cue {
+          animation-name: wfdfade;
+          animation-duration: 0.9s;
+          animation-timing-function: ease-in-out;
+          animation-iteration-count: 3; /* flashes 3 times */
+        }
+        @media (max-width: 480px) {
+          .scroll-cue { font-size: 1.1rem; }
+        }
+      `}</style>
     </main>
   );
 }
-
-/* =========================
-   Inline styles
-   ========================= */
-const card = {
-  background: "var(--card)",
-  border: "1px solid var(--border)",
-  borderRadius: 16,
-  padding: 18,
-};
-
-const label = {
-  display: "block",
-  fontWeight: 600,
-  marginBottom: 6,
-};
-
-const select = {
-  width: "100%",
-  padding: "10px 12px",
-  borderRadius: 12,
-  background: "var(--card)",
-  color: "var(--foreground)",
-  border: "1px solid var(--border)",
-};
-
-function filterCell(span) {
-  return {
-    gridColumn: `span ${span}`,
-    background: "var(--card)",
-    border: "1px solid var(--border)",
-    borderRadius: 12,
-    padding: 12,
-  };
-}
-
-const rollBtn = {
-  background: "linear-gradient(90deg, #5eead4, #a78bfa)",
-  color: "#081218",
-  border: "none",
-  borderRadius: 999,
-  padding: "12px 18px",
-  fontWeight: 700,
-  fontSize: "1rem",
-  cursor: "pointer",
-  minWidth: 240,
-};

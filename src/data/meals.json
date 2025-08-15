@@ -57,7 +57,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Crispy Southern Fried Chicken",
@@ -108,7 +109,8 @@
     ],
     "allergens": [
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Baked Macaroni and Cheese",
@@ -159,7 +161,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Classic Meatloaf",
@@ -214,7 +217,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6\u20138"
   },
   {
     "name": "Hearty Beef Chili",
@@ -260,7 +264,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Classic Chicken Pot Pie",
@@ -313,7 +318,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Chicken and Dumplings",
@@ -368,7 +374,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Hearty Beef Stew",
@@ -417,7 +424,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Shrimp and Grits",
@@ -471,7 +479,8 @@
     "allergens": [
       "dairy",
       "shellfish"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chicken or Beef Fajitas",
@@ -524,7 +533,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Classic Jambalaya",
@@ -576,7 +586,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Chicken Fried Steak",
@@ -627,7 +638,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "American Chop Suey",
@@ -673,7 +685,8 @@
     ],
     "allergens": [
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Beef and Barley Soup",
@@ -721,7 +734,8 @@
     ],
     "allergens": [
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "American Shepherd\u2019s Pie",
@@ -766,7 +780,8 @@
       "oven-bake",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Crock Pot Pulled Pork",
@@ -815,7 +830,8 @@
       "stove-top",
       "one-pot"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "8"
   },
   {
     "name": "Shrimp Scampi",
@@ -864,7 +880,8 @@
       "dairy",
       "shellfish",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Baked Ziti",
@@ -914,7 +931,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "8"
   },
   {
     "name": "Stuffed Bell Peppers",
@@ -964,7 +982,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Turkey Burgers",
@@ -1010,7 +1029,8 @@
     "allergens": [
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Pork Chops",
@@ -1054,7 +1074,8 @@
     ],
     "allergens": [
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Salmon with Dill Sauce",
@@ -1105,7 +1126,8 @@
     "allergens": [
       "dairy",
       "fish"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chicken Marsala",
@@ -1152,7 +1174,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Pork Tenderloin with Garlic Herb Rub",
@@ -1197,7 +1220,8 @@
     "methods": [
       "oven-bake"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4\u20136"
   },
   {
     "name": "Crab-Stuffed Mushrooms",
@@ -1246,7 +1270,8 @@
       "dairy",
       "shellfish",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Beef Fajita Bowls",
@@ -1299,7 +1324,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chicken Quesadillas",
@@ -1341,7 +1367,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Pan-Seared Scallops with Butter Sauce",
@@ -1390,7 +1417,8 @@
     "allergens": [
       "dairy",
       "shellfish"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Spaghetti Carbonara",
@@ -1435,7 +1463,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Beef and Broccoli Stir Fry",
@@ -1481,7 +1510,8 @@
     "allergens": [
       "shellfish",
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "BBQ Chicken Pizza",
@@ -1527,7 +1557,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Lobster Rolls",
@@ -1572,7 +1603,8 @@
     "allergens": [
       "dairy",
       "shellfish"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Stuffed Cabbage Rolls",
@@ -1624,7 +1656,8 @@
     ],
     "allergens": [
       "eggs"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Baked Salmon with Honey Mustard Glaze",
@@ -1668,7 +1701,8 @@
     ],
     "allergens": [
       "fish"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chicken Parmesan",
@@ -1716,7 +1750,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Beef Stroganoff",
@@ -1766,7 +1801,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Shakshuka",
@@ -1815,7 +1851,8 @@
     "allergens": [
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Teriyaki Chicken",
@@ -1861,7 +1898,8 @@
     "allergens": [
       "sesame",
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Creamy Tomato Basil Soup",
@@ -1910,7 +1948,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Chicken Alfredo Pasta",
@@ -1956,7 +1995,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chicken Pot Pie",
@@ -2005,7 +2045,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Bangers and Mash",
@@ -2051,7 +2092,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chicken Tikka Masala",
@@ -2111,7 +2153,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Ratatouille",
@@ -2158,7 +2201,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Stuffed Zucchini Boats",
@@ -2209,7 +2253,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Paella",
@@ -2263,7 +2308,8 @@
     ],
     "allergens": [
       "shellfish"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Eggplant Parmesan",
@@ -2310,7 +2356,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Fish Tacos",
@@ -2358,7 +2405,8 @@
       "dairy",
       "fish",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Vegetable Curry",
@@ -2408,7 +2456,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Fajitas",
@@ -2461,7 +2510,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Jambalaya",
@@ -2516,7 +2566,8 @@
     ],
     "allergens": [
       "shellfish"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Stuffed Cabbage",
@@ -2567,7 +2618,8 @@
     ],
     "allergens": [
       "eggs"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Turkey Chili",
@@ -2614,7 +2666,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Seafood Gumbo",
@@ -2667,7 +2720,8 @@
     "allergens": [
       "shellfish",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "8"
   },
   {
     "name": "Chicken Cacciatore",
@@ -2716,7 +2770,8 @@
       "stove-top",
       "one-pot"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Lentil Soup",
@@ -2764,7 +2819,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Quinoa and Roasted Vegetables Bowl",
@@ -2810,7 +2866,8 @@
       "oven-bake",
       "one-pot"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Vegan Chili",
@@ -2858,7 +2915,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Vegan Eggplant Parmesan",
@@ -2905,7 +2963,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Vegan Thai Peanut Noodles with Vegetables",
@@ -2956,7 +3015,8 @@
       "sesame",
       "soy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Vegan Roasted Cauliflower Steaks with Chimichurri",
@@ -3003,7 +3063,8 @@
     "methods": [
       "oven-bake"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Vegan Sloppy Joes",
@@ -3053,7 +3114,8 @@
     ],
     "allergens": [
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Vegan Pot Pie",
@@ -3106,7 +3168,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Vegan Sweet Potato Curry",
@@ -3155,7 +3218,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Vegan BBQ Cauliflower Tacos",
@@ -3200,7 +3264,8 @@
     ],
     "allergens": [
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Vegan Thai Curry",
@@ -3249,7 +3314,8 @@
     "allergens": [
       "dairy",
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chicken and Rice Casserole",
@@ -3299,7 +3365,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Pork Sauerkraut",
@@ -3345,7 +3412,8 @@
       "stove-top",
       "one-pot"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Black Bean Soup",
@@ -3393,7 +3461,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Lasagna Soup",
@@ -3443,7 +3512,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Baked Cod with Garlic and Herbs",
@@ -3490,7 +3560,8 @@
     ],
     "allergens": [
       "fish"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Seared Tuna with Sesame Crust",
@@ -3538,7 +3609,8 @@
       "sesame",
       "soy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Baked Tilapia with Parmesan Crust",
@@ -3586,7 +3658,8 @@
       "dairy",
       "fish",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Lemon Butter Scallops",
@@ -3636,7 +3709,8 @@
     "allergens": [
       "dairy",
       "shellfish"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Mussels in White Wine",
@@ -3688,7 +3762,8 @@
     "allergens": [
       "dairy",
       "shellfish"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Chicken with Herb Marinade",
@@ -3733,15 +3808,16 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Swordfish Steaks",
-    "protein": [],
+    "protein": [
+      "seafood"
+    ],
     "diet": [
-      "gluten-free",
-      "vegan",
-      "vegetarian"
+      "gluten-free"
     ],
     "is_one_pot": false,
     "servings": "4",
@@ -3774,7 +3850,8 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Portobello Mushrooms",
@@ -3814,7 +3891,8 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Sweet Potatoes with Honey Butter",
@@ -3857,7 +3935,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Lentil and Vegetable Stew",
@@ -3904,7 +3983,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Fettuccine Alfredo",
@@ -3949,7 +4029,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Penne alla Vodka",
@@ -3999,7 +4080,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Seafood Pasta in Garlic Butter Sauce",
@@ -4050,7 +4132,8 @@
       "dairy",
       "shellfish",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Homemade Gnocchi with Pesto Cream",
@@ -4098,7 +4181,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Cacio e Pepe",
@@ -4138,7 +4222,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Rasta Pasta",
@@ -4186,7 +4271,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Creamy Mushroom Fettuccine",
@@ -4232,7 +4318,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Pad Thai",
@@ -4291,7 +4378,8 @@
       "shellfish",
       "soy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Thai Green Curry with Vegetables",
@@ -4339,7 +4427,8 @@
     "allergens": [
       "dairy",
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Korean Bulgogi Beef",
@@ -4384,7 +4473,8 @@
     "allergens": [
       "sesame",
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chicken Katsu with Curry Sauce",
@@ -4441,7 +4531,8 @@
       "eggs",
       "soy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Thai Red Curry with Chicken",
@@ -4492,7 +4583,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Teriyaki Salmon",
@@ -4542,7 +4634,8 @@
       "fish",
       "sesame",
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Thai Massaman Curry",
@@ -4596,7 +4689,8 @@
     "allergens": [
       "dairy",
       "peanuts"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chili Garlic Shrimp",
@@ -4644,7 +4738,8 @@
     "allergens": [
       "shellfish",
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Thai Basil Chicken",
@@ -4693,7 +4788,8 @@
     "allergens": [
       "shellfish",
       "soy"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Feijoada",
@@ -4742,7 +4838,8 @@
       "stove-top",
       "one-pot"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "8"
   },
   {
     "name": "Asado",
@@ -4782,7 +4879,8 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Churrasco",
@@ -4825,7 +4923,8 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Milanese",
@@ -4869,7 +4968,8 @@
     "allergens": [
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Locro",
@@ -4918,7 +5018,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "8"
   },
   {
     "name": "Caldo Verde",
@@ -4966,7 +5067,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Carne Guisada",
@@ -5014,7 +5116,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Beef Bourguignonne",
@@ -5066,7 +5169,8 @@
     ],
     "allergens": [
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Moussaka",
@@ -5121,7 +5225,8 @@
     ],
     "allergens": [
       "dairy"
-    ]
+    ],
+    "portion_size": "8"
   },
   {
     "name": "Hungarian Goulash",
@@ -5169,7 +5274,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Pierogi",
@@ -5217,7 +5323,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Quiche Lorraine",
@@ -5262,7 +5369,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "K\u00f6ttbullar (Swedish Meatballs)",
@@ -5316,7 +5424,8 @@
       "eggs",
       "soy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Jollof Rice",
@@ -5363,7 +5472,8 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "6"
   },
   {
     "name": "Bobotie",
@@ -5418,7 +5528,8 @@
       "dairy",
       "eggs",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Tagine",
@@ -5474,7 +5585,8 @@
     ],
     "allergens": [
       "tree nuts"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Bunny Chow",
@@ -5524,7 +5636,8 @@
     ],
     "allergens": [
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Chapati with Lentil Curry",
@@ -5576,7 +5689,8 @@
     "allergens": [
       "dairy",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Domoda",
@@ -5625,7 +5739,8 @@
     "allergens": [
       "dairy",
       "peanuts"
-    ]
+    ],
+    "portion_size": "6"
   },
   {
     "name": "Cachupa Rica",
@@ -5673,7 +5788,8 @@
       "stove-top",
       "one-pot"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "8"
   },
   {
     "name": "Grilled Lamb Chops with Rosemary",
@@ -5715,15 +5831,16 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Mahi-Mahi with Citrus Salsa",
-    "protein": [],
+    "protein": [
+      "seafood"
+    ],
     "diet": [
-      "gluten-free",
-      "vegan",
-      "vegetarian"
+      "gluten-free"
     ],
     "is_one_pot": false,
     "servings": "4",
@@ -5762,7 +5879,8 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Shrimp Tacos",
@@ -5813,7 +5931,8 @@
       "dairy",
       "shellfish",
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   },
   {
     "name": "Smoked Sausage and Potato Foil Packets",
@@ -5855,7 +5974,8 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Smoked Portobello Burgers",
@@ -5897,7 +6017,8 @@
     "methods": [
       "grill"
     ],
-    "allergens": []
+    "allergens": [],
+    "portion_size": "4"
   },
   {
     "name": "Grilled Steak Fajitas",
@@ -5946,6 +6067,7 @@
     ],
     "allergens": [
       "wheat/gluten"
-    ]
+    ],
+    "portion_size": "4"
   }
 ]
