@@ -3706,5 +3706,1197 @@
       "dairy",
       "soy"
     ]
+  },
+  {
+    "name": "Chicken and Rice Casserole",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "1 hour",
+    "total_time": "1 hour 15 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 cups uncooked long-grain rice",
+      "4 cups chicken broth",
+      "1 can (10.5 oz) cream of mushroom soup",
+      "1 can (10.5 oz) cream of chicken soup",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "4 boneless, skinless chicken breasts",
+      "1 cup shredded cheddar cheese",
+      "Salt and pepper to taste",
+      "2 tbsp butter, melted"
+    ],
+    "instructions": [
+      "Preheat oven to 350\u00b0F (175\u00b0C).",
+      "In a large casserole dish, mix rice, chicken broth, soups, onion, garlic, salt, and pepper.",
+      "Place chicken breasts on top of rice mixture.",
+      "Cover tightly with foil and bake 50 minutes.",
+      "Uncover, sprinkle with cheese, drizzle with melted butter, and bake an additional 10 minutes."
+    ],
+    "variations": [
+      "Add frozen mixed vegetables for a complete meal.",
+      "Use cream of celery soup for a lighter flavor."
+    ],
+    "pro_tips": [
+      "Cut chicken into strips for faster cooking.",
+      "Stir rice before serving to mix flavors."
+    ],
+    "methods": [
+      "one-pot",
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Pork Sauerkraut",
+    "protein": [
+      "chicken",
+      "pork"
+    ],
+    "diet": [
+      "gluten-free",
+      "low-carb"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "10 minutes",
+    "cook_time": "2 hours",
+    "total_time": "2 hours 10 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 lbs pork shoulder, cut into chunks",
+      "1 large jar (32 oz) sauerkraut, drained",
+      "1 onion, sliced",
+      "2 cloves garlic, minced",
+      "1 cup chicken broth",
+      "1 tsp caraway seeds",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Season pork with salt and pepper.",
+      "In a large pot, sear pork on all sides until browned.",
+      "Add onion and garlic, saut\u00e9 2\u20133 minutes.",
+      "Stir in sauerkraut, broth, and caraway seeds.",
+      "Cover and simmer 1.5\u20132 hours until pork is tender."
+    ],
+    "variations": [
+      "Add diced apples for a sweet contrast.",
+      "Use pork chops instead of shoulder for quicker cooking."
+    ],
+    "pro_tips": [
+      "Rinse sauerkraut if you prefer a milder flavor.",
+      "Serve with mashed potatoes or rye bread."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Black Bean Soup",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "10 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "50 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "3 cloves garlic, minced",
+      "2 cans (15 oz each) black beans, drained and rinsed",
+      "4 cups vegetable broth",
+      "1 tsp cumin",
+      "1 tsp smoked paprika",
+      "Salt and pepper to taste",
+      "Juice of 1 lime"
+    ],
+    "instructions": [
+      "Heat oil in a large pot, saut\u00e9 onion and bell pepper until softened.",
+      "Add garlic, cumin, and paprika; cook 1 minute.",
+      "Stir in black beans, broth, salt, and pepper.",
+      "Simmer 30 minutes, stirring occasionally.",
+      "Blend partially with an immersion blender for a creamy texture.",
+      "Stir in lime juice before serving."
+    ],
+    "variations": [
+      "Add corn for sweetness.",
+      "Top with avocado slices and cilantro."
+    ],
+    "pro_tips": [
+      "Adjust thickness by adding more broth if needed.",
+      "For extra protein, stir in cooked quinoa."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Lasagna Soup",
+    "protein": [
+      "chicken",
+      "pork"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "35 minutes",
+    "total_time": "50 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb Italian sausage",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "4 cups chicken broth",
+      "1 can (28 oz) crushed tomatoes",
+      "2 tsp Italian seasoning",
+      "8 lasagna noodles, broken into pieces",
+      "1 cup ricotta cheese",
+      "1 cup shredded mozzarella cheese",
+      "1/2 cup grated Parmesan cheese",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, brown sausage with onion until cooked through.",
+      "Add garlic and cook 1 minute.",
+      "Stir in broth, tomatoes, Italian seasoning, salt, and pepper.",
+      "Bring to a boil, add broken lasagna noodles, and cook until tender.",
+      "Serve topped with ricotta, mozzarella, and Parmesan."
+    ],
+    "variations": [
+      "Use ground beef or turkey instead of sausage.",
+      "Add spinach for extra nutrition."
+    ],
+    "pro_tips": [
+      "Cook noodles directly in soup for richer flavor.",
+      "Serve immediately to prevent noodles from overcooking."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Baked Cod with Garlic and Herbs",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb",
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 cod fillets",
+      "2 tbsp olive oil",
+      "3 cloves garlic, minced",
+      "1 tbsp fresh parsley, chopped",
+      "1 tbsp fresh dill, chopped",
+      "Juice of 1 lemon",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F (200\u00b0C).",
+      "Place cod in a baking dish and drizzle with olive oil.",
+      "Sprinkle with garlic, parsley, dill, lemon juice, salt, and pepper.",
+      "Bake 12\u201315 minutes until fish flakes easily."
+    ],
+    "variations": [
+      "Use halibut or haddock instead of cod.",
+      "Add cherry tomatoes to baking dish for extra flavor."
+    ],
+    "pro_tips": [
+      "Do not overcook; cod is best when moist and flaky.",
+      "Serve with steamed vegetables or rice."
+    ],
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "name": "Seared Tuna with Sesame Crust",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "keto",
+      "low-carb",
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "4 minutes",
+    "total_time": "14 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 tuna steaks (about 6 oz each)",
+      "1/4 cup sesame seeds",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Soy sauce for serving (optional)"
+    ],
+    "instructions": [
+      "Season tuna steaks with salt and pepper.",
+      "Press sesame seeds onto both sides of each steak.",
+      "Heat olive oil in a skillet over high heat.",
+      "Sear tuna for 1\u20132 minutes per side for rare, or longer for desired doneness.",
+      "Serve with soy sauce if desired."
+    ],
+    "variations": [
+      "Use black sesame seeds for contrast.",
+      "Add a wasabi mayo drizzle for extra flavor."
+    ],
+    "pro_tips": [
+      "Do not overcook tuna; best served rare to medium-rare.",
+      "Pat tuna dry before adding sesame seeds for better adhesion."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "fish",
+      "sesame",
+      "soy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Baked Tilapia with Parmesan Crust",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 tilapia fillets",
+      "1/2 cup grated Parmesan cheese",
+      "1/4 cup breadcrumbs",
+      "2 tbsp parsley, chopped",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Lemon wedges for serving"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F (200\u00b0C).",
+      "Mix Parmesan, breadcrumbs, parsley, salt, and pepper.",
+      "Place tilapia on a baking sheet and drizzle with olive oil.",
+      "Press Parmesan mixture onto fillets.",
+      "Bake 12\u201315 minutes until fish flakes easily.",
+      "Serve with lemon wedges."
+    ],
+    "variations": [
+      "Add paprika for color and flavor.",
+      "Use panko breadcrumbs for more crunch."
+    ],
+    "pro_tips": [
+      "Do not overbake; tilapia cooks quickly.",
+      "Line baking sheet with parchment for easy cleanup."
+    ],
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": [
+      "dairy",
+      "fish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Lemon Butter Scallops",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb",
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "6 minutes",
+    "total_time": "16 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb sea scallops",
+      "2 tbsp olive oil",
+      "3 tbsp butter",
+      "2 cloves garlic, minced",
+      "Juice of 1 lemon",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Pat scallops dry and season with salt and pepper.",
+      "Heat olive oil in a skillet over high heat.",
+      "Sear scallops 2\u20133 minutes per side until golden brown; remove and set aside.",
+      "Reduce heat, add butter and garlic; saut\u00e9 1 minute.",
+      "Stir in lemon juice, return scallops to pan, and coat with sauce.",
+      "Garnish with parsley and serve."
+    ],
+    "variations": [
+      "Add white wine to sauce for depth.",
+      "Serve over pasta or rice."
+    ],
+    "pro_tips": [
+      "Ensure scallops are very dry before searing for best browning.",
+      "Do not overcrowd pan; sear in batches if needed."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish"
+    ]
+  },
+  {
+    "name": "Mussels in White Wine",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb",
+      "pescatarian"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 lbs mussels, cleaned and debearded",
+      "2 tbsp olive oil",
+      "4 cloves garlic, minced",
+      "1 shallot, minced",
+      "1 cup dry white wine",
+      "2 tbsp butter",
+      "1/4 cup parsley, chopped",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Add garlic and shallot; saut\u00e9 2\u20133 minutes.",
+      "Pour in white wine and bring to a boil.",
+      "Add mussels, cover, and steam 5\u20137 minutes until they open.",
+      "Discard any mussels that do not open.",
+      "Stir in butter and parsley; season with salt and pepper."
+    ],
+    "variations": [
+      "Add diced tomatoes for a Mediterranean twist.",
+      "Use cider instead of wine for a sweeter flavor."
+    ],
+    "pro_tips": [
+      "Rinse mussels thoroughly before cooking.",
+      "Serve with crusty bread to soak up the broth."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish"
+    ]
+  },
+  {
+    "name": "Grilled Chicken with Herb Marinade",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes + 1 hour marinating",
+    "cook_time": "12 minutes",
+    "total_time": "1 hour 22 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 boneless, skinless chicken breasts",
+      "3 tbsp olive oil",
+      "2 tbsp lemon juice",
+      "2 cloves garlic, minced",
+      "1 tbsp fresh rosemary, chopped",
+      "1 tbsp fresh thyme, chopped",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Mix olive oil, lemon juice, garlic, rosemary, thyme, salt, and pepper.",
+      "Coat chicken with marinade and refrigerate 1 hour.",
+      "Preheat grill to medium-high heat.",
+      "Grill chicken 5\u20136 minutes per side until cooked through.",
+      "Let rest 5 minutes before serving."
+    ],
+    "variations": [
+      "Use chicken thighs for juicier meat.",
+      "Add crushed red pepper flakes for heat."
+    ],
+    "pro_tips": [
+      "Pound chicken to even thickness for consistent cooking.",
+      "Do not overcook; internal temperature should be 165\u00b0F (74\u00b0C)."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Grilled Swordfish Steaks",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes + 30 minutes marinating",
+    "cook_time": "8 minutes",
+    "total_time": "48 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 swordfish steaks (about 6 oz each)",
+      "3 tbsp olive oil",
+      "2 tbsp lemon juice",
+      "2 cloves garlic, minced",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Mix olive oil, lemon juice, garlic, oregano, salt, and pepper.",
+      "Coat swordfish steaks with marinade and refrigerate 30 minutes.",
+      "Preheat grill to medium-high heat.",
+      "Grill steaks 3\u20134 minutes per side until opaque and cooked through."
+    ],
+    "variations": [
+      "Add fresh dill instead of oregano for a different flavor.",
+      "Use lime juice instead of lemon for a tropical twist."
+    ],
+    "pro_tips": [
+      "Do not overcook swordfish; it dries out quickly.",
+      "Oil grill grates well to prevent sticking."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Grilled Portobello Mushrooms",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes + 20 minutes marinating",
+    "cook_time": "10 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 large portobello mushrooms, stems removed",
+      "3 tbsp olive oil",
+      "2 tbsp balsamic vinegar",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Mix olive oil, balsamic vinegar, garlic, salt, and pepper.",
+      "Brush mushrooms with marinade and let sit 20 minutes.",
+      "Preheat grill to medium heat.",
+      "Grill mushrooms 4\u20135 minutes per side until tender."
+    ],
+    "variations": [
+      "Top with goat cheese after grilling for extra flavor.",
+      "Add fresh herbs like thyme or rosemary to the marinade."
+    ],
+    "pro_tips": [
+      "Marinate cap side down so liquid soaks in.",
+      "Serve as a side dish or vegetarian burger substitute."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Grilled Sweet Potatoes with Honey Butter",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 large sweet potatoes, peeled and sliced into 1/2-inch rounds",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Honey Butter",
+      "3 tbsp butter, softened",
+      "1 tbsp honey",
+      "1/4 tsp cinnamon"
+    ],
+    "instructions": [
+      "Preheat grill to medium heat.",
+      "Toss sweet potato slices with olive oil, salt, and pepper.",
+      "Grill 6\u20137 minutes per side until tender.",
+      "Mix butter, honey, and cinnamon; spread over hot sweet potatoes before serving."
+    ],
+    "variations": [
+      "Add a pinch of cayenne to honey butter for a sweet-spicy flavor.",
+      "Use maple syrup instead of honey."
+    ],
+    "pro_tips": [
+      "Cut slices evenly for consistent cooking.",
+      "Cook over indirect heat if potatoes are charring too quickly."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Lentil and Vegetable Stew",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "3 cloves garlic, minced",
+      "1 cup dried lentils, rinsed",
+      "4 cups vegetable broth",
+      "1 can (14 oz) diced tomatoes",
+      "1 tsp dried thyme",
+      "1 tsp paprika",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat olive oil in a large pot, saut\u00e9 onion, carrots, and celery until softened.",
+      "Add garlic, thyme, and paprika; cook 1 minute.",
+      "Stir in lentils, broth, tomatoes, salt, and pepper.",
+      "Bring to a boil, then reduce heat and simmer 35\u201340 minutes until lentils are tender."
+    ],
+    "variations": [
+      "Add spinach or kale in the last 5 minutes of cooking.",
+      "Use red lentils for a softer texture."
+    ],
+    "pro_tips": [
+      "Rinse lentils well before cooking to remove dust.",
+      "Serve with crusty bread for a hearty meal."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Fettuccine Alfredo",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "12 oz fettuccine pasta",
+      "1/2 cup butter",
+      "1 cup heavy cream",
+      "1 cup grated Parmesan cheese",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Cook fettuccine according to package directions; drain and set aside.",
+      "In a large skillet, melt butter over medium heat.",
+      "Stir in cream and bring to a gentle simmer.",
+      "Add Parmesan, stirring until sauce thickens.",
+      "Toss pasta in sauce until well coated; season with salt and pepper.",
+      "Garnish with parsley before serving."
+    ],
+    "variations": [
+      "Add grilled chicken or shrimp for protein.",
+      "Stir in saut\u00e9ed mushrooms for earthy flavor."
+    ],
+    "pro_tips": [
+      "Do not boil sauce; it can separate.",
+      "Use freshly grated Parmesan for best results."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Penne alla Vodka",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "12 oz penne pasta",
+      "2 tbsp olive oil",
+      "1 small onion, chopped",
+      "2 cloves garlic, minced",
+      "1/2 tsp red pepper flakes",
+      "1/2 cup vodka",
+      "1 can (28 oz) crushed tomatoes",
+      "1 cup heavy cream",
+      "1/2 cup grated Parmesan cheese",
+      "Salt and pepper to taste",
+      "Fresh basil for garnish"
+    ],
+    "instructions": [
+      "Cook penne according to package directions; drain and set aside.",
+      "Heat olive oil in a large skillet over medium heat; saut\u00e9 onion until softened.",
+      "Add garlic and red pepper flakes; cook 1 minute.",
+      "Pour in vodka and cook until reduced by half.",
+      "Stir in crushed tomatoes; simmer 10 minutes.",
+      "Reduce heat and add cream, Parmesan, salt, and pepper.",
+      "Toss pasta with sauce and garnish with basil."
+    ],
+    "variations": [
+      "Add cooked shrimp or chicken for extra protein.",
+      "Use penne rigate for better sauce cling."
+    ],
+    "pro_tips": [
+      "Cook vodka long enough to burn off alcohol taste.",
+      "Reserve pasta water to adjust sauce consistency."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Seafood Pasta in Garlic Butter Sauce",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "35 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "12 oz spaghetti or linguine",
+      "2 tbsp olive oil",
+      "3 tbsp butter",
+      "4 cloves garlic, minced",
+      "1/2 lb shrimp, peeled and deveined",
+      "1/2 lb scallops",
+      "1/2 lb mussels, cleaned",
+      "1/2 cup white wine",
+      "1/4 cup chopped parsley",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook pasta according to package directions; drain and set aside.",
+      "Heat olive oil and butter in a large skillet over medium heat.",
+      "Add garlic and cook until fragrant.",
+      "Add shrimp and scallops; cook 2\u20133 minutes until opaque.",
+      "Add mussels and white wine; cover and steam until mussels open.",
+      "Toss seafood with pasta, parsley, salt, and pepper."
+    ],
+    "variations": [
+      "Add a pinch of red pepper flakes for heat.",
+      "Use clams instead of mussels."
+    ],
+    "pro_tips": [
+      "Discard any mussels that don\u2019t open.",
+      "Do not overcook seafood; it should remain tender."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Homemade Gnocchi with Pesto Cream",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "30 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "45 minutes",
+    "ingredients": [
+      "Gnocchi",
+      "2 lbs russet potatoes",
+      "1 egg, beaten",
+      "1 cup flour, plus extra for dusting",
+      "1 tsp salt",
+      "Pesto Cream Sauce",
+      "1/2 cup pesto",
+      "1 cup heavy cream",
+      "1/2 cup grated Parmesan cheese",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Boil potatoes until tender; peel and mash until smooth.",
+      "Mix in egg, flour, and salt; knead into a soft dough.",
+      "Roll into ropes, cut into pieces, and shape gnocchi.",
+      "Boil gnocchi in salted water until they float; drain.",
+      "In a skillet, combine pesto, cream, Parmesan, salt, and pepper; heat through.",
+      "Toss gnocchi with sauce and serve."
+    ],
+    "variations": [
+      "Add saut\u00e9ed mushrooms to the sauce.",
+      "Use basil pesto or sun-dried tomato pesto."
+    ],
+    "pro_tips": [
+      "Do not overwork dough; it should be tender.",
+      "Cook gnocchi in batches to avoid overcrowding."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Cacio e Pepe",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "5 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "12 oz spaghetti",
+      "1 1/2 cups grated Pecorino Romano cheese",
+      "2 tsp freshly ground black pepper",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti in salted water until al dente; reserve 1 cup pasta water and drain.",
+      "Toast black pepper in a large skillet over medium heat 1\u20132 minutes.",
+      "Add a splash of pasta water to skillet, then toss in pasta.",
+      "Gradually add cheese, tossing constantly and adding more pasta water as needed to create a creamy sauce."
+    ],
+    "variations": [
+      "Use half Parmesan and half Pecorino for a milder flavor.",
+      "Add a knob of butter for richness."
+    ],
+    "pro_tips": [
+      "Work quickly when adding cheese to prevent clumping.",
+      "Use freshly grated cheese for the smoothest sauce."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Rasta Pasta",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "12 oz penne pasta",
+      "2 tbsp olive oil",
+      "1 red bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 yellow bell pepper, sliced",
+      "2 cloves garlic, minced",
+      "1 cup heavy cream",
+      "1 cup shredded Parmesan cheese",
+      "1 tbsp jerk seasoning",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Cook pasta according to package directions; drain and set aside.",
+      "Heat olive oil in a skillet; saut\u00e9 peppers until softened.",
+      "Add garlic and cook 1 minute.",
+      "Stir in cream, Parmesan, jerk seasoning, salt, and pepper.",
+      "Toss pasta with sauce and garnish with parsley."
+    ],
+    "variations": [
+      "Add grilled chicken or shrimp for protein.",
+      "Use coconut milk instead of cream for a tropical twist."
+    ],
+    "pro_tips": [
+      "Adjust jerk seasoning to taste; it can be spicy.",
+      "Slice peppers evenly for uniform cooking."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Creamy Mushroom Fettuccine",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "12 oz fettuccine pasta",
+      "2 tbsp olive oil",
+      "1 tbsp butter",
+      "2 cloves garlic, minced",
+      "12 oz mushrooms, sliced",
+      "1 cup heavy cream",
+      "1/2 cup grated Parmesan cheese",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Cook fettuccine according to package directions; drain and set aside.",
+      "Heat olive oil and butter in a large skillet over medium heat.",
+      "Add garlic and mushrooms; saut\u00e9 until mushrooms release liquid and are golden.",
+      "Pour in cream, bring to a simmer, and stir in Parmesan, salt, and pepper.",
+      "Toss pasta with sauce and garnish with parsley."
+    ],
+    "variations": [
+      "Add spinach for extra greens.",
+      "Use mixed wild mushrooms for a richer flavor."
+    ],
+    "pro_tips": [
+      "Reserve pasta water to adjust sauce consistency.",
+      "Do not overcrowd mushrooms; cook in batches if needed."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Pad Thai",
+    "protein": [
+      "chicken",
+      "seafood"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "8 oz rice noodles",
+      "2 tbsp vegetable oil",
+      "2 eggs, lightly beaten",
+      "1 lb shrimp or chicken, cut into pieces",
+      "3 cloves garlic, minced",
+      "1 cup bean sprouts",
+      "2 green onions, sliced",
+      "1/4 cup chopped peanuts",
+      "Lime wedges for serving",
+      "Sauce",
+      "3 tbsp fish sauce",
+      "1 tbsp soy sauce",
+      "2 tbsp tamarind paste",
+      "1 tbsp sugar",
+      "1 tsp chili flakes"
+    ],
+    "instructions": [
+      "Soak rice noodles in warm water until pliable; drain.",
+      "Heat oil in a wok or large skillet over medium-high heat.",
+      "Scramble eggs, then push to the side of the pan.",
+      "Add protein and cook until done.",
+      "Stir in garlic, noodles, and sauce; toss to coat.",
+      "Add bean sprouts and green onions; cook 1 minute.",
+      "Serve topped with peanuts and lime wedges."
+    ],
+    "variations": [
+      "Use tofu for a vegetarian option.",
+      "Add more chili flakes for a spicier dish."
+    ],
+    "pro_tips": [
+      "Do not overcook noodles; they should be slightly chewy.",
+      "Prep all ingredients before cooking for a smooth process."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "eggs",
+      "peanuts",
+      "shellfish",
+      "soy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Thai Green Curry with Vegetables",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "35 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "3 tbsp green curry paste",
+      "1 can (14 oz) coconut milk",
+      "1 cup vegetable broth",
+      "1 cup broccoli florets",
+      "1 cup sliced carrots",
+      "1 red bell pepper, sliced",
+      "1 zucchini, sliced",
+      "2 tbsp soy sauce",
+      "Fresh basil leaves for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a large pot over medium heat.",
+      "Add curry paste and saut\u00e9 1 minute until fragrant.",
+      "Stir in coconut milk and broth; bring to a simmer.",
+      "Add vegetables and cook until tender-crisp.",
+      "Stir in soy sauce and garnish with basil before serving."
+    ],
+    "variations": [
+      "Add tofu or chicken for protein.",
+      "Use seasonal vegetables for variety."
+    ],
+    "pro_tips": [
+      "Do not overcook vegetables; they should retain some crunch.",
+      "Serve with jasmine rice or rice noodles."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "soy"
+    ]
+  },
+  {
+    "name": "Korean Bulgogi Beef",
+    "protein": [
+      "beef"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes + 1 hour marinating",
+    "cook_time": "10 minutes",
+    "total_time": "1 hour 25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb thinly sliced ribeye beef",
+      "3 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "2 tbsp brown sugar",
+      "3 cloves garlic, minced",
+      "1 tsp grated ginger",
+      "2 green onions, chopped",
+      "1 tbsp sesame seeds",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a bowl, mix soy sauce, sesame oil, brown sugar, garlic, ginger, and green onions.",
+      "Add beef and marinate 1 hour.",
+      "Heat a skillet over high heat; cook beef in batches until browned.",
+      "Sprinkle with sesame seeds before serving."
+    ],
+    "variations": [
+      "Add sliced onions and carrots to the marinade.",
+      "Use chicken or pork instead of beef."
+    ],
+    "pro_tips": [
+      "Slice beef very thin for quick cooking.",
+      "Do not overcrowd the pan; cook in batches."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "sesame",
+      "soy"
+    ]
+  },
+  {
+    "name": "Chicken Katsu with Curry Sauce",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Chicken Katsu",
+      "4 boneless, skinless chicken breasts",
+      "Salt and pepper to taste",
+      "1/2 cup flour",
+      "2 eggs, beaten",
+      "1 cup panko breadcrumbs",
+      "Oil for frying",
+      "Curry Sauce",
+      "2 tbsp butter",
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 cloves garlic, minced",
+      "2 tbsp flour",
+      "2 cups chicken broth",
+      "1 tbsp curry powder",
+      "1 tsp soy sauce",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Season chicken with salt and pepper; dredge in flour, dip in eggs, and coat with panko.",
+      "Fry chicken in oil until golden and cooked through; drain on paper towels.",
+      "For curry sauce, melt butter in a saucepan and saut\u00e9 onion, carrots, and garlic until softened.",
+      "Stir in flour and curry powder; cook 1 minute.",
+      "Add broth and soy sauce; simmer until thickened.",
+      "Serve chicken katsu sliced with curry sauce poured over top."
+    ],
+    "variations": [
+      "Use pork cutlets instead of chicken.",
+      "Add potatoes to curry sauce for a heartier dish."
+    ],
+    "pro_tips": [
+      "Keep oil at a steady temperature for even frying.",
+      "Slice chicken after resting to keep coating intact."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "soy",
+      "wheat/gluten"
+    ]
   }
 ]
