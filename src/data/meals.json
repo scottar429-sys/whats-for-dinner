@@ -5,9 +5,7 @@
       "beef"
     ],
     "diet": [
-      "gluten-free",
-      "keto",
-      "low-carb"
+      "gluten-free"
     ],
     "is_one_pot": false,
     "servings": "4",
@@ -432,9 +430,7 @@
       "seafood"
     ],
     "diet": [
-      "gluten-free",
-      "keto",
-      "low-carb"
+      "gluten-free"
     ],
     "is_one_pot": false,
     "servings": "4",
@@ -1519,11 +1515,7 @@
     "protein": [
       "chicken"
     ],
-    "diet": [
-      "gluten-free",
-      "keto",
-      "low-carb"
-    ],
+    "diet": [],
     "is_one_pot": false,
     "servings": "4",
     "prep_time": "15 minutes",
@@ -1570,8 +1562,6 @@
     ],
     "diet": [
       "gluten-free",
-      "keto",
-      "low-carb",
       "pescatarian"
     ],
     "is_one_pot": false,
@@ -2162,9 +2152,7 @@
       "seafood"
     ],
     "diet": [
-      "gluten-free",
-      "keto",
-      "low-carb"
+      "gluten-free"
     ],
     "is_one_pot": false,
     "servings": "4",
