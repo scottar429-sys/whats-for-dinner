@@ -5,7 +5,9 @@
       "beef"
     ],
     "diet": [
-      "gluten-free"
+      "gluten-free",
+      "keto",
+      "low-carb"
     ],
     "is_one_pot": false,
     "servings": "4",
@@ -62,9 +64,7 @@
     "protein": [
       "chicken"
     ],
-    "diet": [
-      "dairy-free"
-    ],
+    "diet": [],
     "is_one_pot": false,
     "servings": "4",
     "prep_time": "20 minutes + 4 hours marinating",
@@ -104,8 +104,6 @@
       "Let coated chicken rest 10 minutes before frying for better crust."
     ],
     "methods": [
-      "one-pot",
-      "oven-bake",
       "stove-top"
     ],
     "allergens": [
@@ -210,7 +208,6 @@
       "Resting allows juices to redistribute."
     ],
     "methods": [
-      "grill",
       "oven-bake"
     ],
     "allergens": [
@@ -225,7 +222,6 @@
       "beef"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free"
     ],
     "is_one_pot": true,
@@ -316,7 +312,6 @@
     ],
     "allergens": [
       "dairy",
-      "eggs",
       "wheat/gluten"
     ]
   },
@@ -379,7 +374,6 @@
       "beef"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free"
     ],
     "is_one_pot": true,
@@ -430,7 +424,9 @@
       "seafood"
     ],
     "diet": [
-      "gluten-free"
+      "gluten-free",
+      "keto",
+      "low-carb"
     ],
     "is_one_pot": false,
     "servings": "4",
@@ -536,7 +532,6 @@
       "pork"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free"
     ],
     "is_one_pot": true,
@@ -580,9 +575,7 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": [
-      "shellfish"
-    ]
+    "allergens": []
   },
   {
     "name": "Chicken Fried Steak",
@@ -681,7 +674,6 @@
       "stove-top"
     ],
     "allergens": [
-      "dairy",
       "wheat/gluten"
     ]
   },
@@ -690,9 +682,7 @@
     "protein": [
       "beef"
     ],
-    "diet": [
-      "dairy-free"
-    ],
+    "diet": [],
     "is_one_pot": true,
     "servings": "6",
     "prep_time": "15 minutes",
@@ -730,7 +720,9 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": []
+    "allergens": [
+      "wheat/gluten"
+    ]
   },
   {
     "name": "American Shepherd\u2019s Pie",
@@ -792,7 +784,6 @@
       "pork"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free"
     ],
     "is_one_pot": true,
@@ -993,9 +984,7 @@
     "protein": [
       "turkey"
     ],
-    "diet": [
-      "dairy-free"
-    ],
+    "diet": [],
     "is_one_pot": false,
     "servings": "4",
     "prep_time": "10 minutes",
@@ -1042,7 +1031,6 @@
       "pork"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free",
       "keto",
       "low-carb"
@@ -1185,7 +1173,6 @@
       "pork"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free",
       "keto",
       "low-carb"
@@ -1374,6 +1361,7 @@
       "seafood"
     ],
     "diet": [
+      "gluten-free",
       "keto",
       "low-carb",
       "pescatarian"
@@ -1409,13 +1397,11 @@
       "Do not overcrowd pan; cook in batches if necessary."
     ],
     "methods": [
-      "one-pot",
       "stove-top"
     ],
     "allergens": [
       "dairy",
-      "shellfish",
-      "wheat/gluten"
+      "shellfish"
     ]
   },
   {
@@ -1468,9 +1454,7 @@
     "protein": [
       "beef"
     ],
-    "diet": [
-      "dairy-free"
-    ],
+    "diet": [],
     "is_one_pot": false,
     "servings": "4",
     "prep_time": "15 minutes",
@@ -1507,6 +1491,7 @@
       "stove-top"
     ],
     "allergens": [
+      "shellfish",
       "soy"
     ]
   },
@@ -1552,7 +1537,8 @@
       "oven-bake"
     ],
     "allergens": [
-      "dairy"
+      "dairy",
+      "wheat/gluten"
     ]
   },
   {
@@ -1562,6 +1548,8 @@
     ],
     "diet": [
       "gluten-free",
+      "keto",
+      "low-carb",
       "pescatarian"
     ],
     "is_one_pot": false,
@@ -1604,7 +1592,6 @@
       "beef"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free"
     ],
     "is_one_pot": true,
@@ -1657,7 +1644,6 @@
       "seafood"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free",
       "pescatarian"
     ],
@@ -1839,7 +1825,6 @@
       "stove-top"
     ],
     "allergens": [
-      "dairy",
       "eggs",
       "wheat/gluten"
     ]
@@ -1849,9 +1834,7 @@
     "protein": [
       "chicken"
     ],
-    "diet": [
-      "dairy-free"
-    ],
+    "diet": [],
     "is_one_pot": false,
     "servings": "4",
     "prep_time": "10 minutes",
@@ -1984,7 +1967,6 @@
     ],
     "allergens": [
       "dairy",
-      "shellfish",
       "wheat/gluten"
     ]
   },
@@ -2034,7 +2016,6 @@
     ],
     "allergens": [
       "dairy",
-      "eggs",
       "wheat/gluten"
     ]
   },
@@ -2137,7 +2118,6 @@
       "Simmer gently after adding cream to avoid curdling."
     ],
     "methods": [
-      "oven-bake",
       "stove-top",
       "one-pot"
     ],
@@ -2152,7 +2132,9 @@
       "seafood"
     ],
     "diet": [
-      "gluten-free"
+      "gluten-free",
+      "keto",
+      "low-carb"
     ],
     "is_one_pot": false,
     "servings": "4",
@@ -2201,6 +2183,8 @@
     "name": "Ratatouille",
     "protein": [],
     "diet": [
+      "gluten-free",
+      "vegan",
       "vegetarian"
     ],
     "is_one_pot": true,
@@ -2240,10 +2224,7 @@
       "one-pot",
       "stove-top"
     ],
-    "allergens": [
-      "dairy",
-      "wheat/gluten"
-    ]
+    "allergens": []
   },
   {
     "name": "Stuffed Zucchini Boats",
@@ -2303,7 +2284,6 @@
       "seafood"
     ],
     "diet": [
-      "dairy-free",
       "gluten-free"
     ],
     "is_one_pot": true,
@@ -2443,7 +2423,6 @@
     "allergens": [
       "dairy",
       "fish",
-      "shellfish",
       "wheat/gluten"
     ]
   },
@@ -2495,6 +2474,1237 @@
     ],
     "allergens": [
       "dairy"
+    ]
+  },
+  {
+    "name": "Chicken and Dumplings",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp butter",
+      "1 onion, chopped",
+      "2 carrots, sliced",
+      "2 celery stalks, sliced",
+      "3 cloves garlic, minced",
+      "6 cups chicken broth",
+      "3 cups cooked chicken, shredded",
+      "1 tsp thyme",
+      "1 bay leaf",
+      "Salt and pepper to taste",
+      "Dumplings",
+      "2 cups all-purpose flour",
+      "1 tbsp baking powder",
+      "1 tsp salt",
+      "1 cup milk",
+      "4 tbsp butter, melted"
+    ],
+    "instructions": [
+      "In a large pot, melt butter and saut\u00e9 onion, carrots, and celery until softened.",
+      "Add garlic and cook 1 minute.",
+      "Pour in broth, chicken, thyme, bay leaf, salt, and pepper. Simmer 10 minutes.",
+      "Mix dumpling ingredients in a bowl until just combined.",
+      "Drop spoonfuls of dough into simmering soup, cover, and cook 15 minutes without lifting lid.",
+      "Serve hot."
+    ],
+    "variations": [
+      "Add peas for extra vegetables.",
+      "Use biscuit mix for faster dumplings."
+    ],
+    "pro_tips": [
+      "Do not overmix dumpling dough; it should be slightly sticky.",
+      "Keep lid closed while dumplings cook to ensure they steam properly."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Fajitas",
+    "protein": [
+      "beef",
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes + 30 minutes marinating",
+    "cook_time": "10 minutes",
+    "total_time": "55 minutes",
+    "ingredients": [
+      "Marinade",
+      "1 lb flank steak or chicken breast, sliced",
+      "2 tbsp olive oil",
+      "Juice of 1 lime",
+      "2 cloves garlic, minced",
+      "1 tsp chili powder",
+      "1 tsp cumin",
+      "1/2 tsp paprika",
+      "Salt and pepper to taste",
+      "Vegetables",
+      "1 red bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 onion, sliced",
+      "For Serving",
+      "8 flour or corn tortillas",
+      "Sour cream, salsa, guacamole"
+    ],
+    "instructions": [
+      "Combine marinade ingredients and toss with meat. Refrigerate 30 minutes.",
+      "Heat a skillet over medium-high heat. Cook meat until done; remove and keep warm.",
+      "Saut\u00e9 peppers and onion until tender-crisp.",
+      "Serve meat and vegetables in tortillas with toppings."
+    ],
+    "variations": [
+      "Use shrimp instead of beef or chicken.",
+      "Add jalape\u00f1os for spice."
+    ],
+    "pro_tips": [
+      "Slice meat against the grain for tenderness.",
+      "Warm tortillas before serving."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Jambalaya",
+    "protein": [
+      "chicken",
+      "pork",
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "2 celery stalks, chopped",
+      "3 cloves garlic, minced",
+      "1 lb chicken thighs, diced",
+      "8 oz andouille sausage, sliced",
+      "1 can (14 oz) diced tomatoes",
+      "2 cups chicken broth",
+      "1 cup long-grain rice",
+      "2 tsp Cajun seasoning",
+      "Salt and pepper to taste",
+      "1/2 lb shrimp, peeled and deveined"
+    ],
+    "instructions": [
+      "Heat oil in a large pot. Saut\u00e9 onion, bell pepper, celery, and garlic until softened.",
+      "Add chicken and sausage, cook until browned.",
+      "Stir in tomatoes, broth, rice, Cajun seasoning, salt, and pepper.",
+      "Cover and simmer 20 minutes.",
+      "Add shrimp, cook 5 minutes until pink.",
+      "Serve hot."
+    ],
+    "variations": [
+      "Use turkey sausage for a lighter version.",
+      "Add okra for authentic flavor."
+    ],
+    "pro_tips": [
+      "Do not overcook shrimp; add at the end.",
+      "Adjust Cajun seasoning to taste."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "shellfish"
+    ]
+  },
+  {
+    "name": "Chicken Fried Steak",
+    "protein": [
+      "beef",
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "35 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 cube steaks",
+      "1 cup all-purpose flour",
+      "1 tsp paprika",
+      "1/2 tsp garlic powder",
+      "1/2 tsp onion powder",
+      "Salt and pepper to taste",
+      "2 eggs, beaten",
+      "1/4 cup milk",
+      "Vegetable oil for frying",
+      "Gravy",
+      "2 tbsp pan drippings",
+      "2 tbsp flour",
+      "2 cups milk",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Mix flour, paprika, garlic powder, onion powder, salt, and pepper.",
+      "Whisk eggs and milk in another bowl.",
+      "Dredge steaks in flour, then egg mixture, then flour again.",
+      "Fry in oil over medium heat until golden, about 3\u20134 minutes per side.",
+      "For gravy, whisk flour into drippings, cook 1 minute, then whisk in milk until thickened. Season to taste."
+    ],
+    "variations": [
+      "Add cayenne pepper to flour for spice.",
+      "Serve with mashed potatoes and green beans."
+    ],
+    "pro_tips": [
+      "Do not overcrowd pan when frying.",
+      "Keep cooked steaks warm in oven while making gravy."
+    ],
+    "methods": [],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "American Chop Suey",
+    "protein": [
+      "beef"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "10 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb ground beef",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "2 cloves garlic, minced",
+      "1 can (28 oz) crushed tomatoes",
+      "2 cups elbow macaroni",
+      "2 cups beef broth",
+      "1 tsp Italian seasoning",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, cook beef, onion, and bell pepper until beef is browned.",
+      "Add garlic and cook 1 minute.",
+      "Stir in tomatoes, macaroni, broth, Italian seasoning, salt, and pepper.",
+      "Cover and simmer 20\u201325 minutes until pasta is tender.",
+      "Serve hot."
+    ],
+    "variations": [
+      "Add mushrooms for extra flavor.",
+      "Top with shredded cheese before serving."
+    ],
+    "pro_tips": [
+      "Stir occasionally to prevent pasta from sticking.",
+      "Adjust broth amount if needed during cooking."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Beef and Barley Soup",
+    "protein": [
+      "beef"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "1 hour 30 minutes",
+    "total_time": "1 hour 45 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb beef stew meat, cubed",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "2 carrots, sliced",
+      "2 celery stalks, sliced",
+      "3 cloves garlic, minced",
+      "8 cups beef broth",
+      "1 cup pearl barley",
+      "1 bay leaf",
+      "1 tsp thyme",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot, brown beef on all sides; remove and set aside.",
+      "Saut\u00e9 onion, carrots, celery, and garlic until softened.",
+      "Return beef to pot, add broth, barley, bay leaf, thyme, salt, and pepper.",
+      "Simmer 1\u20131.5 hours until beef and barley are tender.",
+      "Remove bay leaf before serving."
+    ],
+    "variations": [
+      "Add mushrooms for a richer flavor.",
+      "Use chicken instead of beef for a lighter version."
+    ],
+    "pro_tips": [
+      "Rinse barley before adding to remove excess starch.",
+      "Cook slowly for tender beef and full flavor."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "American Shepherd\u2019s Pie",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb ground beef",
+      "1 onion, chopped",
+      "2 cups mixed vegetables (peas, carrots, corn)",
+      "2 tbsp tomato paste",
+      "1 cup beef broth",
+      "2 tbsp Worcestershire sauce",
+      "4 cups mashed potatoes",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "In a skillet, cook beef and onion until beef is browned; drain excess fat.",
+      "Stir in vegetables, tomato paste, broth, Worcestershire sauce, salt, and pepper; simmer 5 minutes.",
+      "Spread beef mixture in a baking dish, top with mashed potatoes.",
+      "Bake 20\u201325 minutes until potatoes are golden."
+    ],
+    "variations": [
+      "Use ground turkey or lamb instead of beef.",
+      "Top with shredded cheese before baking."
+    ],
+    "pro_tips": [
+      "For extra creamy potatoes, use warm milk when mashing.",
+      "Let rest a few minutes before serving."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Crock Pot Pulled Pork",
+    "protein": [
+      "chicken",
+      "pork"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "8",
+    "prep_time": "10 minutes",
+    "cook_time": "8 hours (slow cooker)",
+    "total_time": "8 hours 10 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 lbs pork shoulder",
+      "1 onion, sliced",
+      "1 cup chicken broth",
+      "1/4 cup apple cider vinegar",
+      "2 tbsp brown sugar",
+      "1 tbsp paprika",
+      "1 tsp garlic powder",
+      "1 tsp onion powder",
+      "1 tsp salt",
+      "1/2 tsp black pepper"
+    ],
+    "instructions": [
+      "Place onion slices in bottom of slow cooker.",
+      "Mix brown sugar, paprika, garlic powder, onion powder, salt, and pepper; rub onto pork.",
+      "Place pork on top of onions, pour broth and vinegar around it.",
+      "Cover and cook on low 8\u201310 hours until pork is tender.",
+      "Shred pork with two forks and mix with juices before serving."
+    ],
+    "variations": [
+      "Add BBQ sauce after shredding for a different flavor.",
+      "Use pork loin for a leaner version."
+    ],
+    "pro_tips": [
+      "Remove excess fat before shredding for a cleaner texture.",
+      "Serve on buns with coleslaw for classic pulled pork sandwiches."
+    ],
+    "methods": [
+      "slow cooker",
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Shrimp Scampi",
+    "protein": [
+      "chicken",
+      "seafood"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb large shrimp, peeled and deveined",
+      "3 tbsp butter",
+      "2 tbsp olive oil",
+      "4 cloves garlic, minced",
+      "1/4 cup white wine or chicken broth",
+      "Juice of 1 lemon",
+      "1/4 cup fresh parsley, chopped",
+      "Salt and pepper to taste",
+      "8 oz linguine or spaghetti, cooked"
+    ],
+    "instructions": [
+      "Season shrimp with salt and pepper.",
+      "In a skillet, heat butter and oil over medium heat.",
+      "Add garlic, cook 1 minute until fragrant.",
+      "Add shrimp and cook 2 minutes per side until pink.",
+      "Stir in wine or broth, lemon juice, and parsley.",
+      "Toss with pasta and serve immediately."
+    ],
+    "variations": [
+      "Add red pepper flakes for heat.",
+      "Use zucchini noodles instead of pasta for low-carb."
+    ],
+    "pro_tips": [
+      "Do not overcook shrimp; they should just turn pink.",
+      "Cook pasta al dente to hold up to sauce."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Chicken Marsala",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 chicken breasts, pounded thin",
+      "1/2 cup flour for dredging",
+      "2 tbsp olive oil",
+      "2 tbsp butter",
+      "8 oz mushrooms, sliced",
+      "3/4 cup Marsala wine",
+      "3/4 cup chicken broth",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Season chicken with salt and pepper, dredge in flour.",
+      "Heat oil and butter in skillet, cook chicken until golden, remove and set aside.",
+      "Add mushrooms to skillet, cook until browned.",
+      "Pour in Marsala wine and broth, simmer 5 minutes.",
+      "Return chicken to pan, cook until heated through.",
+      "Garnish with parsley before serving."
+    ],
+    "variations": [
+      "Use pork cutlets instead of chicken.",
+      "Add cream for a richer sauce."
+    ],
+    "pro_tips": [
+      "Do not overcrowd the pan when browning chicken.",
+      "Reduce sauce until slightly thickened for best flavor."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Stuffed Cabbage",
+    "protein": [
+      "beef",
+      "pork"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "30 minutes",
+    "cook_time": "1 hour 30 minutes",
+    "total_time": "2 hours",
+    "ingredients": [
+      "Main Ingredients",
+      "1 large head cabbage",
+      "1 lb ground beef",
+      "1/2 lb ground pork",
+      "1 cup cooked rice",
+      "1 onion, finely chopped",
+      "2 cloves garlic, minced",
+      "1 egg, beaten",
+      "2 cups tomato sauce",
+      "2 cups beef broth",
+      "1 tsp paprika",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Core cabbage and boil whole for 5\u20137 minutes to soften leaves; drain and cool.",
+      "Mix beef, pork, rice, onion, garlic, egg, paprika, salt, and pepper.",
+      "Place a portion of filling on each cabbage leaf, roll up and tuck ends.",
+      "In a large pot, layer rolls with tomato sauce and broth.",
+      "Cover and simmer 1.5 hours until tender."
+    ],
+    "variations": [
+      "Use turkey instead of beef and pork.",
+      "Add raisins to filling for sweetness."
+    ],
+    "pro_tips": [
+      "Do not overstuff leaves; they may split.",
+      "Serve with extra sauce from the pot."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "eggs"
+    ]
+  },
+  {
+    "name": "Turkey Chili",
+    "protein": [
+      "turkey"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "3 cloves garlic, minced",
+      "1.5 lbs ground turkey",
+      "2 cans (14 oz each) diced tomatoes",
+      "1 can (15 oz) kidney beans, drained",
+      "1 can (15 oz) black beans, drained",
+      "2 tbsp chili powder",
+      "1 tsp cumin",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot, saut\u00e9 onion and bell pepper until softened.",
+      "Add garlic and ground turkey; cook until turkey is browned.",
+      "Stir in tomatoes, beans, chili powder, cumin, salt, and pepper.",
+      "Simmer uncovered 30 minutes, stirring occasionally."
+    ],
+    "variations": [
+      "Add corn for sweetness.",
+      "Use pinto beans instead of black beans."
+    ],
+    "pro_tips": [
+      "Adjust chili powder to taste.",
+      "Top with shredded cheese and sour cream."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Seafood Gumbo",
+    "protein": [
+      "pork",
+      "seafood"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "8",
+    "prep_time": "20 minutes",
+    "cook_time": "1 hour",
+    "total_time": "1 hour 20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1/2 cup vegetable oil",
+      "1/2 cup flour",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "2 celery stalks, chopped",
+      "3 cloves garlic, minced",
+      "6 cups seafood stock",
+      "1 can (14 oz) diced tomatoes",
+      "1 lb shrimp, peeled and deveined",
+      "1 lb crabmeat",
+      "1/2 lb andouille sausage, sliced",
+      "2 tsp Cajun seasoning",
+      "Salt and pepper to taste",
+      "2 cups okra, sliced"
+    ],
+    "instructions": [
+      "Make a roux by cooking oil and flour over medium heat, stirring constantly until deep brown.",
+      "Add onion, bell pepper, celery, and garlic; cook until softened.",
+      "Stir in stock, tomatoes, sausage, Cajun seasoning, salt, and pepper; simmer 30 minutes.",
+      "Add shrimp, crab, and okra; cook until shrimp are pink.",
+      "Serve hot over rice."
+    ],
+    "variations": [
+      "Add oysters for more seafood variety.",
+      "Use chicken stock if seafood stock isn\u2019t available."
+    ],
+    "pro_tips": [
+      "Stir roux constantly to avoid burning.",
+      "Prep all ingredients before starting the roux."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "shellfish",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Chicken Cacciatore",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "6 chicken thighs",
+      "1 onion, chopped",
+      "1 red bell pepper, sliced",
+      "3 cloves garlic, minced",
+      "1 cup mushrooms, sliced",
+      "1 can (28 oz) crushed tomatoes",
+      "1 cup chicken broth",
+      "1 tsp oregano",
+      "1 tsp basil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot, brown chicken on all sides; remove and set aside.",
+      "Saut\u00e9 onion, bell pepper, garlic, and mushrooms until softened.",
+      "Stir in tomatoes, broth, oregano, basil, salt, and pepper.",
+      "Return chicken to pot, cover, and simmer 40 minutes until tender."
+    ],
+    "variations": [
+      "Use boneless chicken breasts for faster cooking.",
+      "Add olives for extra flavor."
+    ],
+    "pro_tips": [
+      "Brown chicken well for deeper flavor.",
+      "Serve over pasta or with crusty bread."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Lentil Soup",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "10 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "55 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "3 cloves garlic, minced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1 bay leaf",
+      "1 1/2 cups dried lentils, rinsed",
+      "6 cups vegetable broth",
+      "1 can (14 oz) diced tomatoes",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot, saut\u00e9 onion, carrots, and celery until softened.",
+      "Add garlic, cumin, paprika, and bay leaf; cook 1 minute.",
+      "Stir in lentils, broth, tomatoes, salt, and pepper.",
+      "Simmer 35\u201340 minutes until lentils are tender."
+    ],
+    "variations": [
+      "Add spinach or kale before serving.",
+      "Use red lentils for a creamier texture."
+    ],
+    "pro_tips": [
+      "Do not overcook lentils; they should hold shape.",
+      "Adjust seasoning at the end of cooking."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Quinoa and Roasted Vegetables Bowl",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 cup quinoa, rinsed",
+      "2 cups vegetable broth",
+      "1 zucchini, diced",
+      "1 red bell pepper, diced",
+      "1 yellow bell pepper, diced",
+      "1 red onion, chopped",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "1 tsp dried oregano",
+      "1/2 tsp paprika"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F (200\u00b0C).",
+      "Toss zucchini, bell peppers, and onion with olive oil, salt, pepper, oregano, and paprika; spread on baking sheet and roast 20\u201325 minutes.",
+      "Meanwhile, cook quinoa in vegetable broth until tender, about 15 minutes.",
+      "Serve quinoa topped with roasted vegetables."
+    ],
+    "variations": [
+      "Add feta cheese for tang.",
+      "Top with a drizzle of balsamic glaze."
+    ],
+    "pro_tips": [
+      "Cut vegetables into even pieces for uniform roasting.",
+      "Rinse quinoa well to remove bitterness."
+    ],
+    "methods": [
+      "oven-bake",
+      "one-pot"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Vegan Chili",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "2 bell peppers, chopped",
+      "3 cloves garlic, minced",
+      "2 cans (15 oz each) kidney beans, drained",
+      "1 can (15 oz) black beans, drained",
+      "1 can (28 oz) crushed tomatoes",
+      "1 cup corn kernels",
+      "2 tbsp chili powder",
+      "1 tsp cumin",
+      "1 tsp smoked paprika",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot, saut\u00e9 onion and bell peppers until softened.",
+      "Add garlic and cook 1 minute.",
+      "Stir in beans, tomatoes, corn, chili powder, cumin, paprika, salt, and pepper.",
+      "Simmer uncovered 30\u201340 minutes, stirring occasionally."
+    ],
+    "variations": [
+      "Add diced sweet potatoes for a heartier chili.",
+      "Use chipotle powder for smoky heat."
+    ],
+    "pro_tips": [
+      "Make ahead and reheat; flavors develop overnight.",
+      "Top with avocado or cilantro for freshness."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Vegan Eggplant Parmesan",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "20 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "50 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 large eggplants, sliced into 1/2-inch rounds",
+      "1 cup flour",
+      "1 cup plant-based milk",
+      "1 1/2 cups breadcrumbs",
+      "2 cups marinara sauce",
+      "1 cup vegan mozzarella cheese",
+      "1/4 cup nutritional yeast",
+      "Olive oil for frying",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "Season eggplant slices with salt and let sit 15 minutes; pat dry.",
+      "Dredge in flour, dip in milk, then coat in breadcrumbs.",
+      "Fry until golden, then place in baking dish.",
+      "Layer eggplant with marinara sauce and vegan cheese.",
+      "Bake 20 minutes until cheese melts."
+    ],
+    "variations": [
+      "Bake instead of frying for lighter version.",
+      "Add spinach layers for extra nutrition."
+    ],
+    "pro_tips": [
+      "Salting eggplant removes bitterness.",
+      "Use panko breadcrumbs for extra crunch."
+    ],
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Vegan Thai Peanut Noodles with Vegetables",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "8 oz rice noodles",
+      "1 cup broccoli florets",
+      "1 red bell pepper, sliced",
+      "1 carrot, julienned",
+      "1/4 cup peanut butter",
+      "2 tbsp soy sauce",
+      "1 tbsp maple syrup",
+      "1 tbsp rice vinegar",
+      "1 tsp sesame oil",
+      "1/2 tsp chili flakes",
+      "1/2 cup water"
+    ],
+    "instructions": [
+      "Cook noodles according to package directions.",
+      "In a large skillet, steam broccoli, bell pepper, and carrot with water until tender-crisp.",
+      "Whisk peanut butter, soy sauce, maple syrup, vinegar, sesame oil, chili flakes, and water until smooth.",
+      "Toss vegetables and noodles with sauce and serve."
+    ],
+    "variations": [
+      "Add tofu for protein.",
+      "Use almond butter instead of peanut butter."
+    ],
+    "pro_tips": [
+      "Do not overcook noodles; they should be slightly firm.",
+      "Thin sauce with extra water if too thick."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "peanuts",
+      "sesame",
+      "soy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Vegan Roasted Cauliflower Steaks with Chimichurri",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 large heads cauliflower",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Chimichurri Sauce",
+      "1 cup fresh parsley",
+      "3 cloves garlic",
+      "2 tbsp red wine vinegar",
+      "1/2 cup olive oil",
+      "1 tsp oregano",
+      "1/2 tsp red pepper flakes",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F (220\u00b0C).",
+      "Slice cauliflower into 1-inch steaks, brush with olive oil, season with salt and pepper.",
+      "Roast 20\u201325 minutes until tender and golden.",
+      "Blend parsley, garlic, vinegar, olive oil, oregano, red pepper flakes, salt, and pepper to make chimichurri.",
+      "Serve cauliflower topped with chimichurri sauce."
+    ],
+    "variations": [
+      "Grill cauliflower instead of roasting.",
+      "Add cilantro to chimichurri for different flavor."
+    ],
+    "pro_tips": [
+      "Cut steaks from the center to keep intact.",
+      "Serve immediately for best texture."
+    ],
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Vegan Sloppy Joes",
+    "protein": [],
+    "diet": [
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 tbsp olive oil",
+      "1 onion, chopped",
+      "1 red bell pepper, chopped",
+      "3 cloves garlic, minced",
+      "1 cup cooked lentils",
+      "1 cup tomato sauce",
+      "2 tbsp tomato paste",
+      "2 tbsp maple syrup",
+      "1 tbsp soy sauce",
+      "1 tsp chili powder",
+      "Salt and pepper to taste",
+      "4 sandwich buns"
+    ],
+    "instructions": [
+      "Heat oil in a skillet, saut\u00e9 onion and bell pepper until softened.",
+      "Add garlic and cook 1 minute.",
+      "Stir in lentils, tomato sauce, paste, maple syrup, soy sauce, chili powder, salt, and pepper.",
+      "Simmer 10 minutes until thickened.",
+      "Serve on buns."
+    ],
+    "variations": [
+      "Use chickpeas instead of lentils.",
+      "Add shredded carrots for extra veggies."
+    ],
+    "pro_tips": [
+      "Toast buns for added texture.",
+      "Adjust sweetness to taste."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "soy"
+    ]
+  },
+  {
+    "name": "Vegan Pot Pie",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "3 cloves garlic, minced",
+      "1 cup potatoes, diced",
+      "1 cup peas",
+      "1/4 cup flour",
+      "3 cups vegetable broth",
+      "1 cup plant-based milk",
+      "1 tsp thyme",
+      "Salt and pepper to taste",
+      "1 sheet puff pastry, vegan"
+    ],
+    "instructions": [
+      "Preheat oven to 400\u00b0F (200\u00b0C).",
+      "Heat oil in a large oven-safe skillet, saut\u00e9 onion, carrots, celery, and garlic until softened.",
+      "Add potatoes, peas, flour, thyme, salt, and pepper; stir to coat.",
+      "Gradually add broth and milk, stirring until thickened.",
+      "Cover mixture with puff pastry, sealing edges.",
+      "Bake 20\u201325 minutes until golden brown."
+    ],
+    "variations": [
+      "Add mushrooms for umami flavor.",
+      "Use biscuit dough instead of puff pastry."
+    ],
+    "pro_tips": [
+      "Vent pastry with small slits for steam release.",
+      "Brush pastry with plant milk for shine."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Vegan Sweet Potato Curry",
+    "protein": [],
+    "diet": [
+      "gluten-free",
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "40 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp coconut oil",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "1 tbsp grated ginger",
+      "2 sweet potatoes, diced",
+      "1 can (14 oz) coconut milk",
+      "1 can (14 oz) diced tomatoes",
+      "2 tbsp curry powder",
+      "1 cup vegetable broth",
+      "Salt and pepper to taste",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Heat coconut oil in a large pot, saut\u00e9 onion until soft.",
+      "Add garlic, ginger, and curry powder; cook 1 minute.",
+      "Stir in sweet potatoes, coconut milk, tomatoes, broth, salt, and pepper.",
+      "Simmer 20\u201325 minutes until sweet potatoes are tender.",
+      "Garnish with cilantro before serving."
+    ],
+    "variations": [
+      "Add chickpeas for protein.",
+      "Use spinach for extra greens."
+    ],
+    "pro_tips": [
+      "Cut sweet potatoes into even cubes for even cooking.",
+      "Serve over rice or with naan."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Vegan BBQ Cauliflower Tacos",
+    "protein": [],
+    "diet": [
+      "vegan",
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "35 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 large head cauliflower, cut into florets",
+      "1/2 cup BBQ sauce",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "8 small tortillas",
+      "1 cup shredded lettuce",
+      "1/2 cup diced tomatoes",
+      "1/4 cup vegan ranch dressing"
+    ],
+    "instructions": [
+      "Preheat oven to 425\u00b0F (220\u00b0C).",
+      "Toss cauliflower with olive oil, salt, and pepper; roast 20 minutes.",
+      "Brush with BBQ sauce, return to oven for 5 minutes.",
+      "Serve in tortillas with lettuce, tomatoes, and ranch."
+    ],
+    "variations": [
+      "Use buffalo sauce instead of BBQ.",
+      "Add avocado slices."
+    ],
+    "pro_tips": [
+      "Warm tortillas before serving.",
+      "Roast cauliflower until slightly crisp for best texture."
+    ],
+    "methods": [
+      "grill",
+      "oven-bake"
+    ],
+    "allergens": [
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Vegan Thai Curry",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "25 minutes",
+    "total_time": "35 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp coconut oil",
+      "1 onion, sliced",
+      "3 cloves garlic, minced",
+      "1 tbsp grated ginger",
+      "2 tbsp red curry paste",
+      "1 can (14 oz) coconut milk",
+      "2 cups mixed vegetables (bell peppers, carrots, broccoli)",
+      "1 cup vegetable broth",
+      "1 tbsp soy sauce",
+      "1 tsp lime juice",
+      "Fresh basil for garnish"
+    ],
+    "instructions": [
+      "Heat coconut oil in a large pot, saut\u00e9 onion until soft.",
+      "Add garlic, ginger, and curry paste; cook 1 minute.",
+      "Stir in coconut milk, vegetables, broth, and soy sauce.",
+      "Simmer 15 minutes until vegetables are tender.",
+      "Add lime juice and garnish with basil before serving."
+    ],
+    "variations": [
+      "Add tofu or chickpeas for protein.",
+      "Use green curry paste for a different flavor."
+    ],
+    "pro_tips": [
+      "Do not overcook vegetables; they should be slightly crisp.",
+      "Serve with jasmine rice for an authentic touch."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "soy"
     ]
   }
 ]
