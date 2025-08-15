@@ -98,6 +98,9 @@ export default function Page() {
   const [onePotOnly, setOnePotOnly] = useState(false);
   const [timeFilter, setTimeFilter] = useState(""); // "under-20" | "20-40" | "over-40"
 
+  // Collapsible filters
+  const [filtersOpen, setFiltersOpen] = useState(false);
+
   // Roll result + cue
   const [current, setCurrent] = useState(null);
   const [hasRolled, setHasRolled] = useState(false);
@@ -197,6 +200,18 @@ export default function Page() {
   const accent = "#c8322b";
   const border = "var(--border)";
 
+  // Active filter count for badge
+  const activeCount = useMemo(() => {
+    let n = 0;
+    if (protein) n++;
+    if (diet) n++;
+    if (method) n++;
+    if (excludeAllergen) n++;
+    if (onePotOnly) n++;
+    if (timeFilter) n++;
+    return n;
+  }, [protein, diet, method, excludeAllergen, onePotOnly, timeFilter]);
+
   return (
     <main
       style={{
@@ -225,63 +240,109 @@ export default function Page() {
         <Image src="/logo.png" alt="What's for Dinner" width={260} height={80} priority />
       </div>
 
-      {/* ===== Filters (NOT sticky now) ===== */}
+      {/* ===== Collapsible Filters (mobile-first) ===== */}
       <section
         className="filters-wrap"
         style={{
           width: "100%",
           maxWidth: 1000,
           background: "var(--background)",
-          padding: "8px 6px 10px",
-          borderBottom: "1px solid var(--border)",
-          position: "static" /* <- removed sticky */,
+          border: "1px solid var(--border)",
+          borderRadius: 12,
+          overflow: "hidden",
         }}
       >
-        <div className="filters-grid" style={{ display: "grid", gap: 8 }}>
-          <label style={{ fontWeight: 700, fontSize: "1rem" }}>Filters (optional)</label>
-
-          <select value={protein} onChange={(e)=>setProtein(e.target.value)} className="input">
-            <option value="">Protein: Any</option>
-            {proteins.map((p)=> <option key={p} value={p}>{pretty(p)}</option>)}
-          </select>
-
-          <select value={diet} onChange={(e)=>setDiet(e.target.value)} className="input">
-            <option value="">Diet: Any</option>
-            {diets.map((d)=> <option key={d} value={d}>{pretty(d)}</option>)}
-          </select>
-
-          <select value={method} onChange={(e)=>setMethod(e.target.value)} className="input">
-            <option value="">Cooking Method: Any</option>
-            {methodOptions.map((m)=> <option key={m} value={m}>{pretty(m)}</option>)}
-          </select>
-
-          <select value={excludeAllergen} onChange={(e)=>setExcludeAllergen(e.target.value)} className="input">
-            <option value="">Exclude Allergen: None</option>
-            {allergens.map((a)=> <option key={a} value={a}>{pretty(a)}</option>)}
-          </select>
-
-          <label className="checkbox">
-            <input type="checkbox" checked={onePotOnly} onChange={e=>setOnePotOnly(e.target.checked)} />
-            <span>One-pot meals only</span>
-          </label>
-
-          <select value={timeFilter} onChange={(e)=>setTimeFilter(e.target.value)} className="input">
-            <option value="">Total Time: Any</option>
-            <option value="under-20">Under 20 min</option>
-            <option value="20-40">20–40 min</option>
-            <option value="over-40">Over 40 min</option>
-          </select>
-
-          {/* Roll + Reset (mobile-friendly big buttons) */}
-          <div className="actions">
-            <button onClick={roll} className="btn-primary">Roll Dinner 🎲</button>
-            <button onClick={resetFilters} className="btn-ghost">Reset Filters</button>
-            {hasRolled && showCue && (
-              <div key={flashKey} className="scroll-cue">Scroll down for your recipe ↓</div>
+        {/* Header */}
+        <button
+          onClick={() => setFiltersOpen((v) => !v)}
+          aria-expanded={filtersOpen}
+          className="filters-toggle"
+          style={{
+            width: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            padding: "12px 14px",
+            background: "transparent",
+            border: "none",
+            fontSize: "1rem",
+            fontWeight: 800,
+            cursor: "pointer"
+          }}
+        >
+          <span>Filters (optional)</span>
+          <span style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 8,
+            fontWeight: 600
+          }}>
+            {activeCount > 0 && (
+              <span style={{
+                minWidth: 22,
+                height: 22,
+                borderRadius: 999,
+                background: "var(--card)",
+                border: `1px solid ${border}`,
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "0.85rem",
+                marginRight: 8
+              }}>{activeCount}</span>
             )}
+            <span style={{ transform: filtersOpen ? "rotate(180deg)" : "rotate(0)", transition: "transform .2s ease" }}>▾</span>
+          </span>
+        </button>
+
+        {/* Panel */}
+        {filtersOpen && (
+          <div style={{ padding: "10px 12px 14px", borderTop: `1px solid ${border}` }}>
+            <div className="filters-grid" style={{ display: "grid", gap: 8 }}>
+              <select value={protein} onChange={(e)=>setProtein(e.target.value)} className="input">
+                <option value="">Protein: Any</option>
+                {proteins.map((p)=> <option key={p} value={p}>{pretty(p)}</option>)}
+              </select>
+
+              <select value={diet} onChange={(e)=>setDiet(e.target.value)} className="input">
+                <option value="">Diet: Any</option>
+                {diets.map((d)=> <option key={d} value={d}>{pretty(d)}</option>)}
+              </select>
+
+              <select value={method} onChange={(e)=>setMethod(e.target.value)} className="input">
+                <option value="">Cooking Method: Any</option>
+                {methodOptions.map((m)=> <option key={m} value={m}>{pretty(m)}</option>)}
+              </select>
+
+              <select value={excludeAllergen} onChange={(e)=>setExcludeAllergen(e.target.value)} className="input">
+                <option value="">Exclude Allergen: None</option>
+                {allergens.map((a)=> <option key={a} value={a}>{pretty(a)}</option>)}
+              </select>
+
+              <label className="checkbox">
+                <input type="checkbox" checked={onePotOnly} onChange={e=>setOnePotOnly(e.target.checked)} />
+                <span>One-pot meals only</span>
+              </label>
+
+              <select value={timeFilter} onChange={(e)=>setTimeFilter(e.target.value)} className="input">
+                <option value="">Total Time: Any</option>
+                <option value="under-20">Under 20 min</option>
+                <option value="20-40">20–40 min</option>
+                <option value="over-40">Over 40 min</option>
+              </select>
+            </div>
           </div>
-        </div>
+        )}
       </section>
+
+      {/* ===== Buttons outside the collapsible panel (always visible) ===== */}
+      <div className="actions outside-actions">
+        <button onClick={roll} className="btn-primary">Roll Dinner 🎲</button>
+        <button onClick={resetFilters} className="btn-ghost">Reset Filters</button>
+        {hasRolled && showCue && (
+          <div key={flashKey} className="scroll-cue">Scroll down for your recipe ↓</div>
+        )}
+      </div>
 
       {/* Inline ad */}
       <div style={{ width: "100%", maxWidth: 1000, margin: "12px 0" }}>
@@ -383,8 +444,11 @@ export default function Page() {
           flex-direction: column;
           gap: 8px;
           align-items: stretch;
-          margin-top: 4px;
+          margin-top: 10px;
+          width: 100%;
+          max-width: 1000px;
         }
+        .outside-actions { padding: 8px 0 0; }
         .btn-primary {
           padding: 14px 20px;
           border-radius: 12px;
@@ -425,11 +489,9 @@ export default function Page() {
             grid-template-columns: repeat(12, 1fr);
             gap: 12px;
           }
-          .filters-grid > label { grid-column: span 12; }
           .filters-grid select.input { grid-column: span 6; }
           .checkbox { grid-column: span 6; }
           .actions {
-            grid-column: span 12;
             flex-direction: row;
             justify-content: center;
             gap: 12px;
