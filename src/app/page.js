@@ -1,10 +1,12 @@
+
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import mealsData from "@/data/meals.json";
 
-// -------------------- Helpers --------------------
+/* ================= Helpers ================= */
 const toArray = (v) => {
   if (!v) return [];
   if (Array.isArray(v)) return v;
@@ -42,23 +44,22 @@ function normalizeMeal(m) {
   };
 }
 
-const pretty = (s) =>
-  String(s).replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+const pretty = (s) => String(s).replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-// -------------------- UI Bits --------------------
+/* ================= UI Bits ================= */
 function Pill({ text }) {
   return (
     <span
       style={{
         display: "inline-block",
-        padding: "2px 8px",
+        padding: "6px 10px",
         borderRadius: 999,
         border: "1px solid var(--border)",
         background: "var(--card)",
         color: "var(--foreground)",
-        fontSize: "0.85rem",
-        marginRight: 6,
-        marginTop: 4,
+        fontSize: "0.9rem",
+        marginRight: 8,
+        marginTop: 6,
       }}
     >
       {text}
@@ -85,7 +86,7 @@ function AdSlot({ label }) {
   );
 }
 
-// -------------------- Page --------------------
+/* ================= Page ================= */
 export default function Page() {
   const meals = useMemo(() => mealsData.map(normalizeMeal), []);
 
@@ -135,10 +136,7 @@ export default function Page() {
   }, [meals]);
 
   // Remove "one-pot" from Cooking Method options (separate checkbox)
-  const methodOptions = useMemo(
-    () => methodsRaw.filter((x) => x !== "one-pot"),
-    [methodsRaw]
-  );
+  const methodOptions = useMemo(() => methodsRaw.filter((x) => x !== "one-pot"), [methodsRaw]);
 
   const allergens = useMemo(() => {
     const s = new Set();
@@ -151,9 +149,7 @@ export default function Page() {
     if (!str) return 0;
     const parts = String(str).match(/(\d+)\s*(min|m|minutes?)/gi);
     if (parts) {
-      const nums = parts
-        .map((x) => parseInt(x.replace(/\D/g, "") || "0", 10))
-        .filter(Boolean);
+      const nums = parts.map((x) => parseInt(x.replace(/\D/g, "") || "0", 10)).filter(Boolean);
       if (nums.length) return nums.reduce((a, b) => a + b, 0);
     }
     return 0;
@@ -207,11 +203,11 @@ export default function Page() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        padding: "16px 12px 40px",
+        padding: "12px 10px 32px",
       }}
     >
       {/* Top ad banner */}
-      <div style={{ width: "100%", maxWidth: 1000, margin: "12px 0" }}>
+      <div style={{ width: "100%", maxWidth: 1000, margin: "8px 0" }}>
         <AdSlot label="Ad Banner — Top" />
       </div>
 
@@ -223,217 +219,87 @@ export default function Page() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          margin: "12px 0 6px",
+          margin: "8px 0 4px",
         }}
       >
-        <Image
-          src="/logo.png"
-          alt="What's for Dinner"
-          width={360}
-          height={110}
-          priority
-        />
+        <Image src="/logo.png" alt="What's for Dinner" width={260} height={80} priority />
       </div>
 
-      {/* Filters */}
-      <section style={{ width: "100%", maxWidth: 1000, marginTop: 8 }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(12, 1fr)", gap: 12 }}>
-          <label style={{ gridColumn: "span 12", fontWeight: 600 }}>
-            Filters (optional)
+      {/* ===== Filters (NOT sticky now) ===== */}
+      <section
+        className="filters-wrap"
+        style={{
+          width: "100%",
+          maxWidth: 1000,
+          background: "var(--background)",
+          padding: "8px 6px 10px",
+          borderBottom: "1px solid var(--border)",
+          position: "static" /* <- removed sticky */,
+        }}
+      >
+        <div className="filters-grid" style={{ display: "grid", gap: 8 }}>
+          <label style={{ fontWeight: 700, fontSize: "1rem" }}>Filters (optional)</label>
+
+          <select value={protein} onChange={(e)=>setProtein(e.target.value)} className="input">
+            <option value="">Protein: Any</option>
+            {proteins.map((p)=> <option key={p} value={p}>{pretty(p)}</option>)}
+          </select>
+
+          <select value={diet} onChange={(e)=>setDiet(e.target.value)} className="input">
+            <option value="">Diet: Any</option>
+            {diets.map((d)=> <option key={d} value={d}>{pretty(d)}</option>)}
+          </select>
+
+          <select value={method} onChange={(e)=>setMethod(e.target.value)} className="input">
+            <option value="">Cooking Method: Any</option>
+            {methodOptions.map((m)=> <option key={m} value={m}>{pretty(m)}</option>)}
+          </select>
+
+          <select value={excludeAllergen} onChange={(e)=>setExcludeAllergen(e.target.value)} className="input">
+            <option value="">Exclude Allergen: None</option>
+            {allergens.map((a)=> <option key={a} value={a}>{pretty(a)}</option>)}
+          </select>
+
+          <label className="checkbox">
+            <input type="checkbox" checked={onePotOnly} onChange={e=>setOnePotOnly(e.target.checked)} />
+            <span>One-pot meals only</span>
           </label>
 
-          {/* Protein */}
-          <select
-            value={protein}
-            onChange={(e) => setProtein(e.target.value)}
-            style={{
-              gridColumn: "span 6",
-              padding: 10,
-              borderRadius: 8,
-              border: `1px solid ${border}`,
-            }}
-          >
-            <option value="">Protein: Any</option>
-            {proteins.map((p) => (
-              <option key={p} value={p}>
-                {pretty(p)}
-              </option>
-            ))}
-          </select>
-
-          {/* Diet */}
-          <select
-            value={diet}
-            onChange={(e) => setDiet(e.target.value)}
-            style={{
-              gridColumn: "span 6",
-              padding: 10,
-              borderRadius: 8,
-              border: `1px solid ${border}`,
-            }}
-          >
-            <option value="">Diet: Any</option>
-            {diets.map((d) => (
-              <option key={d} value={d}>
-                {pretty(d)}
-              </option>
-            ))}
-          </select>
-
-          {/* Cooking Method (one-pot removed from options) */}
-          <select
-            value={method}
-            onChange={(e) => setMethod(e.target.value)}
-            style={{
-              gridColumn: "span 6",
-              padding: 10,
-              borderRadius: 8,
-              border: `1px solid ${border}`,
-            }}
-          >
-            <option value="">Cooking Method: Any</option>
-            {methodOptions.map((m) => (
-              <option key={m} value={m}>
-                {pretty(m)}
-              </option>
-            ))}
-          </select>
-
-          {/* Allergens (exclude) */}
-          <select
-            value={excludeAllergen}
-            onChange={(e) => setExcludeAllergen(e.target.value)}
-            style={{
-              gridColumn: "span 6",
-              padding: 10,
-              borderRadius: 8,
-              border: `1px solid ${border}`,
-            }}
-          >
-            <option value="">Exclude Allergen: None</option>
-            {allergens.map((a) => (
-              <option key={a} value={a}>
-                {pretty(a)}
-              </option>
-            ))}
-          </select>
-
-          {/* One-pot separate toggle */}
-          <div style={{ gridColumn: "span 6", display: "flex", alignItems: "center", gap: 8 }}>
-            <input
-              id="onepot"
-              type="checkbox"
-              checked={onePotOnly}
-              onChange={(e) => setOnePotOnly(e.target.checked)}
-            />
-            <label htmlFor="onepot">One-pot meals only</label>
-          </div>
-
-          {/* Total Time */}
-          <select
-            value={timeFilter}
-            onChange={(e) => setTimeFilter(e.target.value)}
-            style={{
-              gridColumn: "span 6",
-              padding: 10,
-              borderRadius: 8,
-              border: `1px solid ${border}`,
-            }}
-          >
+          <select value={timeFilter} onChange={(e)=>setTimeFilter(e.target.value)} className="input">
             <option value="">Total Time: Any</option>
             <option value="under-20">Under 20 min</option>
             <option value="20-40">20–40 min</option>
             <option value="over-40">Over 40 min</option>
           </select>
 
-          {/* Roll + Reset */}
-          <div
-            style={{
-              gridColumn: "span 12",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              marginTop: 4,
-            }}
-          >
-            <button
-              onClick={roll}
-              style={{
-                padding: "0.8rem 1.2rem",
-                borderRadius: 10,
-                border: "none",
-                background: accent,
-                color: "white",
-                cursor: "pointer",
-                fontSize: "1.05rem",
-                fontWeight: 700,
-                boxShadow: "0 4px 10px rgba(0,0,0,0.12)",
-              }}
-            >
-              Roll Dinner 🎲
-            </button>
-
-            <button
-              onClick={() => {
-                resetFilters();
-              }}
-              style={{
-                marginTop: "0.5rem",
-                padding: "0.55rem 1rem",
-                borderRadius: 8,
-                border: `1px solid ${border}`,
-                background: "transparent",
-                color: "var(--foreground)",
-                cursor: "pointer",
-                fontSize: "1rem",
-              }}
-            >
-              Reset Filters
-            </button>
-
-            {/* Flashing mobile cue (auto-hide after ~6s) */}
+          {/* Roll + Reset (mobile-friendly big buttons) */}
+          <div className="actions">
+            <button onClick={roll} className="btn-primary">Roll Dinner 🎲</button>
+            <button onClick={resetFilters} className="btn-ghost">Reset Filters</button>
             {hasRolled && showCue && (
-              <div
-                key={flashKey}
-                className="scroll-cue"
-                style={{
-                  marginTop: 10,
-                  fontSize: "1.1rem",
-                  fontWeight: 800,
-                  letterSpacing: 0.2,
-                  textAlign: "center",
-                }}
-              >
-                Scroll down for your recipe ↓
-              </div>
+              <div key={flashKey} className="scroll-cue">Scroll down for your recipe ↓</div>
             )}
           </div>
         </div>
       </section>
 
-      {/* Bottom ad */}
-      <div style={{ width: "100%", maxWidth: 1000, margin: "16px 0" }}>
+      {/* Inline ad */}
+      <div style={{ width: "100%", maxWidth: 1000, margin: "12px 0" }}>
         <AdSlot label="Ad Banner — Inline" />
       </div>
 
-      {/* Result */}
+      {/* ===== Result ===== */}
       {current && (
         <article style={{ width: "100%", maxWidth: 900, marginTop: 8 }}>
-          <h2 style={{ marginBottom: 2 }}>{current.name}</h2>
+          <h2 style={{ marginBottom: 2, fontSize: "1.4rem" }}>{current.name}</h2>
 
           {(current.servings || current.portion_size) && (
-            <div style={{ opacity: 0.85, marginTop: 2 }}>
-              Servings: {current.servings || current.portion_size}
-            </div>
+            <div style={{ opacity: 0.85, marginTop: 2 }}>Servings: {current.servings || current.portion_size}</div>
           )}
 
           <div style={{ opacity: 0.9, marginTop: 6 }}>
-            {current.protein?.map((p) => (
-              <Pill key={p} text={p} />
-            ))}
-            {current.diet?.map((d) => (
-              <Pill key={d} text={d} />
-            ))}
+            {current.protein?.map((p) => <Pill key={p} text={p} />)}
+            {current.diet?.map((d) => <Pill key={d} text={d} />)}
             {current.is_one_pot && <Pill text="one-pot" />}
           </div>
 
@@ -442,9 +308,7 @@ export default function Page() {
             <section style={{ marginTop: 12 }}>
               <h3>Ingredients</h3>
               <ul style={{ marginTop: 6, paddingLeft: 20 }}>
-                {current.ingredients.map((it, i) => (
-                  <li key={i}>{it}</li>
-                ))}
+                {current.ingredients.map((it, i) => <li key={i}>{it}</li>)}
               </ul>
             </section>
           )}
@@ -454,11 +318,7 @@ export default function Page() {
             <section style={{ marginTop: 12 }}>
               <h3>Instructions</h3>
               <ol style={{ marginTop: 6, paddingLeft: 20 }}>
-                {current.instructions.map((step, i) => (
-                  <li key={i} style={{ marginTop: 4 }}>
-                    {step}
-                  </li>
-                ))}
+                {current.instructions.map((step, i) => <li key={i} style={{ marginTop: 4 }}>{step}</li>)}
               </ol>
             </section>
           )}
@@ -468,9 +328,7 @@ export default function Page() {
             <section style={{ marginTop: 12 }}>
               <h3>Pro Tips</h3>
               <ul style={{ marginTop: 6, paddingLeft: 20 }}>
-                {current.pro_tips.map((t, i) => (
-                  <li key={i}>{t}</li>
-                ))}
+                {current.pro_tips.map((t, i) => <li key={i}>{t}</li>)}
               </ul>
             </section>
           )}
@@ -478,14 +336,7 @@ export default function Page() {
           {/* Variations: paywall-ready placeholder */}
           {current.variations?.length > 0 && (
             <section style={{ marginTop: 12 }}>
-              <div
-                style={{
-                  padding: "10px 12px",
-                  border: `1px dashed ${border}`,
-                  borderRadius: 12,
-                  color: "var(--muted)",
-                }}
-              >
+              <div style={{ padding: "10px 12px", border: `1px dashed ${border}`, borderRadius: 12, color: "var(--muted)" }}>
                 Variations are available for premium members.
               </div>
             </section>
@@ -493,20 +344,97 @@ export default function Page() {
         </article>
       )}
 
-      {/* Styles for flashing cue */}
+      {/* ===== Footer & Disclaimer ===== */}
+      <footer style={{ width: "100%", maxWidth: 1000, marginTop: 28, paddingTop: 16, borderTop: "1px solid var(--border)" }}>
+        <nav style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap", marginBottom: 8 }}>
+          <Link href="/about" style={{ textDecoration: "none", color: "inherit", opacity: 0.9 }}>About</Link>
+          <span aria-hidden="true" style={{ opacity: 0.4 }}>•</span>
+          <Link href="/contact" style={{ textDecoration: "none", color: "inherit", opacity: 0.9 }}>Contact</Link>
+          <span aria-hidden="true" style={{ opacity: 0.4 }}>•</span>
+          <Link href="/privacy-policy" style={{ textDecoration: "none", color: "inherit", opacity: 0.9 }}>Privacy Policy</Link>
+        </nav>
+
+        <p style={{ textAlign: "center", fontSize: "0.9rem", lineHeight: 1.4, color: "var(--muted, #666)", margin: "6px auto 0", maxWidth: 900, opacity: 0.85 }}>
+          <strong>Disclaimer:</strong> Recipes and meal suggestions on <em>What’s for Dinner?</em> are for inspiration only.
+          Always follow proper food safety guidelines. The site and its owner are not responsible for any outcomes related to
+          meal preparation, including but not limited to illness from undercooked food, allergies, or dietary issues.
+        </p>
+      </footer>
+
+      {/* ===== Styles ===== */}
       <style jsx>{`
+        /* Mobile-first input styles */
+        .input {
+          padding: 12px;
+          border-radius: 10px;
+          border: 1px solid var(--border);
+          font-size: 1rem;
+          width: 100%;
+          background: var(--card);
+        }
+        .checkbox {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 1rem;
+        }
+        .actions {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          align-items: stretch;
+          margin-top: 4px;
+        }
+        .btn-primary {
+          padding: 14px 20px;
+          border-radius: 12px;
+          border: none;
+          background: ${'${accent}'};
+          color: white;
+          font-weight: 800;
+          font-size: 1.05rem;
+          box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+        }
+        .btn-ghost {
+          padding: 12px 18px;
+          border-radius: 10px;
+          border: 1px solid var(--border);
+          background: transparent;
+          font-size: 1rem;
+        }
+
+        /* Flash cue */
         @keyframes wfdfade {
           0%, 100% { opacity: 1; }
           50% { opacity: 0.15; }
         }
         .scroll-cue {
+          margin-top: 8px;
+          text-align: center;
+          font-size: 1.05rem;
+          font-weight: 800;
           animation-name: wfdfade;
           animation-duration: 0.9s;
           animation-timing-function: ease-in-out;
-          animation-iteration-count: 3; /* flashes 3 times */
+          animation-iteration-count: 3;
         }
-        @media (max-width: 480px) {
-          .scroll-cue { font-size: 1.1rem; }
+
+        /* Tablet/Desktop enhancements */
+        @media (min-width: 720px) {
+          .filters-grid {
+            grid-template-columns: repeat(12, 1fr);
+            gap: 12px;
+          }
+          .filters-grid > label { grid-column: span 12; }
+          .filters-grid select.input { grid-column: span 6; }
+          .checkbox { grid-column: span 6; }
+          .actions {
+            grid-column: span 12;
+            flex-direction: row;
+            justify-content: center;
+            gap: 12px;
+          }
+          .btn-primary, .btn-ghost { width: auto; }
         }
       `}</style>
     </main>
