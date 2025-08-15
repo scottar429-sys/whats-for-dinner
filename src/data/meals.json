@@ -4898,5 +4898,1237 @@
       "soy",
       "wheat/gluten"
     ]
+  },
+  {
+    "name": "Thai Red Curry with Chicken",
+    "protein": [
+      "chicken",
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "20 minutes",
+    "total_time": "35 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "3 tbsp red curry paste",
+      "1 lb chicken breast, sliced",
+      "1 can (14 oz) coconut milk",
+      "1 cup chicken broth",
+      "1 cup sliced bell peppers",
+      "1 cup sliced zucchini",
+      "2 tbsp fish sauce",
+      "1 tbsp brown sugar",
+      "Fresh basil leaves for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a large pot over medium heat.",
+      "Stir in red curry paste and cook 1\u20132 minutes until fragrant.",
+      "Add chicken and cook until no longer pink.",
+      "Stir in coconut milk, broth, fish sauce, and brown sugar; bring to a simmer.",
+      "Add vegetables and cook until tender-crisp.",
+      "Garnish with fresh basil before serving."
+    ],
+    "variations": [
+      "Use shrimp or tofu instead of chicken.",
+      "Add bamboo shoots for extra texture."
+    ],
+    "pro_tips": [
+      "Do not overcook vegetables; they should remain slightly crisp.",
+      "Serve with steamed jasmine rice."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Teriyaki Salmon",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes + 30 minutes marinating",
+    "cook_time": "10 minutes",
+    "total_time": "50 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 salmon fillets",
+      "1/4 cup soy sauce",
+      "1/4 cup mirin",
+      "2 tbsp brown sugar",
+      "1 tbsp rice vinegar",
+      "2 cloves garlic, minced",
+      "1 tsp grated ginger",
+      "1 tbsp sesame oil",
+      "Sesame seeds and sliced green onions for garnish"
+    ],
+    "instructions": [
+      "In a bowl, mix soy sauce, mirin, brown sugar, rice vinegar, garlic, ginger, and sesame oil.",
+      "Marinate salmon in mixture for 30 minutes.",
+      "Preheat grill or skillet to medium-high heat.",
+      "Cook salmon 4\u20135 minutes per side until cooked through.",
+      "Garnish with sesame seeds and green onions."
+    ],
+    "variations": [
+      "Bake salmon at 400\u00b0F (200\u00b0C) for 12\u201315 minutes instead of grilling.",
+      "Use teriyaki sauce as a glaze in the last 2 minutes of cooking."
+    ],
+    "pro_tips": [
+      "Do not overcook salmon; it should be moist inside.",
+      "Pat salmon dry before cooking for better searing."
+    ],
+    "methods": [
+      "grill",
+      "stove-top"
+    ],
+    "allergens": [
+      "fish",
+      "sesame",
+      "soy"
+    ]
+  },
+  {
+    "name": "Thai Massaman Curry",
+    "protein": [
+      "beef",
+      "seafood"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "3 tbsp massaman curry paste",
+      "1 lb beef chuck, cut into cubes",
+      "1 can (14 oz) coconut milk",
+      "1 cup beef broth",
+      "2 potatoes, diced",
+      "1 onion, chopped",
+      "1/4 cup roasted peanuts",
+      "2 tbsp fish sauce",
+      "1 tbsp brown sugar",
+      "Juice of 1 lime"
+    ],
+    "instructions": [
+      "Heat oil in a large pot over medium heat.",
+      "Stir in curry paste and cook 1\u20132 minutes.",
+      "Add beef and brown on all sides.",
+      "Pour in coconut milk and broth; bring to a simmer.",
+      "Add potatoes, onion, peanuts, fish sauce, and sugar; simmer 30\u201340 minutes until beef is tender.",
+      "Stir in lime juice before serving."
+    ],
+    "variations": [
+      "Use chicken or lamb instead of beef.",
+      "Add carrots or bell peppers for more vegetables."
+    ],
+    "pro_tips": [
+      "Cut beef into small chunks for quicker cooking.",
+      "Serve with steamed jasmine rice."
+    ],
+    "methods": [
+      "one-pot",
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "peanuts"
+    ]
+  },
+  {
+    "name": "Chili Garlic Shrimp",
+    "protein": [
+      "seafood"
+    ],
+    "diet": [
+      "pescatarian"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "6 minutes",
+    "total_time": "16 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb large shrimp, peeled and deveined",
+      "2 tbsp vegetable oil",
+      "4 cloves garlic, minced",
+      "1\u20132 tbsp chili paste (adjust to taste)",
+      "2 tbsp soy sauce",
+      "1 tbsp honey",
+      "Juice of 1 lime",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a large skillet over medium-high heat.",
+      "Add garlic and chili paste; cook 1 minute.",
+      "Add shrimp and cook 2\u20133 minutes per side until pink and cooked through.",
+      "Stir in soy sauce, honey, and lime juice.",
+      "Garnish with cilantro before serving."
+    ],
+    "variations": [
+      "Add sliced bell peppers for color and crunch.",
+      "Use sweet chili sauce for a milder flavor."
+    ],
+    "pro_tips": [
+      "Do not overcook shrimp; they should be just opaque.",
+      "Adjust chili paste to desired spice level."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "shellfish",
+      "soy"
+    ]
+  },
+  {
+    "name": "Thai Basil Chicken",
+    "protein": [
+      "chicken",
+      "seafood"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "10 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "1 lb ground chicken",
+      "4 cloves garlic, minced",
+      "2 red chilies, sliced",
+      "2 tbsp soy sauce",
+      "1 tbsp fish sauce",
+      "1 tbsp oyster sauce",
+      "1 tsp sugar",
+      "1 cup fresh Thai basil leaves"
+    ],
+    "instructions": [
+      "Heat oil in a wok or large skillet over high heat.",
+      "Add garlic and chilies; saut\u00e9 30 seconds.",
+      "Add ground chicken and cook until browned.",
+      "Stir in soy sauce, fish sauce, oyster sauce, and sugar.",
+      "Add basil leaves and toss until wilted.",
+      "Serve immediately with rice."
+    ],
+    "variations": [
+      "Use ground pork or turkey instead of chicken.",
+      "Add green beans for extra texture."
+    ],
+    "pro_tips": [
+      "Cook on high heat for authentic flavor.",
+      "Use Thai holy basil if available for the best taste."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "shellfish",
+      "soy"
+    ]
+  },
+  {
+    "name": "Feijoada",
+    "protein": [
+      "chicken",
+      "pork"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "8",
+    "prep_time": "20 minutes",
+    "cook_time": "2 hours",
+    "total_time": "2 hours 20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb black beans, soaked overnight",
+      "1 lb pork shoulder, cut into chunks",
+      "8 oz chorizo or smoked sausage, sliced",
+      "8 oz bacon, chopped",
+      "1 onion, chopped",
+      "4 cloves garlic, minced",
+      "2 bay leaves",
+      "1 tsp smoked paprika",
+      "6 cups water or chicken broth",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, cook bacon until crispy; remove and set aside.",
+      "Brown pork shoulder in bacon fat; remove and set aside.",
+      "Saut\u00e9 onion and garlic until softened.",
+      "Add beans, pork, sausage, bacon, bay leaves, paprika, and broth.",
+      "Bring to a boil, then reduce heat and simmer 1.5\u20132 hours until beans and meat are tender.",
+      "Season with salt and pepper before serving."
+    ],
+    "variations": [
+      "Add beef short ribs for a richer stew.",
+      "Serve with orange slices for a traditional touch."
+    ],
+    "pro_tips": [
+      "Skim excess fat from the surface while cooking.",
+      "Best made a day ahead for deeper flavor."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Asado",
+    "protein": [
+      "beef",
+      "pork"
+    ],
+    "diet": [
+      "gluten-free",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "1\u20132 hours",
+    "total_time": "1 hour 20 minutes to 2 hours 20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "3 lbs assorted beef cuts (short ribs, flank, sausage)",
+      "Coarse salt",
+      "Chimichurri sauce for serving"
+    ],
+    "instructions": [
+      "Prepare a charcoal or wood fire grill for indirect heat.",
+      "Season meat generously with coarse salt.",
+      "Grill meat slowly over indirect heat, turning occasionally, until desired doneness.",
+      "Serve with chimichurri sauce."
+    ],
+    "variations": [
+      "Include chicken or pork in the grill selection.",
+      "Add grilled vegetables for variety."
+    ],
+    "pro_tips": [
+      "Cook over wood for the most authentic flavor.",
+      "Let meat rest before slicing to retain juices."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Churrasco",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "15 minutes",
+    "total_time": "30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 lbs flank steak",
+      "3 tbsp olive oil",
+      "4 cloves garlic, minced",
+      "1 tbsp coarse salt",
+      "1 tbsp black pepper",
+      "Chimichurri sauce for serving"
+    ],
+    "instructions": [
+      "Mix olive oil, garlic, salt, and pepper; rub over steak.",
+      "Preheat grill to high heat.",
+      "Grill steak 4\u20136 minutes per side for medium-rare or desired doneness.",
+      "Rest 5 minutes, slice against the grain, and serve with chimichurri."
+    ],
+    "variations": [
+      "Use skirt steak or ribeye instead of flank.",
+      "Add lime juice to marinade for brightness."
+    ],
+    "pro_tips": [
+      "Do not overcook; churrasco is best medium-rare.",
+      "Slice thinly for tenderness."
+    ],
+    "methods": [
+      "grill"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Milanese",
+    "protein": [
+      "beef"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "10 minutes",
+    "total_time": "25 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "4 beef or veal cutlets",
+      "Salt and pepper to taste",
+      "1 cup flour",
+      "2 eggs, beaten",
+      "1 cup breadcrumbs",
+      "Oil for frying",
+      "Lemon wedges for serving"
+    ],
+    "instructions": [
+      "Season cutlets with salt and pepper.",
+      "Dredge in flour, dip in eggs, then coat with breadcrumbs.",
+      "Heat oil in a large skillet over medium-high heat.",
+      "Fry cutlets 2\u20133 minutes per side until golden brown and cooked through.",
+      "Serve with lemon wedges."
+    ],
+    "variations": [
+      "Top with tomato sauce and mozzarella for a Milanese a la Napolitana.",
+      "Use chicken cutlets instead of beef or veal."
+    ],
+    "pro_tips": [
+      "Do not overcrowd skillet; fry in batches if needed.",
+      "Pat cutlets dry before breading for better adhesion."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Locro",
+    "protein": [
+      "beef",
+      "pork"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "8",
+    "prep_time": "20 minutes",
+    "cook_time": "2 hours",
+    "total_time": "2 hours 20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 lb dried hominy corn, soaked overnight",
+      "1 lb beef stew meat",
+      "8 oz pork belly, diced",
+      "8 oz chorizo, sliced",
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 potatoes, diced",
+      "1 tsp paprika",
+      "1 tsp cumin",
+      "8 cups beef broth",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, cook pork belly until browned; remove and set aside.",
+      "Brown beef in rendered fat; remove and set aside.",
+      "Saut\u00e9 onion, carrots, and potatoes until softened.",
+      "Add meats back to pot along with chorizo, hominy, paprika, cumin, broth, salt, and pepper.",
+      "Simmer 1.5\u20132 hours until hominy and meat are tender."
+    ],
+    "variations": [
+      "Add pumpkin or squash for sweetness.",
+      "Use chicken instead of beef for a lighter stew."
+    ],
+    "pro_tips": [
+      "Soak hominy overnight for best texture.",
+      "Serve hot with crusty bread."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Caldo Verde",
+    "protein": [
+      "chicken",
+      "pork"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "35 minutes",
+    "total_time": "50 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "6 cups chicken or vegetable broth",
+      "1 lb potatoes, peeled and diced",
+      "8 oz chorizo or lingui\u00e7a sausage, sliced",
+      "4 cups thinly sliced kale",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Saut\u00e9 onion and garlic until softened.",
+      "Add broth and potatoes; bring to a boil, then simmer until potatoes are tender.",
+      "Mash some potatoes in the pot to thicken the soup.",
+      "Add sausage and simmer 5 minutes.",
+      "Stir in kale and cook until wilted.",
+      "Season with salt and pepper before serving."
+    ],
+    "variations": [
+      "Use collard greens instead of kale.",
+      "Add a pinch of red pepper flakes for spice."
+    ],
+    "pro_tips": [
+      "Slice kale thinly for quicker cooking.",
+      "Best served with crusty bread."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Carne Guisada",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "gluten-free",
+      "low-carb"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "2 hours",
+    "total_time": "2 hours 20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 lbs beef stew meat",
+      "2 tbsp vegetable oil",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "3 cloves garlic, minced",
+      "2 cups beef broth",
+      "1 cup tomato sauce",
+      "1 tsp cumin",
+      "1 tsp chili powder",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot over medium-high heat.",
+      "Brown beef on all sides; remove and set aside.",
+      "Saut\u00e9 onion, bell pepper, and garlic until softened.",
+      "Return beef to pot; add broth, tomato sauce, cumin, chili powder, salt, and pepper.",
+      "Cover and simmer 1.5\u20132 hours until beef is tender."
+    ],
+    "variations": [
+      "Add potatoes and carrots for a heartier stew.",
+      "Use pork instead of beef for a different flavor."
+    ],
+    "pro_tips": [
+      "Stir occasionally to prevent sticking.",
+      "Serve with rice or tortillas."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Beef Bourguignonne",
+    "protein": [
+      "beef",
+      "pork"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "2.5 hours",
+    "total_time": "2 hours 50 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 lbs beef chuck, cut into cubes",
+      "4 slices bacon, chopped",
+      "1 onion, chopped",
+      "2 carrots, sliced",
+      "2 cloves garlic, minced",
+      "2 tbsp flour",
+      "2 cups red wine",
+      "2 cups beef broth",
+      "1 tbsp tomato paste",
+      "1 tsp thyme",
+      "8 oz mushrooms, sliced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "In a large pot, cook bacon until crisp; remove and set aside.",
+      "Brown beef in bacon fat; remove and set aside.",
+      "Saut\u00e9 onion, carrots, and garlic until softened.",
+      "Stir in flour and cook 1 minute.",
+      "Add wine, broth, tomato paste, thyme, beef, and bacon.",
+      "Simmer 2\u20132.5 hours until beef is tender.",
+      "Add mushrooms in the last 20 minutes of cooking."
+    ],
+    "variations": [
+      "Use pearl onions instead of chopped onions for authenticity.",
+      "Add a bay leaf for extra flavor."
+    ],
+    "pro_tips": [
+      "Choose a good-quality wine for best results.",
+      "Skim excess fat from the surface during cooking."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Moussaka",
+    "protein": [
+      "beef",
+      "lamb"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": false,
+    "servings": "8",
+    "prep_time": "30 minutes",
+    "cook_time": "1 hour",
+    "total_time": "1 hour 30 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 large eggplants, sliced",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 lb ground lamb or beef",
+      "1 can (14 oz) crushed tomatoes",
+      "1 tsp cinnamon",
+      "1 tsp oregano",
+      "Salt and pepper to taste",
+      "2 cups b\u00e9chamel sauce",
+      "1/2 cup grated Parmesan cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "Brush eggplant slices with olive oil and roast until softened.",
+      "In a skillet, saut\u00e9 onion and garlic until softened.",
+      "Add ground meat, cinnamon, oregano, salt, and pepper; cook until browned.",
+      "Stir in tomatoes and simmer 10 minutes.",
+      "In a baking dish, layer eggplant, meat sauce, and b\u00e9chamel; repeat layers.",
+      "Top with Parmesan and bake 45 minutes."
+    ],
+    "variations": [
+      "Use zucchini instead of eggplant.",
+      "Add potatoes for an extra layer."
+    ],
+    "pro_tips": [
+      "Salt eggplant slices before roasting to remove bitterness.",
+      "Let moussaka rest before slicing for cleaner portions."
+    ],
+    "methods": [
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy"
+    ]
+  },
+  {
+    "name": "Hungarian Goulash",
+    "protein": [
+      "beef"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "2 hours",
+    "total_time": "2 hours 15 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "2 lbs beef stew meat",
+      "2 onions, chopped",
+      "3 cloves garlic, minced",
+      "3 tbsp sweet paprika",
+      "1 tsp caraway seeds",
+      "1 bell pepper, chopped",
+      "4 cups beef broth",
+      "2 potatoes, diced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot over medium-high heat.",
+      "Brown beef on all sides; remove and set aside.",
+      "Saut\u00e9 onions and garlic until softened.",
+      "Stir in paprika and caraway seeds; cook 1 minute.",
+      "Return beef to pot with bell pepper, broth, potatoes, salt, and pepper.",
+      "Simmer 1.5\u20132 hours until beef is tender."
+    ],
+    "variations": [
+      "Add tomatoes for a tangy twist.",
+      "Serve over egg noodles for a heartier meal."
+    ],
+    "pro_tips": [
+      "Use good-quality paprika for best flavor.",
+      "Stir occasionally to prevent sticking."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Pierogi",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "1 hour",
+    "cook_time": "20 minutes",
+    "total_time": "1 hour 20 minutes",
+    "ingredients": [
+      "Dough",
+      "2 cups all-purpose flour",
+      "1/2 tsp salt",
+      "1 large egg",
+      "1/2 cup sour cream",
+      "1/4 cup butter, softened",
+      "Filling",
+      "2 cups mashed potatoes",
+      "1 cup shredded cheddar cheese",
+      "Salt and pepper to taste",
+      "For Serving",
+      "Butter and onions, saut\u00e9ed"
+    ],
+    "instructions": [
+      "To make dough, mix flour and salt. Add egg, sour cream, and butter; knead until smooth. Cover and rest 30 minutes.",
+      "For filling, mix mashed potatoes, cheese, salt, and pepper.",
+      "Roll dough thin and cut into circles. Place a spoonful of filling in each, fold over, and pinch edges to seal.",
+      "Boil pierogi in salted water until they float. Drain and toss with saut\u00e9ed butter and onions."
+    ],
+    "variations": [
+      "Use sauerkraut and mushroom filling instead of potatoes.",
+      "Make sweet pierogi with fruit filling."
+    ],
+    "pro_tips": [
+      "Seal edges tightly to prevent filling from leaking.",
+      "Pierogi can be frozen before boiling for later use."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Quiche Lorraine",
+    "protein": [
+      "pork"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour 5 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 pie crust",
+      "6 slices bacon, cooked and crumbled",
+      "1 cup shredded Gruy\u00e8re cheese",
+      "1/2 cup chopped onion",
+      "4 large eggs",
+      "1 1/2 cups heavy cream",
+      "Salt and pepper to taste",
+      "Pinch of nutmeg"
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00b0F (190\u00b0C).",
+      "Place pie crust in a pie dish; sprinkle with bacon, cheese, and onion.",
+      "Whisk eggs, cream, salt, pepper, and nutmeg; pour over filling.",
+      "Bake 35\u201340 minutes until set. Cool slightly before slicing."
+    ],
+    "variations": [
+      "Add spinach or mushrooms for extra vegetables.",
+      "Use Swiss cheese instead of Gruy\u00e8re."
+    ],
+    "pro_tips": [
+      "Blind-bake crust for 10 minutes to prevent sogginess.",
+      "Let quiche rest before cutting for clean slices."
+    ],
+    "methods": [
+      "oven-bake"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "K\u00f6ttbullar (Swedish Meatballs)",
+    "protein": [
+      "beef",
+      "pork"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "30 minutes",
+    "total_time": "50 minutes",
+    "ingredients": [
+      "Meatballs",
+      "1 lb ground beef",
+      "1/2 lb ground pork",
+      "1/2 cup breadcrumbs",
+      "1/4 cup milk",
+      "1 egg",
+      "1 small onion, finely chopped",
+      "1/2 tsp allspice",
+      "1/2 tsp nutmeg",
+      "Salt and pepper to taste",
+      "Gravy",
+      "2 tbsp butter",
+      "2 tbsp flour",
+      "2 cups beef broth",
+      "1 cup heavy cream",
+      "1 tbsp soy sauce"
+    ],
+    "instructions": [
+      "Mix breadcrumbs and milk; let sit 5 minutes. Stir in remaining meatball ingredients and shape into balls.",
+      "Brown meatballs in a skillet; remove and set aside.",
+      "For gravy, melt butter, whisk in flour, and cook 1 minute. Add broth, cream, and soy sauce; simmer until thickened.",
+      "Return meatballs to skillet and simmer in gravy for 10 minutes."
+    ],
+    "variations": [
+      "Serve with lingonberry jam for authenticity.",
+      "Use turkey instead of beef and pork for a lighter version."
+    ],
+    "pro_tips": [
+      "Do not overcrowd skillet when browning meatballs.",
+      "Chill meatballs before cooking to help them hold shape."
+    ],
+    "methods": [
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "soy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Jollof Rice",
+    "protein": [
+      "chicken"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 cups long-grain parboiled rice",
+      "1/4 cup vegetable oil",
+      "1 onion, chopped",
+      "1 red bell pepper, chopped",
+      "2 tomatoes, chopped",
+      "2 tbsp tomato paste",
+      "1 tsp thyme",
+      "1 tsp curry powder",
+      "4 cups chicken broth",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Blend bell pepper, tomatoes, and half the onion into a smooth mixture.",
+      "Heat oil in a pot; saut\u00e9 remaining onion until soft.",
+      "Stir in tomato paste, blended mixture, thyme, and curry powder; cook 10 minutes.",
+      "Add rice, broth, salt, and pepper; stir and cover.",
+      "Cook on low until rice is tender and liquid absorbed."
+    ],
+    "variations": [
+      "Add chicken or shrimp for protein.",
+      "Use scotch bonnet peppers for heat."
+    ],
+    "pro_tips": [
+      "Do not stir rice too often to avoid mushiness.",
+      "Serve with fried plantains for a classic pairing."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": []
+  },
+  {
+    "name": "Bobotie",
+    "protein": [
+      "beef",
+      "lamb"
+    ],
+    "diet": [],
+    "is_one_pot": false,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour 5 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "1 tbsp vegetable oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 lb ground beef or lamb",
+      "2 slices bread, soaked in milk",
+      "2 tbsp curry powder",
+      "1/4 cup chutney",
+      "1/4 cup raisins",
+      "2 eggs",
+      "1 cup milk",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Preheat oven to 350\u00b0F (175\u00b0C).",
+      "Heat oil in a skillet; saut\u00e9 onion and garlic until soft.",
+      "Add ground meat and cook until browned.",
+      "Squeeze milk from bread and crumble into meat mixture.",
+      "Stir in curry powder, chutney, raisins, salt, and pepper.",
+      "Place mixture in a baking dish.",
+      "Whisk eggs with milk; pour over meat.",
+      "Bake 30\u201335 minutes until custard is set."
+    ],
+    "variations": [
+      "Use apricot jam instead of chutney.",
+      "Add slivered almonds for crunch."
+    ],
+    "pro_tips": [
+      "Soak bread thoroughly for best texture.",
+      "Serve with yellow rice for a traditional meal."
+    ],
+    "methods": [
+      "one-pot",
+      "oven-bake",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "eggs",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Tagine",
+    "protein": [
+      "chicken",
+      "lamb"
+    ],
+    "diet": [
+      "gluten-free",
+      "keto",
+      "low-carb"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "1 hour 30 minutes",
+    "total_time": "1 hour 50 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 lbs lamb or chicken pieces",
+      "1 tsp ground ginger",
+      "1 tsp ground cinnamon",
+      "1 tsp ground turmeric",
+      "1 tsp paprika",
+      "2 cups chicken broth",
+      "1 cup dried apricots",
+      "1/2 cup almonds, toasted",
+      "Salt and pepper to taste",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a tagine or heavy pot over medium heat.",
+      "Saut\u00e9 onion and garlic until softened.",
+      "Add meat and brown on all sides.",
+      "Stir in spices, then add broth and apricots.",
+      "Cover and simmer 1.5 hours until meat is tender.",
+      "Top with almonds and garnish with cilantro before serving."
+    ],
+    "variations": [
+      "Use prunes instead of apricots for a deeper flavor.",
+      "Add carrots or squash for more vegetables."
+    ],
+    "pro_tips": [
+      "Traditional tagine pots give the best flavor but a Dutch oven works too.",
+      "Serve with couscous to soak up the sauce."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "tree nuts"
+    ]
+  },
+  {
+    "name": "Bunny Chow",
+    "protein": [
+      "beef",
+      "chicken",
+      "lamb"
+    ],
+    "diet": [],
+    "is_one_pot": true,
+    "servings": "4",
+    "prep_time": "15 minutes",
+    "cook_time": "1 hour",
+    "total_time": "1 hour 15 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tbsp curry powder",
+      "1 tsp ground cumin",
+      "1 lb beef, chicken, or lamb, cubed",
+      "1 can (14 oz) chopped tomatoes",
+      "1 cup beef or chicken broth",
+      "Salt and pepper to taste",
+      "4 small loaves of bread, hollowed out"
+    ],
+    "instructions": [
+      "Heat oil in a pot; saut\u00e9 onion and garlic until soft.",
+      "Stir in curry powder and cumin; cook 1 minute.",
+      "Add meat and brown on all sides.",
+      "Stir in tomatoes, broth, salt, and pepper.",
+      "Simmer 45 minutes to 1 hour until meat is tender.",
+      "Spoon curry into hollowed-out bread and serve."
+    ],
+    "variations": [
+      "Use beans or lentils for a vegetarian version.",
+      "Add potatoes for extra heartiness."
+    ],
+    "pro_tips": [
+      "Use sturdy bread to hold the curry.",
+      "Serve immediately to prevent bread from getting soggy."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Chapati with Lentil Curry",
+    "protein": [],
+    "diet": [
+      "vegetarian"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "20 minutes",
+    "cook_time": "40 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Chapati",
+      "2 cups whole wheat flour",
+      "1/2 tsp salt",
+      "3/4 cup warm water",
+      "Lentil Curry",
+      "2 tbsp vegetable oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tbsp curry powder",
+      "1 tsp ground cumin",
+      "1 cup red lentils, rinsed",
+      "3 cups vegetable broth",
+      "1 can (14 oz) coconut milk",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "For chapati, mix flour and salt; add water to form a dough. Knead, rest 20 minutes, roll out, and cook on a hot skillet until golden on both sides.",
+      "For curry, heat oil in a pot; saut\u00e9 onion and garlic until soft.",
+      "Stir in curry powder and cumin; cook 1 minute.",
+      "Add lentils, broth, coconut milk, salt, and pepper.",
+      "Simmer 25\u201330 minutes until lentils are tender.",
+      "Serve chapati alongside lentil curry."
+    ],
+    "variations": [
+      "Add spinach to curry for extra greens.",
+      "Use mung beans instead of lentils."
+    ],
+    "pro_tips": [
+      "Keep chapati dough covered to prevent drying.",
+      "Adjust curry thickness by adding more broth or coconut milk."
+    ],
+    "methods": [
+      "one-pot",
+      "stove-top"
+    ],
+    "allergens": [
+      "dairy",
+      "wheat/gluten"
+    ]
+  },
+  {
+    "name": "Domoda",
+    "protein": [
+      "beef",
+      "chicken"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "6",
+    "prep_time": "15 minutes",
+    "cook_time": "45 minutes",
+    "total_time": "1 hour",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "1 onion, chopped",
+      "1 lb beef or chicken, cubed",
+      "1 cup peanut butter",
+      "1 can (14 oz) tomato paste",
+      "4 cups water or broth",
+      "2 sweet potatoes, peeled and diced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a pot; saut\u00e9 onion until soft.",
+      "Add meat and brown on all sides.",
+      "Stir in peanut butter, tomato paste, and water or broth.",
+      "Add sweet potatoes, salt, and pepper.",
+      "Simmer 30\u201340 minutes until meat and potatoes are tender."
+    ],
+    "variations": [
+      "Use pumpkin instead of sweet potatoes.",
+      "Add chili peppers for spice."
+    ],
+    "pro_tips": [
+      "Stir often to prevent peanut sauce from sticking.",
+      "Serve with rice or couscous."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": [
+      "dairy",
+      "peanuts"
+    ]
+  },
+  {
+    "name": "Cachupa Rica",
+    "protein": [
+      "chicken",
+      "pork"
+    ],
+    "diet": [
+      "gluten-free"
+    ],
+    "is_one_pot": true,
+    "servings": "8",
+    "prep_time": "20 minutes",
+    "cook_time": "2 hours",
+    "total_time": "2 hours 20 minutes",
+    "ingredients": [
+      "Main Ingredients",
+      "2 tbsp vegetable oil",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "1 lb pork shoulder, cubed",
+      "1/2 lb chorizo, sliced",
+      "1/2 lb bacon, chopped",
+      "1 cup hominy corn",
+      "1 cup beans (kidney, lima, or mixed), soaked overnight",
+      "4 cups chicken broth",
+      "2 sweet potatoes, diced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a large pot; saut\u00e9 onion and garlic until soft.",
+      "Add pork, chorizo, and bacon; cook until browned.",
+      "Stir in hominy, beans, broth, sweet potatoes, salt, and pepper.",
+      "Simmer 1.5\u20132 hours until beans and meat are tender."
+    ],
+    "variations": [
+      "Add cabbage or kale in the last 20 minutes.",
+      "Use chicken instead of pork for a lighter version."
+    ],
+    "pro_tips": [
+      "Soak beans overnight for even cooking.",
+      "Serve with crusty bread."
+    ],
+    "methods": [
+      "stove-top",
+      "one-pot"
+    ],
+    "allergens": []
   }
 ]
