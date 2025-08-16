@@ -237,7 +237,7 @@ export default function Page() {
           margin: "8px 0 4px",
         }}
       >
-        <Image src="/logo.png" alt="What's for Dinner" width={260} height={80} priority />
+        <Image src="/logo.png" alt="What's for Dinner" width={260} height={260} priority />
       </div>
 
       {/* ===== Collapsible Filters (mobile-first) ===== */}

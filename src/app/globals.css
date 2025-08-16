@@ -1,26 +1,139 @@
-@import "tailwindcss";
+/* ==== What's For Dinner — Global Theme ==== */
 
+/* Brand palette from your logo */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F8F3EB;     /* warm beige */
+  --foreground: #2B1A10;     /* deep brown for text */
+  --muted: #6b5a50;          /* soft brown/gray for secondary text */
+  --card: #FFF9F0;           /* lighter card surface */
+  --border: rgba(43, 26, 16, 0.14);
+
+  --accent: #C8322B;         /* brand red (existing) */
+  --accent-contrast: #ffffff;
+
+  --success: #4F7D41;        /* broccoli green */
+  --warning: #EFCF75;        /* golden potato */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Base reset */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
 
 body {
+  margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue",
+               Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Links */
+a { color: inherit; }
+a:hover { opacity: 0.9; }
+
+/* Inputs / Selects */
+select, input, button {
+  font: inherit;
+}
+
+select.input {
+  background: var(--card);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) calc(1em + 2px),
+    calc(100% - 13px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--accent);
+}
+
+/* Buttons (used by page.js) */
+.btn-primary {
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: none;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  font-weight: 800;
+  font-size: 1.05rem;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+  cursor: pointer;
+}
+
+.btn-primary:active { transform: translateY(1px); }
+
+.btn-ghost {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--foreground);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Pills in recipe header */
+.pill {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--foreground);
+  font-size: 0.9rem;
+  margin-right: 8px;
+  margin-top: 6px;
+}
+
+/* Sections / cards */
+section, article {
+  background: transparent;
+  border-radius: 12px;
+}
+
+/* Focus visibility (Android/iOS friendly) */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Make the OS browser chrome match your beige on Android */
+@media (prefers-color-scheme: light) {
+  html { color-scheme: light; }
+}
+
+/* --- Logo sizing (responsive, preserves aspect ratio) --- */
+.logoWrap {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 12px;
+}
+
+@media (max-width: 600px) {
+  .logoWrap { width: 180px; height: 180px; }
+}
+
+.logo {
+  /* keep if you already have it */
+  display: block;
+  width: 100%;
+  height: auto;        /* doesn’t affect fill mode but harmless */
+  object-fit: contain; /* prevents any squish */
 }
