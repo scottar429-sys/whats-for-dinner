@@ -18,15 +18,13 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* Google AdSense Script */}
-        <Script
-          id="adsense-script"
-          strategy="afterInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3391816891786326"
-          crossOrigin="anonymous"
-        />
-      </head>
+     <head>
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3391816891786326"
+    crossOrigin="anonymous"></script>
+</head>
+
       <body className={inter.className}>{children}</body>
     </html>
   );
